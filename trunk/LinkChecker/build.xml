@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="linkchecker" default="all">
+  
+  
+  <property file="build.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="128m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/SCCS/**"/>
+    <exclude name="**/RCS/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/.pyc/**"/>
+    <exclude name="**/.pyo/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/*.lib/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/.bundle/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.zip"/>
+    <include name="*.war"/>
+    <include name="*.egg"/>
+    <include name="*.ear"/>
+    <include name="*.swc"/>
+    <include name="*.jar"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <include name="**/?*.properties"/>
+    <include name="**/?*.xml"/>
+    <include name="**/?*.gif"/>
+    <include name="**/?*.png"/>
+    <include name="**/?*.jpeg"/>
+    <include name="**/?*.jpg"/>
+    <include name="**/?*.html"/>
+    <include name="**/?*.dtd"/>
+    <include name="**/?*.tld"/>
+    <include name="**/?*.ftl"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.6" value="${jdk.home.1.6}/bin"/>
+  <path id="jdk.classpath.1.6">
+    <fileset dir="${jdk.home.1.6}">
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/lib/deploy.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/lib/dt.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/lib/javaws.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/lib/jce.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/lib/management-agent.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/lib/plugin.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/lib/sa-jdi.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/charsets.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/classes.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/dt.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/jce.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/jconsole.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/jsse.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/laf.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/management-agent.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/ui.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/lib/ext/apple_provider.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/lib/ext/dnsns.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/lib/ext/localedata.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/lib/ext/sunjce_provider.jar"/>
+      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/lib/ext/sunpkcs11.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.6}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.6}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.6"/>
+  
+  <!-- Modules -->
+  
+  
+  <!-- Module LinkChecker -->
+  
+  <dirname property="module.linkchecker.basedir" file="${ant.file}"/>
+  
+  
+  <property name="module.jdk.home.linkchecker" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.linkchecker" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.linkchecker" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.linkchecker" value="${compiler.args}"/>
+  
+  <property name="linkchecker.output.dir" value="${module.linkchecker.basedir}/out/production/LinkChecker"/>
+  <property name="linkchecker.testoutput.dir" value="${module.linkchecker.basedir}/out/test/LinkChecker"/>
+  
+  <path id="linkchecker.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="linkchecker.module.production.classpath">
+    <path refid="${module.jdk.classpath.linkchecker}"/>
+    <pathelement location="${basedir}/lib/log4j-1.2.16.jar"/>
+    <pathelement location="${basedir}/lib/jsoup-1.5.2.jar"/>
+    <pathelement location="${basedir}/lib/httpclient-4.1.1.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-4.1.jar"/>
+  </path>
+  
+  <path id="linkchecker.runtime.production.module.classpath">
+    <pathelement location="${linkchecker.output.dir}"/>
+    <pathelement location="${basedir}/lib/log4j-1.2.16.jar"/>
+    <pathelement location="${basedir}/lib/jsoup-1.5.2.jar"/>
+    <pathelement location="${basedir}/lib/httpclient-4.1.1.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-4.1.jar"/>
+    <pathelement location="${basedir}/lib/commons-logging-1.1.1.jar"/>
+  </path>
+  
+  <path id="linkchecker.module.classpath">
+    <path refid="${module.jdk.classpath.linkchecker}"/>
+    <pathelement location="${linkchecker.output.dir}"/>
+    <pathelement location="${basedir}/lib/log4j-1.2.16.jar"/>
+    <pathelement location="${basedir}/lib/jsoup-1.5.2.jar"/>
+    <pathelement location="${basedir}/lib/httpclient-4.1.1.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-4.1.jar"/>
+  </path>
+  
+  <path id="linkchecker.runtime.module.classpath">
+    <pathelement location="${linkchecker.testoutput.dir}"/>
+    <pathelement location="${linkchecker.output.dir}"/>
+    <pathelement location="${basedir}/lib/log4j-1.2.16.jar"/>
+    <pathelement location="${basedir}/lib/jsoup-1.5.2.jar"/>
+    <pathelement location="${basedir}/lib/httpclient-4.1.1.jar"/>
+    <pathelement location="${basedir}/lib/httpcore-4.1.jar"/>
+    <pathelement location="${basedir}/lib/commons-logging-1.1.1.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.linkchecker">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.linkchecker">
+    <patternset refid="excluded.from.module.linkchecker"/>
+  </patternset>
+  
+  <path id="linkchecker.module.sourcepath">
+    <dirset dir="${module.linkchecker.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.linkchecker" depends="compile.module.linkchecker.production,compile.module.linkchecker.tests" description="Compile module LinkChecker"/>
+  
+  <target name="compile.module.linkchecker.production" description="Compile module LinkChecker; production classes">
+    <mkdir dir="${linkchecker.output.dir}"/>
+    <javac destdir="${linkchecker.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.linkchecker}/javac">
+      <compilerarg line="${compiler.args.linkchecker}"/>
+      <bootclasspath refid="linkchecker.module.bootclasspath"/>
+      <classpath refid="linkchecker.module.production.classpath"/>
+      <src refid="linkchecker.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.linkchecker"/>
+    </javac>
+    
+    <copy todir="${linkchecker.output.dir}">
+      <fileset dir="${module.linkchecker.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.linkchecker.tests" depends="compile.module.linkchecker.production" description="compile module LinkChecker; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.linkchecker" description="cleanup module">
+    <delete dir="${linkchecker.output.dir}"/>
+    <delete dir="${linkchecker.testoutput.dir}"/>
+  </target>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.linkchecker" description="cleanup all"/>
+  
+  <target name="build.modules" depends="init, clean, compile.module.linkchecker" description="build all modules"/>
+  
+  <target name="all" depends="build.modules" description="build all"/>
+</project>
