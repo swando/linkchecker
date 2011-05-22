@@ -6,8 +6,11 @@ import org.apache.http.HttpResponse;
 import org.apache.http.StatusLine;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.params.HttpClientParams;
 import org.apache.http.conn.scheme.Scheme;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpParams;
 import org.apache.log4j.Logger;
 
 import javax.net.ssl.HostnameVerifier;
@@ -28,8 +31,9 @@ public class PageLink {
     private String  _responseStatus;
     private boolean _isVerified;
     private String  _contentType;
-    private long    _contentLenght;
-
+    private long _contentLength = -1;
+    private long   _scanTime;
+    private Thread _thread;
 
     public PageLink(String link, String caption) {
         _link = link;
@@ -57,11 +61,12 @@ public class PageLink {
 
     private void setGood(String response, String contentType, long contentLength) {
         setResult(true, response);
-        _contentLenght = contentLength;
+        _contentLength = contentLength;
         _contentType = contentType;
     }
 
     public void checkLink() {
+        _thread = Thread.currentThread();
         LOG.debug("Checking _link: " + _link);
         if (null == _link || _link.trim().length() < 1) {
             setBroken("Empty Link");
@@ -73,12 +78,18 @@ public class PageLink {
             HttpHead method = new HttpHead(_link);
             method.addHeader("User-Agent", "Mozilla");
             HttpClient client = getHttpClient();
+            long startTime = System.currentTimeMillis();
             response = client.execute(method);
+            _scanTime = (System.currentTimeMillis() - startTime);
             StatusLine line = response.getStatusLine();
             if (line.getStatusCode() == 404) {
                 setBroken(line.toString());
             } else {
-                String contentType = response.getLastHeader(HttpHeaders.CONTENT_TYPE).toString();
+                String contentType = "";
+                Header contentTypeHeader = response.getLastHeader(HttpHeaders.CONTENT_TYPE);
+                if (null != contentTypeHeader && contentTypeHeader.getValue() != null) {
+                    contentType = contentTypeHeader.getValue();
+                }
                 Header lengthHeader = response.getLastHeader(HttpHeaders.CONTENT_LENGTH);
                 long contentLengh = 0;
                 if (null != lengthHeader) {
@@ -105,7 +116,27 @@ public class PageLink {
     public String toString() {
         return "org.open.pagehealth.PageLink{" + "_link='" + _link + '\'' + ", _caption='" + _caption + '\'' +
                 ", _isGood=" + _isGood + ", _responseStatus='" + _responseStatus + '\'' + ", _isVerified=" +
-                _isVerified + ", _contentType='" + _contentType + '\'' + ", _contentLenght=" + _contentLenght + '}';
+                _isVerified + ", _contentType='" + _contentType + '\'' + ", _contentLength=" + _contentLength + '}';
+    }
+
+    public static String toColumn() {
+        return "<TR  BGCOLOR=\"#46C7C7\"><TH>Link</TH><TH>Caption</TH><TH>Status</TH><TH>" +
+                "Verified</TH><TH>HTTP Response</TH><TH>Content-Type</TH><TH>Content-Length</TH><TH>Scan " +
+                "Time</TH><TH>Verified By<TH></TR>";
+    }
+
+    public String toRow() {
+        String colour = _isGood ? "#C3FDB8" : "#FAAFBE";
+        String status = _isGood ? "Good" : "Broken";
+        String verify = _isVerified ? "Yes" : "No";
+        String length = -1 == _contentLength ? "" : "" + _contentLength;
+        String type = _contentType == null ? "" : _contentType;
+        String verifier = _thread == null ? "" :_thread.getName();
+
+        return "<TR BGCOLOR=\"" + colour + "\"><TD><a href=\"" + _link + "\">" +
+                (_link.length() > 40 ? _link.substring(0, 40) + "..." : _link) + "</a></TD><TD>" + _caption +
+                "</TD><TD>" + status + "</TD><TD>" + verify + "</TD><TD>" + _responseStatus + "</TD><TD>" + type +
+                "</TD><TD>" + length + "</TD><TD>" + _scanTime + "</TD><TD>" + verifier + "</TD></TR>\n";
     }
 
     private static Scheme getTrustAllScheme() {
@@ -119,9 +150,8 @@ public class PageLink {
             trustAllCerts[0] = tm;
             javax.net.ssl.SSLContext sc = javax.net.ssl.SSLContext.getInstance("SSL");
             sc.init(null, trustAllCerts, null);
-            org.apache.http.conn.ssl.SSLSocketFactory sf =
-                new org.apache.http.conn.ssl.SSLSocketFactory(sc,
-                    org.apache.http.conn.ssl.SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
+            org.apache.http.conn.ssl.SSLSocketFactory sf = new org.apache.http.conn.ssl.SSLSocketFactory(sc,
+                                                                                                         org.apache.http.conn.ssl.SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
 
             //create scheme for apache HttpClient
             SCHEME = new Scheme("https", 443, sf);
@@ -161,7 +191,9 @@ public class PageLink {
         if (null == SCHEME) {
             SCHEME = getTrustAllScheme();
         }
-        DefaultHttpClient client = new DefaultHttpClient();
+        final HttpParams params = new BasicHttpParams();
+        //HttpClientParams.setRedirecting(params, false);
+        DefaultHttpClient client = new DefaultHttpClient(params);
         client.getConnectionManager().getSchemeRegistry().register(SCHEME);
         return client;
     }

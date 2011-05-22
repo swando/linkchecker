@@ -30,7 +30,7 @@ public class TasksMonitorThread implements Runnable {
 
                 if (this.executor.getTaskCount() > 0 && this.executor.getActiveCount() == 0 &&
                         this.executor.getTaskCount() == this.executor.getCompletedTaskCount()) {
-                    LOG.info("Call it done");
+                    LOG.info("Task queue is empty. Lets shutdown.");
                     synchronized (_callBack) {
                         _callBack.notify();
                     }

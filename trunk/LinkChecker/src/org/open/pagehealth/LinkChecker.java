@@ -4,6 +4,7 @@ package org.open.pagehealth; /**
  * Time: 4:20 PM
  */
 
+import jline.ConsoleReader;
 import org.apache.log4j.Logger;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
@@ -11,8 +12,12 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
-import java.util.Hashtable;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.RejectedExecutionHandler;
@@ -25,57 +30,92 @@ import java.util.concurrent.TimeUnit;
 public class LinkChecker {
 
     private static final Logger LOG       = Logger.getLogger(LinkChecker.class);
-    private static final int    POOL_SIZE = 10;
+    private static final int    POOL_SIZE = 20;
+
+    private PageLink _rootPage;
+    private long     _scanTime;
 
     public static void main(String[] args) throws Exception {
-        long startTime = System.currentTimeMillis();
-        //Validate.isTrue(args.length == 1, "usage: supply url to fetch");
-        //String url = args[0];
-        //print("Fetching %s...", url);
-        //getLinks("http://google.com");
-        //getLinks("http://www.amazon.com/dnqwoqwoenqwlewqq");
-        //getLinks("http://www.amazon.com/50490-Dimmer-Gradual-Touch-Control/dp/B000U1ZDTM");
-        //getLinks("tired");
-        //TreeMap<String, org.open.pagehealth.PageLink> map = new TreeMap<String,
-        //org.open.pagehealth.PageLink>();
-        //String rootLink = "http://www.bbc.com";
-        //String rootLink = "http://htmlparser.sourceforge.net/samples.html";
-        //String rootLink = "http://www.amazon.com/";
-        //String rootLink = "http://www.hallmark.com/";
-        //String rootLink = "http://hallmark.businessgreetings.com";
-        String rootLink = "http://www.ebay.com/";
-        //String rootLink = "http://www.apple.com/";
-
-        ArrayList<PageLink> pagePageLinks = getLinksNodes(new PageLink(rootLink, "Root"));
-        LinkChecker s = new LinkChecker();
-        s.checkLinks(pagePageLinks);
-        //Thread.currentThread().sleep(10000);
-        s.printResult(pagePageLinks);
-        LOG.info("Total time " + (System.currentTimeMillis() - startTime) + " ms");
-
-
+        LinkChecker checker = new LinkChecker();
+        checker.init();
     }
 
+    public void init() {
+        //String rootLink = getUserWebSite();
+        String rootLink = "http://ebay.com";
+        _rootPage = new PageLink(rootLink, "Root");
+        long startTime = System.currentTimeMillis();
+        ArrayList<PageLink> pageLinks = getLinksNodes(_rootPage);
+        checkLinks(pageLinks);
+        _scanTime = (System.currentTimeMillis() - startTime);
+        LOG.info("Total time " + _scanTime + " ms");
+        printResult(pageLinks);
+    }
+
+    public String getUserWebSite() {
+        try {
+            ConsoleReader reader = new ConsoleReader();
+            System.out.print("Enter a website URL [http://ebay.com]?: ");
+            String line = reader.readLine();
+
+            if (line != null && line.trim().length() > 1) {
+                if (!line.startsWith("http")) {
+                    line = "http://" + line;
+                }
+                URL userURL = new URL(line);
+                userURL.getContent();
+                return userURL.toString();
+            }
+            return "http://ebay.com";
+
+        } catch (MalformedURLException exp) {
+            LOG.error("Invalid URL entered. Message: " + exp.getMessage());
+        } catch (IOException exp) {
+            LOG.error("Invalid URL entered. Message: ", exp);
+        }
+        System.out.println("Please try again...");
+        return getUserWebSite();
+    }
 
     public void printResult(ArrayList<PageLink> pageLinks) {
+        try {
+            //write the content into xml file
+            FileWriter fstream = new FileWriter("result.html");
+            BufferedWriter out = new BufferedWriter(fstream);
+            out.write(
+                    "<HTML><BODY><div style=\"overflow:auto\"><TABLE frame=\"box\">" + "<TR BGCOLOR=\"#82CAFA\"><TH "
+                            +
+                            "colspan=\"7\"><H1>LinkChecker Result</H1></TH></TR>" + PageLink.toColumn());
+            //Close the output stream
 
-        Hashtable<String, Integer> linkStats = new Hashtable<String, Integer>(pageLinks.size());
-        int goodLinks = 0;
-        for (PageLink page : pageLinks) {
-            boolean isGood = page.isGood();
-            if (isGood) {
-                //linkStats.get(page.
-                goodLinks++;
-            } else {
-                LOG.warn("Broken link: " + page);
+            int goodLinks = 0;
+            for (PageLink page : pageLinks) {
+                boolean isGood = page.isGood();
+                if (isGood) {
+                    goodLinks++;
+                } else {
+                    //LOG.warn("Broken link: " + page);
+                }
+                //System.out.println(page.toRow());
+                out.write(page.toRow());
             }
+            LOG.info("Result: " + goodLinks + "/" + pageLinks.size() + ", health: " +
+                             ((float) goodLinks / pageLinks.size()) * 100 + "%");
+
+            out.write("<TR BGCOLOR=\"#82CAFA\"><TH colspan=\"7\" align=\"left\"><H2><a href=\"" + _rootPage.getURL()
+                              +
+                              "\">" + _rootPage.getURL() + "</a>   Links: " + goodLinks + "/" + pageLinks.size() +
+                              ", Health: " + ((float) goodLinks / pageLinks.size()) * 100 + "%, Scan Time: " +
+                              _scanTime + " ms, " + POOL_SIZE + " Threads</H2></TH></TR>");
+            out.write("</TABLE></BODY></HTML>");
+            out.close();
+        } catch (Exception exp) {
+            LOG.error("Error generating report", exp);
         }
-        LOG.info("Result: " + goodLinks + "/" + pageLinks.size() + ", health: " + ((float) goodLinks / pageLinks.size()) *
-        100 + "%");
     }
 
 
-    public static ArrayList<PageLink> getLinksNodes(PageLink checkPage) {
+    public ArrayList<PageLink> getLinksNodes(PageLink checkPage) {
         long startTime = System.currentTimeMillis();
         try {
             LOG.info("Scanning page: " + checkPage.getURL());
@@ -122,7 +162,7 @@ public class LinkChecker {
         Object callback = new Object();
 
         // Starting the monitor thread as a daemon
-        Thread monitor = new Thread(new TasksMonitorThread(executor, callback), "Monitor");
+        Thread monitor = new Thread(new TasksMonitorThread(executor, callback), "TasksMonitorThread");
         monitor.setDaemon(true);
         monitor.start();
         // Adding the tasks
@@ -137,21 +177,13 @@ public class LinkChecker {
         } catch (Exception exp) {
             LOG.error("Exception in wait", exp);
         }
-        LOG.info("Got notified");
+        LOG.info("Getting ready to shutdown");
         executor.shutdown();
-        LOG.info("Stopped the pool: " + executor);
+        LOG.info("Stopped the pool: " + executor.isShutdown());
     }
 
-
-    private static void print(String msg, Object... args) {
-        LOG.info(String.format(msg, args));
-    }
-
-    private static String trim(String s, int width) {
-        if (s.length() > width)
-            return s.substring(0, width - 1) + ".";
-        else
-            return s;
+    private String trim(String s, int width) {
+        if (s.length() > width) { return s.substring(0, width - 1) + "."; } else { return s; }
     }
 }
 
