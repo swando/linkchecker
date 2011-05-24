@@ -10,6 +10,7 @@ import org.apache.http.client.params.HttpClientParams;
 import org.apache.http.conn.scheme.Scheme;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.CoreConnectionPNames;
 import org.apache.http.params.HttpParams;
 import org.apache.log4j.Logger;
 
@@ -42,6 +43,30 @@ public class PageLink {
 
     public String getURL() {
         return _link;
+    }
+
+    public String getResponseStatus() {
+        return _responseStatus;
+    }
+
+    public String getContentType() {
+        return _contentType == null ? "" : _contentType;
+    }
+
+    public String getContentLength() {
+        return -1 == _contentLength ? "" : "" + _contentLength;
+    }
+
+    public String getScanTime() {
+        return ""+_scanTime;
+    }
+
+    public String getVerifiedThread() {
+        return _thread == null ? "" : _thread.getName();
+    }
+
+    public String getCaption() {
+        return _caption;
     }
 
 
@@ -119,25 +144,24 @@ public class PageLink {
                 _isVerified + ", _contentType='" + _contentType + '\'' + ", _contentLength=" + _contentLength + '}';
     }
 
-    public static String toColumn() {
-        return "<TR  BGCOLOR=\"#46C7C7\"><TH>Link</TH><TH>Caption</TH><TH>Status</TH><TH>" +
-                "Verified</TH><TH>HTTP Response</TH><TH>Content-Type</TH><TH>Content-Length</TH><TH>Scan " +
-                "Time</TH><TH>Verified By<TH></TR>";
+    public String getShortURL() {
+        if(null == _link) return null;
+
+        if(_link.trim().length() < 1) {
+            return "";
+        }
+        return _link.length() > 40 ? _link.substring(0, 40) : _link;
+
     }
 
-    public String toRow() {
-        String colour = _isGood ? "#C3FDB8" : "#FAAFBE";
-        String status = _isGood ? "Good" : "Broken";
-        String verify = _isVerified ? "Yes" : "No";
-        String length = -1 == _contentLength ? "" : "" + _contentLength;
-        String type = _contentType == null ? "" : _contentType;
-        String verifier = _thread == null ? "" :_thread.getName();
-
-        return "<TR BGCOLOR=\"" + colour + "\"><TD><a href=\"" + _link + "\">" +
-                (_link.length() > 40 ? _link.substring(0, 40) + "..." : _link) + "</a></TD><TD>" + _caption +
-                "</TD><TD>" + status + "</TD><TD>" + verify + "</TD><TD>" + _responseStatus + "</TD><TD>" + type +
-                "</TD><TD>" + length + "</TD><TD>" + _scanTime + "</TD><TD>" + verifier + "</TD></TR>\n";
+    public String getDisplayStatus() {
+        return _isGood ? "Good" : "Broken";
     }
+
+    public String getDisplayVerifiedStatus() {
+        return _isVerified ? "Yes" : "No";
+    }
+
 
     private static Scheme getTrustAllScheme() {
         try {
@@ -192,6 +216,7 @@ public class PageLink {
             SCHEME = getTrustAllScheme();
         }
         final HttpParams params = new BasicHttpParams();
+        params.setParameter(CoreConnectionPNames.CONNECTION_TIMEOUT, LinkChecker.CONNECTION_TIMEOUT);
         //HttpClientParams.setRedirecting(params, false);
         DefaultHttpClient client = new DefaultHttpClient(params);
         client.getConnectionManager().getSchemeRegistry().register(SCHEME);

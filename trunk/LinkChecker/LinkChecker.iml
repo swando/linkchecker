@@ -10,6 +10,28 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/xercesImpl.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="http://xerces.apache.org/xerces-j/apiDocs/" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/xml-apis.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="http://xerces.apache.org/xerces-j/apiDocs/" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/lib/log4j-1.2.16.jar!/" />
         </CLASSES>
         <JAVADOC>

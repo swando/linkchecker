@@ -1,0 +1,2962 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="report-format.xsl"?>
+<result>
+    <page url="http://ebay.com">
+        <links>
+            <link>
+                <short-url>http://www.ebay.com#mainContent</short-url>
+                <url>http://www.ebay.com#mainContent</url>
+                <caption>Skip to main content</caption>
+                <status>Broken</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 404 Not Found</http-response>
+                <content-type></content-type>
+                <content-length></content-length>
+                <scan-time>480</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
+            </link>
+            <link>
+                <short-url>http://my.ebay.com/ws/eBayISAPI.dll?MyEb</short-url>
+                <url>http://my.ebay.com/ws/eBayISAPI.dll?MyEbay&amp;gbh=1</url>
+                <caption>My eBay</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>18242</content-length>
+                <scan-time>1945</scan-time>
+                <verified-thread>pool-1-thread-2</verified-thread>
+            </link>
+            <link>
+                <short-url>http://sell.ebay.com/sell</short-url>
+                <url>http://sell.ebay.com/sell</url>
+                <caption>Sell</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>29789</content-length>
+                <scan-time>269</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
+            </link>
+            <link>
+                <short-url>http://hub.ebay.com/community</short-url>
+                <url>http://hub.ebay.com/community</url>
+                <caption>Community</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>56218</content-length>
+                <scan-time>461</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
+            </link>
+            <link>
+                <short-url>http://contact.ebay.com/ws/eBayISAPI.dll</short-url>
+                <url>http://contact.ebay.com/ws/eBayISAPI.dll?CustomerSupport</url>
+                <caption>Customer Support</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>37129</content-length>
+                <scan-time>331</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com</short-url>
+                <url>http://www.ebay.com</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>71944</content-length>
+                <scan-time>791</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/evt/fathers-day</short-url>
+                <url>http://www.ebay.com/evt/fathers-day</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>100982</content-length>
+                <scan-time>761</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
+            </link>
+            <link>
+                <short-url>https://signin.ebay.com/ws/eBayISAPI.dll</short-url>
+                <url>https://signin.ebay.com/ws/eBayISAPI.dll?SignIn</url>
+                <caption>Sign in</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>18066</content-length>
+                <scan-time>2066</scan-time>
+                <verified-thread>pool-1-thread-8</verified-thread>
+            </link>
+            <link>
+                <short-url>https://scgi.ebay.com/ws/eBayISAPI.dll?R</short-url>
+                <url>https://scgi.ebay.com/ws/eBayISAPI.dll?RegisterEnterInfo</url>
+                <caption>register</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>81124</content-length>
+                <scan-time>2234</scan-time>
+                <verified-thread>pool-1-thread-9</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/coverage/index.htm</short-url>
+                <url>http://pages.ebay.com/coverage/index.html</url>
+                <caption>Learn more</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>23890</content-length>
+                <scan-time>493</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url></short-url>
+                <url></url>
+                <caption>Hide eBay suggestions</caption>
+                <status>Broken</status>
+                <verified>Yes</verified>
+                <http-response>Empty Link</http-response>
+                <content-type></content-type>
+                <content-length></content-length>
+                <scan-time>0</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
+            </link>
+            <link>
+                <short-url>http://shop.ebay.com/ebayadvsearch/_W0QQ</short-url>
+                <url>http://shop.ebay.com/ebayadvsearch/_W0QQ_skipfnormZ1?rt=nc</url>
+                <caption>Advanced</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>74380</content-length>
+                <scan-time>216</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://shop.ebay.com/allcategories/all-c</short-url>
+                <url>http://shop.ebay.com/allcategories/all-categories</url>
+                <caption>All Categories</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>116498</content-length>
+                <scan-time>219</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://antiques.shop.ebay.com</short-url>
+                <url>http://antiques.shop.ebay.com</url>
+                <caption>Antiques</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>110145</content-length>
+                <scan-time>305</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://art.shop.ebay.com</short-url>
+                <url>http://art.shop.ebay.com</url>
+                <caption>Art</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>58136</content-length>
+                <scan-time>380</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
+            </link>
+            <link>
+                <short-url>http://baby.shop.ebay.com</short-url>
+                <url>http://baby.shop.ebay.com</url>
+                <caption>Baby</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>94136</content-length>
+                <scan-time>296</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://books.shop.ebay.com</short-url>
+                <url>http://books.shop.ebay.com</url>
+                <caption>Books</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>96315</content-length>
+                <scan-time>313</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
+            </link>
+            <link>
+                <short-url>http://business.shop.ebay.com</short-url>
+                <url>http://business.shop.ebay.com</url>
+                <caption>Business &amp; Industrial</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>92182</content-length>
+                <scan-time>392</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
+            </link>
+            <link>
+                <short-url>http://photography.shop.ebay.com</short-url>
+                <url>http://photography.shop.ebay.com</url>
+                <caption>Cameras &amp; Photo</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>89067</content-length>
+                <scan-time>357</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.motors.ebay.com</short-url>
+                <url>http://www.motors.ebay.com</url>
+                <caption>Cars, Boats, Vehicles &amp; Parts</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>73968</content-length>
+                <scan-time>178</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://cell-phones.shop.ebay.com</short-url>
+                <url>http://cell-phones.shop.ebay.com</url>
+                <caption>Cell Phones &amp; PDAs</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>75760</content-length>
+                <scan-time>281</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebaygivingworks.com/</short-url>
+                <url>http://www.ebaygivingworks.com/</url>
+                <caption>Charity Listings</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>61237</content-length>
+                <scan-time>269</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://coins.shop.ebay.com</short-url>
+                <url>http://coins.shop.ebay.com</url>
+                <caption>Coins &amp; Paper Money</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>86241</content-length>
+                <scan-time>348</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://collectibles.shop.ebay.com</short-url>
+                <url>http://collectibles.shop.ebay.com</url>
+                <caption>Collectibles</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>170037</content-length>
+                <scan-time>554</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://computers.shop.ebay.com</short-url>
+                <url>http://computers.shop.ebay.com</url>
+                <caption>Computers &amp; Networking</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>118627</content-length>
+                <scan-time>279</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
+            </link>
+            <link>
+                <short-url>http://electronics.shop.ebay.com</short-url>
+                <url>http://electronics.shop.ebay.com</url>
+                <caption>Consumer Electronics</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>109014</content-length>
+                <scan-time>278</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://crafts.shop.ebay.com</short-url>
+                <url>http://crafts.shop.ebay.com</url>
+                <caption>Crafts</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>92623</content-length>
+                <scan-time>206</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
+            </link>
+            <link>
+                <short-url>http://dolls.shop.ebay.com</short-url>
+                <url>http://dolls.shop.ebay.com</url>
+                <caption>Dolls &amp; Bears</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>66139</content-length>
+                <scan-time>252</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://dvd.shop.ebay.com</short-url>
+                <url>http://dvd.shop.ebay.com</url>
+                <caption>DVDs &amp; Movies</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>153911</content-length>
+                <scan-time>266</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
+            </link>
+            <link>
+                <short-url>http://entertainment-memorabilia.shop.eb</short-url>
+                <url>http://entertainment-memorabilia.shop.ebay.com</url>
+                <caption>Entertainment Memorabilia</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>73775</content-length>
+                <scan-time>326</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://fashion.ebay.com</short-url>
+                <url>http://fashion.ebay.com</url>
+                <caption>Fashion</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>96699</content-length>
+                <scan-time>294</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
+            </link>
+            <link>
+                <short-url>http://gift-certificates.shop.ebay.com</short-url>
+                <url>http://gift-certificates.shop.ebay.com</url>
+                <caption>Gift Cards &amp; Coupons</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>59858</content-length>
+                <scan-time>220</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
+            </link>
+            <link>
+                <short-url>http://health-beauty.shop.ebay.com</short-url>
+                <url>http://health-beauty.shop.ebay.com</url>
+                <caption>Health &amp; Beauty</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>102086</content-length>
+                <scan-time>665</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
+            </link>
+            <link>
+                <short-url>http://home.shop.ebay.com</short-url>
+                <url>http://home.shop.ebay.com</url>
+                <caption>Home &amp; Garden</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>76424</content-length>
+                <scan-time>304</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
+            </link>
+            <link>
+                <short-url>http://jewelry.shop.ebay.com</short-url>
+                <url>http://jewelry.shop.ebay.com</url>
+                <caption>Jewelry &amp; Watches</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>95886</content-length>
+                <scan-time>365</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://music.shop.ebay.com</short-url>
+                <url>http://music.shop.ebay.com</url>
+                <caption>Music</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>71280</content-length>
+                <scan-time>241</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://instruments.shop.ebay.com</short-url>
+                <url>http://instruments.shop.ebay.com</url>
+                <caption>Musical Instruments</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>84909</content-length>
+                <scan-time>246</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pet-supplies.shop.ebay.com</short-url>
+                <url>http://pet-supplies.shop.ebay.com</url>
+                <caption>Pet Supplies</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>71661</content-length>
+                <scan-time>283</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pottery-glass.shop.ebay.com</short-url>
+                <url>http://pottery-glass.shop.ebay.com</url>
+                <caption>Pottery &amp; Glass</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>48415</content-length>
+                <scan-time>228</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
+            </link>
+            <link>
+                <short-url>http://realestate.shop.ebay.com</short-url>
+                <url>http://realestate.shop.ebay.com</url>
+                <caption>Real Estate</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>70252</content-length>
+                <scan-time>436</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://services.shop.ebay.com</short-url>
+                <url>http://services.shop.ebay.com</url>
+                <caption>Specialty Services</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>67278</content-length>
+                <scan-time>256</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://sports-cards.shop.ebay.com</short-url>
+                <url>http://sports-cards.shop.ebay.com</url>
+                <caption>Sports Mem, Cards &amp; Fan Shop</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>87064</content-length>
+                <scan-time>412</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://sporting-goods.shop.ebay.com</short-url>
+                <url>http://sporting-goods.shop.ebay.com</url>
+                <caption>Sporting Goods</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>79840</content-length>
+                <scan-time>392</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
+            </link>
+            <link>
+                <short-url>http://stamps.shop.ebay.com</short-url>
+                <url>http://stamps.shop.ebay.com</url>
+                <caption>Stamps</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>116758</content-length>
+                <scan-time>247</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/tickets</short-url>
+                <url>http://www.ebay.com/tickets</url>
+                <caption>Tickets</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>53506</content-length>
+                <scan-time>110</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://toys.shop.ebay.com</short-url>
+                <url>http://toys.shop.ebay.com</url>
+                <caption>Toys &amp; Hobbies</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>137256</content-length>
+                <scan-time>394</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
+            </link>
+            <link>
+                <short-url>http://travel.shop.ebay.com</short-url>
+                <url>http://travel.shop.ebay.com</url>
+                <caption>Travel</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>67095</content-length>
+                <scan-time>247</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://video-games.shop.ebay.com</short-url>
+                <url>http://video-games.shop.ebay.com</url>
+                <caption>Video Games</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>70028</content-length>
+                <scan-time>232</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
+            </link>
+            <link>
+                <short-url>http://everythingelse.shop.ebay.com</short-url>
+                <url>http://everythingelse.shop.ebay.com</url>
+                <caption>Everything Else</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>71516</content-length>
+                <scan-time>332</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
+            </link>
+            <link>
+                <short-url>http://fashion.ebay.com</short-url>
+                <url>http://fashion.ebay.com</url>
+                <caption>Fashion</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>96713</content-length>
+                <scan-time>201</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
+            </link>
+            <link>
+                <short-url>http://fashion.ebay.com/womens-clothing</short-url>
+                <url>http://fashion.ebay.com/womens-clothing</url>
+                <caption>Women's Clothing</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>145731</content-length>
+                <scan-time>200</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://fashion.ebay.com/womens-shoes</short-url>
+                <url>http://fashion.ebay.com/womens-shoes</url>
+                <caption>Women's Shoes</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>134165</content-length>
+                <scan-time>181</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://fashion.ebay.com/handbags/Handbag</short-url>
+                <url>http://fashion.ebay.com/handbags/Handbags-Purses/63852</url>
+                <caption>Women's Handbags</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>133751</content-length>
+                <scan-time>613</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
+            </link>
+            <link>
+                <short-url>http://clothing.shop.ebay.com/4251/i.htm</short-url>
+                <url>http://clothing.shop.ebay.com/4251/i.html</url>
+                <caption>Women's Accessories</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>139613</content-length>
+                <scan-time>709</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
+            </link>
+            <link>
+                <short-url>http://fashion.ebay.com/mens-clothing</short-url>
+                <url>http://fashion.ebay.com/mens-clothing</url>
+                <caption>Men's Clothing</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>142833</content-length>
+                <scan-time>156</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://fashion.ebay.com/mens-shoes</short-url>
+                <url>http://fashion.ebay.com/mens-shoes</url>
+                <caption>Men's Shoes</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>133811</content-length>
+                <scan-time>161</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://clothing.shop.ebay.com/4250/i.htm</short-url>
+                <url>http://clothing.shop.ebay.com/4250/i.html</url>
+                <caption>Men's Accessories</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>144589</content-length>
+                <scan-time>675</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
+            </link>
+            <link>
+                <short-url>http://clothing.shop.ebay.com/171146/i.h</short-url>
+                <url>http://clothing.shop.ebay.com/171146/i.html</url>
+                <caption>Kid's Clothing</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>143748</content-length>
+                <scan-time>972</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
+            </link>
+            <link>
+                <short-url>http://clothing.shop.ebay.com/3082/i.htm</short-url>
+                <url>http://clothing.shop.ebay.com/3082/i.html</url>
+                <caption>Baby</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>144838</content-length>
+                <scan-time>755</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
+            </link>
+            <link>
+                <short-url>http://fashionvault.ebay.com</short-url>
+                <url>http://fashionvault.ebay.com</url>
+                <caption>Fashion Vault</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>23802</content-length>
+                <scan-time>374</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.motors.ebay.com</short-url>
+                <url>http://www.motors.ebay.com</url>
+                <caption>Motors</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>74002</content-length>
+                <scan-time>139</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
+            </link>
+            <link>
+                <short-url>http://parts.motors.ebay.com/Parts-Acces</short-url>
+                <url>http://parts.motors.ebay.com/Parts-Accessories/6028/</url>
+                <caption>Parts &amp; Accessories</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=utf-8</content-type>
+                <content-length>92206</content-length>
+                <scan-time>59</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://motors.shop.ebay.com/6001/i.html</short-url>
+                <url>http://motors.shop.ebay.com/6001/i.html</url>
+                <caption>Cars &amp; Trucks</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>179356</content-length>
+                <scan-time>577</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://motors.shop.ebay.com/6024/i.html</short-url>
+                <url>http://motors.shop.ebay.com/6024/i.html</url>
+                <caption>Motorcycles</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>173754</content-length>
+                <scan-time>324</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
+            </link>
+            <link>
+                <short-url>http://motors.shop.ebay.com/66466/i.html</short-url>
+                <url>http://motors.shop.ebay.com/66466/i.html</url>
+                <caption>Powersports</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>150990</content-length>
+                <scan-time>281</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://motors.shop.ebay.com/26429/i.html</short-url>
+                <url>http://motors.shop.ebay.com/26429/i.html</url>
+                <caption>Boats</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>155217</content-length>
+                <scan-time>308</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://motors.shop.ebay.com/6038/i.html</short-url>
+                <url>http://motors.shop.ebay.com/6038/i.html</url>
+                <caption>Other Vehicles</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>164056</content-length>
+                <scan-time>319</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://parts.motors.ebay.com/tires</short-url>
+                <url>http://parts.motors.ebay.com/tires</url>
+                <caption>Tire Center</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=utf-8</content-type>
+                <content-length>50580</content-length>
+                <scan-time>103</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://garage.motors.ebay.com/</short-url>
+                <url>http://garage.motors.ebay.com/</url>
+                <caption>My Vehicles</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=utf-8</content-type>
+                <content-length>133491</content-length>
+                <scan-time>60</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
+            </link>
+            <link>
+                <short-url>http://electronics-technology.shop.ebay.</short-url>
+                <url>http://electronics-technology.shop.ebay.com</url>
+                <caption>Electronics &amp; Technology</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>101591</content-length>
+                <scan-time>249</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
+            </link>
+            <link>
+                <short-url>http://photography.shop.ebay.com</short-url>
+                <url>http://photography.shop.ebay.com</url>
+                <caption>Cameras &amp; Photo</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>89070</content-length>
+                <scan-time>293</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://cell-phones.shop.ebay.com</short-url>
+                <url>http://cell-phones.shop.ebay.com</url>
+                <caption>Cell Phones &amp; PDAs</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>75782</content-length>
+                <scan-time>223</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
+            </link>
+            <link>
+                <short-url>http://computers.shop.ebay.com</short-url>
+                <url>http://computers.shop.ebay.com</url>
+                <caption>Computers &amp; Networking</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>118614</content-length>
+                <scan-time>363</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://electronics.shop.ebay.com</short-url>
+                <url>http://electronics.shop.ebay.com</url>
+                <caption>Consumer Electronics</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>109025</content-length>
+                <scan-time>289</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
+            </link>
+            <link>
+                <short-url>http://collectibles-art.shop.ebay.com</short-url>
+                <url>http://collectibles-art.shop.ebay.com</url>
+                <caption>Collectibles &amp; Art</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>165781</content-length>
+                <scan-time>286</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
+            </link>
+            <link>
+                <short-url>http://antiques.shop.ebay.com</short-url>
+                <url>http://antiques.shop.ebay.com</url>
+                <caption>Antiques</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>110351</content-length>
+                <scan-time>220</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://art.shop.ebay.com</short-url>
+                <url>http://art.shop.ebay.com</url>
+                <caption>Art</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>59960</content-length>
+                <scan-time>229</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
+            </link>
+            <link>
+                <short-url>http://coins.shop.ebay.com</short-url>
+                <url>http://coins.shop.ebay.com</url>
+                <caption>Coins &amp; Paper Money</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>91779</content-length>
+                <scan-time>335</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://collectibles.shop.ebay.com</short-url>
+                <url>http://collectibles.shop.ebay.com</url>
+                <caption>Collectibles</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>170081</content-length>
+                <scan-time>524</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
+            </link>
+            <link>
+                <short-url>http://dolls.shop.ebay.com/</short-url>
+                <url>http://dolls.shop.ebay.com/</url>
+                <caption>Dolls &amp; Bears</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>66197</content-length>
+                <scan-time>209</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://entertainment-memorabilia.shop.eb</short-url>
+                <url>http://entertainment-memorabilia.shop.ebay.com/</url>
+                <caption>Entertainment Memorabilia</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>77557</content-length>
+                <scan-time>238</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
+            </link>
+            <link>
+                <short-url>http://sports-cards.shop.ebay.com/</short-url>
+                <url>http://sports-cards.shop.ebay.com/</url>
+                <caption>Sports Mem, Card &amp; Fan Shop</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>87076</content-length>
+                <scan-time>234</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://stamps.shop.ebay.com/</short-url>
+                <url>http://stamps.shop.ebay.com/</url>
+                <caption>Stamps</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>111375</content-length>
+                <scan-time>269</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://home-outdoors-decor.shop.ebay.com</short-url>
+                <url>http://home-outdoors-decor.shop.ebay.com</url>
+                <caption>Home, Outdoors &amp; Decor</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>134956</content-length>
+                <scan-time>240</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
+            </link>
+            <link>
+                <short-url>http://baby.shop.ebay.com</short-url>
+                <url>http://baby.shop.ebay.com</url>
+                <caption>Baby</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>94155</content-length>
+                <scan-time>204</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
+            </link>
+            <link>
+                <short-url>http://crafts.shop.ebay.com</short-url>
+                <url>http://crafts.shop.ebay.com</url>
+                <caption>Crafts</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>86835</content-length>
+                <scan-time>313</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
+            </link>
+            <link>
+                <short-url>http://home.shop.ebay.com</short-url>
+                <url>http://home.shop.ebay.com</url>
+                <caption>Home &amp; Garden</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>80568</content-length>
+                <scan-time>297</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pet-supplies.shop.ebay.com</short-url>
+                <url>http://pet-supplies.shop.ebay.com</url>
+                <caption>Pet Supplies</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>69450</content-length>
+                <scan-time>198</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://sporting-goods.shop.ebay.com</short-url>
+                <url>http://sporting-goods.shop.ebay.com</url>
+                <caption>Sporting Goods</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>82797</content-length>
+                <scan-time>257</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://toys.shop.ebay.com</short-url>
+                <url>http://toys.shop.ebay.com</url>
+                <caption>Toys &amp; Hobbies</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>133163</content-length>
+                <scan-time>387</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
+            </link>
+            <link>
+                <short-url>http://movies-music-games.shop.ebay.com</short-url>
+                <url>http://movies-music-games.shop.ebay.com</url>
+                <caption>Movies, Music &amp; Games</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>69559</content-length>
+                <scan-time>176</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://dvd.shop.ebay.com</short-url>
+                <url>http://dvd.shop.ebay.com</url>
+                <caption>DVDs &amp; Movies</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>154030</content-length>
+                <scan-time>221</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
+            </link>
+            <link>
+                <short-url>http://music.shop.ebay.com</short-url>
+                <url>http://music.shop.ebay.com</url>
+                <caption>Music</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>65611</content-length>
+                <scan-time>222</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
+            </link>
+            <link>
+                <short-url>http://video-games.shop.ebay.com</short-url>
+                <url>http://video-games.shop.ebay.com</url>
+                <caption>Video Games</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>75255</content-length>
+                <scan-time>183</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com</short-url>
+                <url>http://deals.ebay.com</url>
+                <caption>Deals &amp; Gifts</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>156727</content-length>
+                <scan-time>316</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com</short-url>
+                <url>http://deals.ebay.com</url>
+                <caption>Daily Deals</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>157166</content-length>
+                <scan-time>281</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
+            </link>
+            <link>
+                <short-url>http://dealfinder.ebay.com</short-url>
+                <url>http://dealfinder.ebay.com</url>
+                <caption>Deal Finder</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=utf-8</content-type>
+                <content-length>183117</content-length>
+                <scan-time>3148</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
+            </link>
+            <link>
+                <short-url>http://giftcard.ebay.com</short-url>
+                <url>http://giftcard.ebay.com</url>
+                <caption>Gift Cards</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>38157</content-length>
+                <scan-time>92</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://brands.ebay.com</short-url>
+                <url>http://brands.ebay.com</url>
+                <caption>Branded Stores</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>29209</content-length>
+                <scan-time>252</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebayclassifieds.com</short-url>
+                <url>http://www.ebayclassifieds.com</url>
+                <caption>Classifieds</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>31496</content-length>
+                <scan-time>171</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/help/account/getti</short-url>
+                <url>http://pages.ebay.com/help/account/gettingstarted.html</url>
+                <caption>New to eBay</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>31054</content-length>
+                <scan-time>79</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/help/buy/basics.ht</short-url>
+                <url>http://pages.ebay.com/help/buy/basics.html</url>
+                <caption>How to buy</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>33157</content-length>
+                <scan-time>53</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/sellerinformation/</short-url>
+                <url>http://pages.ebay.com/sellerinformation/starting.html</url>
+                <caption>How to sell</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>29369</content-length>
+                <scan-time>102</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/sellerinformation/</short-url>
+                <url>http://pages.ebay.com/sellerinformation/growing.html</url>
+                <caption>Increase your sales</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>29133</content-length>
+                <scan-time>117</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/coverage/index.htm</short-url>
+                <url>http://pages.ebay.com/coverage/index.html</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>23890</content-length>
+                <scan-time>52</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/coverage/index.htm</short-url>
+                <url>http://pages.ebay.com/coverage/index.html</url>
+                <caption>eBay Buyer Protection</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>23890</content-length>
+                <scan-time>54</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/topratedsellers/in</short-url>
+                <url>http://pages.ebay.com/topratedsellers/index.html</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>28060</content-length>
+                <scan-time>50</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/topratedsellers/in</short-url>
+                <url>http://pages.ebay.com/topratedsellers/index.html</url>
+                <caption>eBay Top-Rated Sellers</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>28060</content-length>
+                <scan-time>67</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.paypal.com</short-url>
+                <url>http://www.paypal.com</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=UTF-8</content-type>
+                <content-length>0</content-length>
+                <scan-time>2587</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.paypal.com</short-url>
+                <url>http://www.paypal.com</url>
+                <caption>PayPal</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=UTF-8</content-type>
+                <content-length>0</content-length>
+                <scan-time>1807</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
+            </link>
+            <link>
+                <short-url>http://signin.ebay.com/ws/eBayISAPI.dll?</short-url>
+                <url>http://signin.ebay.com/ws/eBayISAPI.dll?SignIn&amp;ru=http%3A%2F%2Fwww.ebay.com&amp;_trksid=p5197.c0.m528</url>
+                <caption>Sign in</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>18111</content-length>
+                <scan-time>222</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>https://scgi.ebay.com/ws/eBayISAPI.dll?R</short-url>
+                <url>https://scgi.ebay.com/ws/eBayISAPI.dll?RegisterEnterInfo&amp;_trksid=p5197.c0.m528</url>
+                <caption>Register</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>81136</content-length>
+                <scan-time>366</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PT4uDMBDF74LfQVjaW9QkaqIQlt0u9CSV3e5NKPFP21A1IcaVfvsd%2By7zmzfvHeat1FNQymdAaICTImFFSoLy5xyQGGPfs4u4O2fqIorWdQ37Rj7DVo9R627RhzFDj1SlO%2BT00t4RtR069lNvpVN6QpSg4yeKGCjlWfp%2B%2FWvnWhAe5%2FvLtR2A8f7iZAMeTPuYVVcLk%2BKchSOJQSl7%2BUbaEcJyuOkd%2FTqfqur7tCOZcjOshxctQL%2BHjbWbgHECaLZ7Rn1PagGvSNUJkiWUMt9rOsESknPuewpsTDmnnPGMMBJTlsYQsY%2Bt9A9v%2BlL%2BHwEAAA%3D%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742988&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>199102</content-length>
+                <scan-time>746</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-touch-3rd-Generation-32-GB-/77775865</url>
+                <caption>Apple iPod touch 3rd Generation (3.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>197492</content-length>
+                <scan-time>804</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaW9RMoolCWHa70JO07HZvQokfbUPVhBhX%2Bu837VzmeZ95L%2FNW6Smq5CMCEmFaUlZmEFU%2FpwhSjMPALuLmnKnLJFnXNe4b%2BYhbPSatuyYfxgw9UkfdIaeX9oaI7dC%2Bn3orndIT4mj%2FiZICOOUp4%2B%2BXv3auBfC02J4v7eAZb89ONt75be%2Bz6mphMlyweITUT8Ze3kg7%2BrIcrnpDvk6H4%2FH7sIFcudnH3YsWT7%2B7J2s3ecbUo3necxIGUgv%2FiVSdgJwSwsKg6QSjUPAiDJTXmHBOOOM5MEgJy1JfsXcBYfAPsktcLB4BAAA%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742989&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>183951</content-length>
+                <scan-time>584</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-touch-3rd-Generation-8-GB-/92848078</url>
+                <caption>Apple iPod touch 3rd Generation (8.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>183118</content-length>
+                <scan-time>524</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaWzQfahIhLLtd6Eladrs3ocSPtqFqgsaV%2Fvuddi7zzDPvHOattGNU6kdEWUTSIuVFRqPy5xRRTEgYTIu6ee%2BqIknWdY27Wj%2Fixg5J46%2FJh3N9h8zRtsjbpbkhMnu078Zu0t7YEQm0%2F0QJl5hKmvH3y18zV4oKLLfnS9MDk%2B3Z6xoc9Ok%2Bm7ZSLiOSxwPFUBl%2FeaenAcK6v9oN%2Bzodjsfvw4bmxs8w7l60AP3unmz9CExSQPfc5ywMtFXwiTatonnKGA%2BDulU8pVLiMDCgCROCCS5yyilmPMMQme4KTv8B7intVh4BAAA%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742990&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>182184</content-length>
+                <scan-time>680</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-touch-1st-Generation-8-GB-/79029257</url>
+                <caption>Apple iPod touch 1st Generation (8.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>180520</content-length>
+                <scan-time>670</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2Py2qDQBSG94LvIJRkNzoX56IwlDaFrCShTXdCGC9JhqgjOlby9j3J2Zzv%2F86%2FOW%2BFG6LCPCLKIpLmqcw5jYqfU0QxIWEwLfrm%2FVjmSbKua9xW5hHXrk9qf00%2BxrFrkT26Bnm31DdEhwbt26GdjLduQESg%2FSdKJBZcca7eL3%2F1XGqqcLY9X%2BoOmGzP3lTgYE%2F32TalHjnJZNxTDMPly49m6qFsuqvbsK%2FT4Xj8PmyosH6GuHvRAvS7e7LzAzBJAcfnXbAwME7DK8Y2moqUMRkGVaNlSrMMtAVNmFJMSSWopJhJjqEy3XUaBv9jozfEHwEAAA%3D%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742991&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>188294</content-length>
+                <scan-time>631</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-touch-2nd-Generation-16-GB-/70658558</url>
+                <caption>Apple iPod touch 2nd Generation (1.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>183912</content-length>
+                <scan-time>602</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PwYqDMBCG74LvICztLWom0UQhLLtd6GWlpdu9CSVqWkPViMaVvv2mnct8%2Fzf%2FZd4KMwSFfARAAkxzyvIEguLnHECMse9Ni2itHcs8itZ1DVUlH2Ft%2Bqi2t%2BhjHDuF9NE0yJqlbhG1LdqrQU3SajMgAmj%2Fib6lVbNFhWlUh6IMCCUcx%2B%2FXv3ouBfA4216udecYby9WVs65Pd1n3ZRiTHDGwh5iNwl7%2BVFOvSvL7mY25Ot8OB5Phw2k2s4u7l60OPrdPdnYwTGmDsfnPSW%2BJ41wf0ndCEgpIcz3qkYwClkGvqedxoRzwhlPgUFMWBK7ynQXie%2F9AwX4OVwsAQAA&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742992&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>187616</content-length>
+                <scan-time>684</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-touch-4th-Generation-32-GB-Latest-Model-/92343810</url>
+                <caption>Apple iPod touch 4th Generation (3.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>186213</content-length>
+                <scan-time>746</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaW9R8aFQIy24XepKWbXsTSvxoN1STENNK%2F%2F1OO5d55nnfy3zURke1fEaERphVjFcZierDMSIpxmHg7uLPe9tUSbIsSzy08hl3Zko6f02%2BrB0HpPamR1pqg6jr0XbQg5NeGY0OanwMDjG0%2FUZJTrKCUpZ9Xh7d3AhSpOX6fOlGYLw%2Be9mCg%2B1us%2BobYTNc8ngiKUzG395KN0FZjlezoj%2FH3X7%2Fu1uRXPkZzs2b7kCnzYuN18CYAdpXntMwkEbAP1L1guSMUh4GbS84I2UJoQKNaVHQghc54SSlPEuh4m4iD4N%2FEiyP%2BCQBAAA%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742993&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>189421</content-length>
+                <scan-time>854</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-nano-</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-nano-3rd-Generation-Silver-4-GB-/62583345</url>
+                <caption>Apple iPod nano 3rd Generation Sil.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>185918</content-length>
+                <scan-time>624</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTWuDQBCG74L%2FQSjJbXW%2FdFdhKU0KuVQS2vQmhHU1yeLHim4a8u87yRxmnnnmvcxb6cao1I%2BIsojwgosipVH5c4woJiQM5pu6ej9VRZLc7%2Fe4rfUjNm5IjL8kH9PUt8geXINMr5fFGiT8Fe3asZ21t25Em16bDpEMo90GfWnfLh6Vrml7lMhU5lhw%2FH7%2BM0ulqMT5%2BnQ2PTBZn7yuwcGcu8U2lZpSkot4oBgqFS8%2F6XmAsO4vbsU%2Bj%2FvD4Xu%2Fopn1C6zbF92AfrdPdn4EJhxwet4zFgbaKXhQ20bRjDMmwqBulOA0z3kYWNCEScmkkBkVFDORYojMnYL%2BD%2B8%2Brh81AQAA&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742994&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>181278</content-length>
+                <scan-time>1042</scan-time>
+                <verified-thread>pool-1-thread-2</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-class</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-classic-7th-Generation-Black-160-GB-Latest-Model-/85890740</url>
+                <caption>Apple iPod classic 7th Generation .</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>179079</content-length>
+                <scan-time>623</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaW9RMojFCWHa70MtKS7d7E0r8aA1VEzSu9N9v2rnM8z7zXuat0GNQyEcAJMA0pyxPICh%2BzgHEGPvetIjOWlPmUbSua9hW8hHWeohqe4s%2BjOlbpI66QVYvdYeo7dC%2BHdtJWqVHlFK0%2F0Tf0razRYVu2h5FHCDlmML79a%2BeSwFZzLeXa907xtuLlZVzbk%2F3WTWlMAnmLBwgdpOwlzdyGlxZ9je9IV%2Fnw%2FF4OmwgVXZ2cfeixdHv7snajo4xdWie95T4ntTC%2FSVVIyClhDDfqxrBKHCe%2BJ5yGpMsIxnLUmAQE5bErjLdReZ7%2F0psOmcsAQAA&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742995&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>184182</content-length>
+                <scan-time>672</scan-time>
+                <verified-thread>pool-1-thread-8</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-touch-4th-Generation-64-GB-Latest-Model-/92269142</url>
+                <caption>Apple iPod touch 4th Generation (6.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>181151</content-length>
+                <scan-time>562</scan-time>
+                <verified-thread>pool-1-thread-9</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2Py4qDMBSG94LvIAztLpqL5iKEYdqBrqQy7eyEEqNtg5eIpiN9%2B0l7Nuf7v%2FNvzkdhx6hQzwiTCKV5yvIMR8XpHGGIUBjMD3l3bqryJFnXNW5r9Yy1HRLtbsnXNPUtMKVtgO7VshgNqLuDQzu2s3LGjmDXK90BDsFhBxIOIeOCkM%2Frn14qiTkU28tV957R9uJU7Z3fc7eYppJThgSLBwz9ZOztJzUPvqz6m92Q7%2FOxLH%2BOG0yNW3zcv%2Bnh6Xf%2FYutGzyj1OL3ulISBstK%2FpEwjMU0JYWFQN5KlWAgaBsZrRDgnnHGKGYaEZdBX5k6KMPgHFQ%2BZECcBAAA%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742996&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>184029</content-length>
+                <scan-time>806</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-class</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-classic-6th-Generation-Black-80-GB-/80078933</url>
+                <caption>Apple iPod classic 6th Generation .</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>178674</content-length>
+                <scan-time>542</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB3PTYuDMBAG4LvgfxCW9hY1iWZUCMu2Cz1JZdu9CSV%2BtA1%2BRDRd6b%2Ffaecyz7wzl%2FnIzejl6ukx7tEoiyCLmZefzh4LKXWd%2BSHv1k5lFgTruvptpZ5%2BbYagtrfga5r6lujCNGRUoyGxvZNDO7azstqMZNeruiMJOexIAAACREo%2Fr3%2F1UkqWhOn2cq17NN1erKowwz53i25KOcU0BX9gIVYM73xS84DHqr%2BZDf8%2BH4vi57hhQtsFx%2F1bD9Tv%2FmVjRzSNkNNrL7jrKCPxHaUbyUTEObhO1UiIWJoiNcaUJwlPIBEMWMghDjGfO0lD1%2FkHc0hkQyQBAAA%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742997&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>184969</content-length>
+                <scan-time>875</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-nano-</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-nano-5th-Generation-Black-8-GB-/77767691</url>
+                <caption>Apple iPod nano 5th Generation Bla.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>181607</content-length>
+                <scan-time>778</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2QTYuDMBCG74L%2FQVjaWzRfJlEIy24XepLKbvcmlPjRNlRN0LjSf7%2Bxc5lnnnkvM2%2BFGaNCPSNMIkRzyvMUR8XPOcIQoTCYFnl3zlZ5kqzrGne1esaNGZLG3ZIPa%2FsO6NK0wJmluQM8tuDYjd2knDYjIBgcP0HCIYNMMPp%2B%2FWvmSmIBs%2F3l2vSe0f7iVO2d79Nj1m0lbYoyHg8Y%2Bkr5y1s1DT6s%2BpvZka%2FzqSy%2FTzvMtJv9eHjR4un3sLFxo2dEPdptz0gYKCP9KUq3EjNKCA%2BDupWc4iwTYaC9RkQIIrhgmGNIeAp9ZHrI7QH%2FeW%2FfiiABAAA%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742998&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>184137</content-length>
+                <scan-time>891</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-touch-2nd-Generation-32-GB-/70606864</url>
+                <caption>Apple iPod touch 2nd Generation (3.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>182075</content-length>
+                <scan-time>701</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBRF94L%2FQRjaXTRfJlEIw7QDXUll2tkJJUbbBj8imo7030%2Fat3nnnnc376OwY1SoZ4RJhGhOeZ7iqDidIwwRCoP5Ie%2FOTVWeJOu6xm2tnrG2Q6LdLfmapr4FprQN0L1aFqMBc3dwaMd2Vs7YEex6pTuAGASHHUgE5hBRQT%2Bvf3qpJBYw216uuveMthenau%2F8nrvFNJWcUpTxeMDQT8rfflLz4Muqv9kN%2BT4fy%2FLnuMHMuMXH%2FZsenn73L7Zu9Iyox%2Bl1ZyQMlJX%2BJ2UaiRklhIdB3UhOcZZlYWC8RkQIIrhgmGNIeAp9Ze4kwmHwDzQaBXMpAQAA&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742999&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>184069</content-length>
+                <scan-time>577</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-class</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-classic-6th-Generation-Black-160-GB-/82701484</url>
+                <caption>Apple iPod classic 6th Generation .</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>186587</content-length>
+                <scan-time>725</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaWzRfmlQIy24XepKW3e5NKDHaNlRN0HSl%2F36nncs888wLw7xVbkwq%2FUgoSwgvuShzmlQ%2Fx4RiQuJouqtrCL4us2xZlrRr9CM1bshMuGQf3vcdsgfXItPrebYG8XBFu27sJh2sGxHFaPeJMi4J5SRn7%2Bc%2FM9eKSrxZn86mBybrU9ANOOjTbbZtrXxONiIdKIbKxct7PQ0Q1v3FrdjXcX84fO9XtLBhhnH7ojvQ7%2FbJLozAhAP6575gcaSdgme0bRUtOGMijppWCc7gRBxZ0IRJyaSQBRUUM5FjiEw30HH0D%2FM7PPMiAQAA&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=743000&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>159050</content-length>
+                <scan-time>763</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-class</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-classic-4th-Generation-20-GB-/48124153</url>
+                <caption>Apple iPod classic 4th Generation .</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>158167</content-length>
+                <scan-time>667</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTWuDQBCG74L%2FQSjJbXW%2F3FVhKU0KuVQibXoTwqqbRKKu6FrJv%2B8kc5nnfea9zFtuhyDXj4CygPCMyyymQf5zCigmxPemRd2cG8ssitZ1DU2lH2Ft%2B6h21%2BhjHDuD2sI2aNCDRcLd0MEMZtKutQPadYtBCTrs0Jd2ZnYot43pUJRSRrig6fvlr55LRROcbs%2BXugMm27PTFTjY031um1KNMUll2FMME8uXH%2FXUQ1l3V7thn6djUXwfN1S0boa4f9EC9Lt%2FsnUDMOGA4%2FMumO9pq%2BA13TaKCs6Y9L2qUZIzjEG3oAlLEpbIRFBJMZMxhsp0V4T73j%2Fx%2B3e0MAEAAA%3D%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=743001&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>198016</content-length>
+                <scan-time>657</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-nano-</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-nano-6th-Generation-Blue-8-GB-Latest-Model-/92314629</url>
+                <caption>Apple iPod nano 6th Generation Blu.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>195626</content-length>
+                <scan-time>652</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/</short-url>
+                <url>http://deals.ebay.com/</url>
+                <caption>Daily DealsFree Shipping</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>157170</content-length>
+                <scan-time>281</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038533_NOOK_by</short-url>
+                <url>http://deals.ebay.com/5000038533_NOOK_by_Barnes__Noble_Wi_Fi_eReader</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>157932</content-length>
+                <scan-time>17408</scan-time>
+                <verified-thread>pool-1-thread-8</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038533_NOOK_by</short-url>
+                <url>http://deals.ebay.com/5000038533_NOOK_by_Barnes__Noble_Wi_Fi_eReader</url>
+                <caption>NOOK by Barnes &amp; Noble Wi-Fi eRead.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>157939</content-length>
+                <scan-time>2485</scan-time>
+                <verified-thread>pool-1-thread-9</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038474_Callawa</short-url>
+                <url>http://deals.ebay.com/5000038474_Callaway_FT_9_Driver</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>157876</content-length>
+                <scan-time>1436</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038474_Callawa</short-url>
+                <url>http://deals.ebay.com/5000038474_Callaway_FT_9_Driver</url>
+                <caption>Callaway FT-9 Driver</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>157878</content-length>
+                <scan-time>1355</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038499_ION_iPr</short-url>
+                <url>http://deals.ebay.com/5000038499_ION_iProfile_LP_to_iPod_USB_Turntable__Refurbished</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>157967</content-length>
+                <scan-time>17241</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038499_ION_iPr</short-url>
+                <url>http://deals.ebay.com/5000038499_ION_iProfile_LP_to_iPod_USB_Turntable__Refurbished</url>
+                <caption>ION iProfile LP to iPod USB Turnta.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>157972</content-length>
+                <scan-time>2026</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038476_Fila_DL</short-url>
+                <url>http://deals.ebay.com/5000038476_Fila_DLS_96_Mens_Basketball_Shoe</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>157913</content-length>
+                <scan-time>13114</scan-time>
+                <verified-thread>pool-1-thread-2</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038476_Fila_DL</short-url>
+                <url>http://deals.ebay.com/5000038476_Fila_DLS_96_Mens_Basketball_Shoe</url>
+                <caption>Fila DLS 96 Mens Basketball Shoe</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>157910</content-length>
+                <scan-time>1248</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/</short-url>
+                <url>http://deals.ebay.com/</url>
+                <caption>See more great deals</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>157169</content-length>
+                <scan-time>366</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;l</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;lid=883187&amp;m=185899&amp;pg=5197&amp;aii=138838723458140750&amp;u=1H4sIAAAAAAAAAFP2zc9T8E2sVDAyVjA0sTIxtzI1UvANDlEwMjA05OXKzEyxNTS2sDC2MDcyNjG1MDQxMDc14OUCAC3qEVI3AAAA&amp;i=-9999&amp;g=1ed411191300a02652b7f567ffce4451&amp;uf=0</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>application/xhtml+xml; charset=utf-8</content-type>
+                <content-length>6317</content-length>
+                <scan-time>629</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://shop.ebay.com/i.html?_nkw=princes</short-url>
+                <url>http://shop.ebay.com/i.html?_nkw=princess+beatrice+wedding+hat</url>
+                <caption>princess beatrice wedding...</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>85563</content-length>
+                <scan-time>273</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
+            </link>
+            <link>
+                <short-url>http://shop.ebay.com/i.html?_nkw=princes</short-url>
+                <url>http://shop.ebay.com/i.html?_nkw=princess+beatrice</url>
+                <caption>princess beatrice</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>119210</content-length>
+                <scan-time>330</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://shop.ebay.com/i.html?_nkw=royal+w</short-url>
+                <url>http://shop.ebay.com/i.html?_nkw=royal+wedding+hat</url>
+                <caption>royal wedding hat</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>119600</content-length>
+                <scan-time>329</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
+            </link>
+            <link>
+                <short-url>http://shop.ebay.com/i.html?_nkw=oklahom</short-url>
+                <url>http://shop.ebay.com/i.html?_nkw=oklahoma+city+thunder</url>
+                <caption>oklahoma city thunder</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>108511</content-length>
+                <scan-time>261</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://shop.ebay.com/i.html?_nkw=pirates</short-url>
+                <url>http://shop.ebay.com/i.html?_nkw=pirates+of+caribbean</url>
+                <caption>pirates of caribbean</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>146659</content-length>
+                <scan-time>613</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;l</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;lid=878013&amp;m=185030&amp;pg=5197&amp;aii=138838723458140749&amp;u=1H4sIAAAAAAAAAFP2zc9T8E2sVDAyVjA0sTIxtzI1UvANDlEwMjA05OXKzEyxNTS2sDC2MDcyNjG1MDQxMDex5OUCAMe2fOU3AAAA&amp;i=-9999&amp;g=1ed411191300a02652b7f567ffce4451&amp;uf=0</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=ISO-8859-1</content-type>
+                <content-length>261427</content-length>
+                <scan-time>323</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;l</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;lid=873956&amp;m=182347&amp;pg=5197&amp;aii=138838719163173451&amp;u=1H4sIAAAAAAAAAFP2zc9T8E2sVDAyVjA0sTIxtzI1UvANDlEwMjA05OXKzEyxNTS2sDC2MDe0NDQzNjQ3NjEFigMAyp%2FH7DcAAAA%3D&amp;i=-9999&amp;g=1ed411191300a02652b7f567ffce4451&amp;uf=0</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=UTF-8</content-type>
+                <content-length>0</content-length>
+                <scan-time>404</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;l</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;lid=857570&amp;m=181484&amp;pg=5197&amp;aii=138838719163173450&amp;u=1H4sIAAAAAAAAAFP2zc9T8E2sVDAyVjA0sTIxtzI1UvANDlEwMjA05OXKzEyxNTS2sDC2MDe0NDQzNjQ3NjE14OUCAP31Be03AAAA&amp;i=-9999&amp;g=1ed411191300a02652b7f567ffce4451&amp;uf=0</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html</content-type>
+                <content-length>140266</content-length>
+                <scan-time>161</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://hub.shop.ebay.com/</short-url>
+                <url>http://hub.shop.ebay.com/</url>
+                <caption>BUY</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>127155</content-length>
+                <scan-time>236</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/help/account/regis</short-url>
+                <url>http://pages.ebay.com/help/account/registration.html</url>
+                <caption>Registration</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>46409</content-length>
+                <scan-time>64</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/coverage/index.htm</short-url>
+                <url>http://pages.ebay.com/coverage/index.html</url>
+                <caption>Buyer protection</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>23890</content-length>
+                <scan-time>70</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/help/buy/basics.ht</short-url>
+                <url>http://pages.ebay.com/help/buy/basics.html</url>
+                <caption>Help bidding &amp; buying</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>33157</content-length>
+                <scan-time>53</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://giftcard.ebay.com/</short-url>
+                <url>http://giftcard.ebay.com/</url>
+                <caption>Gift Cards</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>38157</content-length>
+                <scan-time>76</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/sellerinformation/</short-url>
+                <url>http://pages.ebay.com/sellerinformation/</url>
+                <caption>SELL</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>41803</content-length>
+                <scan-time>80</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
+            </link>
+            <link>
+                <short-url>http://cgi5.ebay.com/ws/eBayISAPI.dll?Ea</short-url>
+                <url>http://cgi5.ebay.com/ws/eBayISAPI.dll?EasyLister</url>
+                <caption>Start Selling Now</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>18419</content-length>
+                <scan-time>130</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/sellerinformation/</short-url>
+                <url>http://pages.ebay.com/sellerinformation/howtosell/sellingbasics.html</url>
+                <caption>Learn to sell</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>29369</content-length>
+                <scan-time>71</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/sellerinformation/</short-url>
+                <url>http://pages.ebay.com/sellerinformation/ebayforbusiness/essentials.html</url>
+                <caption>Business Sellers</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>28440</content-length>
+                <scan-time>54</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>https://www.ebaypartnernetwork.com/files</short-url>
+                <url>https://www.ebaypartnernetwork.com/files/hub/en-US/index.html</url>
+                <caption>Affiliates</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html</content-type>
+                <content-length>12216</content-length>
+                <scan-time>474</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebayinc.com/</short-url>
+                <url>http://www.ebayinc.com/</url>
+                <caption>ABOUT EBAY</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>20030</content-length>
+                <scan-time>511</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebayinc.com/who</short-url>
+                <url>http://www.ebayinc.com/who</url>
+                <caption>Company Info</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>38391</content-length>
+                <scan-time>201</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebayinc.com/news</short-url>
+                <url>http://www.ebayinc.com/news</url>
+                <caption>News</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>22120</content-length>
+                <scan-time>457</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www2.ebay.com/aw/marketing.shtml</short-url>
+                <url>http://www2.ebay.com/aw/marketing.shtml</url>
+                <caption>Announcements</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 502 Bad Gateway</http-response>
+                <content-type>text/html; charset=utf-8</content-type>
+                <content-length>1201</content-length>
+                <scan-time>1057</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebaymainstreet.com</short-url>
+                <url>http://www.ebaymainstreet.com</url>
+                <caption>Government Relations</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=utf-8</content-type>
+                <content-length>0</content-length>
+                <scan-time>647</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebaycareers.com/</short-url>
+                <url>http://www.ebaycareers.com/</url>
+                <caption>Jobs</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html</content-type>
+                <content-length>175</content-length>
+                <scan-time>181</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebayadvertising.com/en-us/</short-url>
+                <url>http://www.ebayadvertising.com/en-us/</url>
+                <caption>Advertise with us</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=utf-8</content-type>
+                <content-length>12972</content-length>
+                <scan-time>70</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebayinc.com/who</short-url>
+                <url>http://www.ebayinc.com/who</url>
+                <caption>EBAY COMPANIES</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>38391</content-length>
+                <scan-time>100</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebayclassifieds.com/</short-url>
+                <url>http://www.ebayclassifieds.com/</url>
+                <caption>eBay Classifieds</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>31496</content-length>
+                <scan-time>64</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.shopping.com/</short-url>
+                <url>http://www.shopping.com/</url>
+                <caption>Shopping.com</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>65476</content-length>
+                <scan-time>198</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.half.ebay.com/</short-url>
+                <url>http://www.half.ebay.com/</url>
+                <caption>Half.com</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>67012</content-length>
+                <scan-time>184</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>https://www.paypal.com/ebay</short-url>
+                <url>https://www.paypal.com/ebay</url>
+                <caption>PayPal</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=UTF-8</content-type>
+                <content-length>0</content-length>
+                <scan-time>1119</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebayinc.com/who</short-url>
+                <url>http://www.ebayinc.com/who</url>
+                <caption>See all</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>38391</content-length>
+                <scan-time>101</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/buy/tools.html</short-url>
+                <url>http://pages.ebay.com/buy/tools.html</url>
+                <caption>Downloads</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>25275</content-length>
+                <scan-time>66</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
+            </link>
+            <link>
+                <short-url>http://developer.ebay.com/</short-url>
+                <url>http://developer.ebay.com/</url>
+                <caption>Developers</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=utf-8</content-type>
+                <content-length>34207</content-length>
+                <scan-time>4858</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/mobile/</short-url>
+                <url>http://pages.ebay.com/mobile/</url>
+                <caption>eBay Mobile</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=UTF-8</content-type>
+                <content-length>0</content-length>
+                <scan-time>286</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://contact.ebay.com/ws/eBayISAPI.dll</short-url>
+                <url>http://contact.ebay.com/ws/eBayISAPI.dll?ShowCUPortal</url>
+                <caption>CONTACT US</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>19137</content-length>
+                <scan-time>86</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com</short-url>
+                <url>http://www.ebay.com</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>72006</content-length>
+                <scan-time>863</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebayinc.com</short-url>
+                <url>http://www.ebayinc.com</url>
+                <caption>About eBay</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>20030</content-length>
+                <scan-time>271</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/securitycenter/ind</short-url>
+                <url>http://pages.ebay.com/securitycenter/index.html</url>
+                <caption>Security Center</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>32423</content-length>
+                <scan-time>50</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/buy/tools.html</short-url>
+                <url>http://pages.ebay.com/buy/tools.html</url>
+                <caption>Buyer Tools</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>25275</content-length>
+                <scan-time>66</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/help/policies/over</short-url>
+                <url>http://pages.ebay.com/help/policies/overview.html</url>
+                <caption>Policies</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>40274</content-length>
+                <scan-time>50</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
+            </link>
+            <link>
+                <short-url>http://stores.ebay.com/</short-url>
+                <url>http://stores.ebay.com/</url>
+                <caption>Stores</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>36346</content-length>
+                <scan-time>193</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/sitemap.html</short-url>
+                <url>http://pages.ebay.com/sitemap.html</url>
+                <caption>Site Map</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>43554</content-length>
+                <scan-time>51</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://viv.ebay.com/ws/eBayISAPI.dll?Eba</short-url>
+                <url>http://viv.ebay.com/ws/eBayISAPI.dll?EbayTime</url>
+                <caption>eBay official time</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>40777</content-length>
+                <scan-time>393</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
+            </link>
+            <link>
+                <short-url>http://qu.ebay.com/survey?srvName=global</short-url>
+                <url>http://qu.ebay.com/survey?srvName=globalheader+%28footer-US%29</url>
+                <caption>Tell us what you think</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html</content-type>
+                <content-length>271057</content-length>
+                <scan-time>61</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/help/policies/user</short-url>
+                <url>http://pages.ebay.com/help/policies/user-agreement.html?rt=nc</url>
+                <caption>User Agreement</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>59583</content-length>
+                <scan-time>67</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/help/policies/priv</short-url>
+                <url>http://pages.ebay.com/help/policies/privacy-policy.html?rt=nc</url>
+                <caption>Privacy Policy</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>77627</content-length>
+                <scan-time>52</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.mercadolibre.com.ar/</short-url>
+                <url>http://www.mercadolibre.com.ar/</url>
+                <caption>Argentina</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>75942</content-length>
+                <scan-time>1246</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.at/</short-url>
+                <url>http://www.ebay.at/</url>
+                <caption>Austria</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>43711</content-length>
+                <scan-time>171</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com.au/</short-url>
+                <url>http://www.ebay.com.au/</url>
+                <caption>Australia</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.0 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>47124</content-length>
+                <scan-time>156</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.be/</short-url>
+                <url>http://www.ebay.be/</url>
+                <caption>Belgium</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>22245</content-length>
+                <scan-time>583</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.mercadolivre.com.br/</short-url>
+                <url>http://www.mercadolivre.com.br/</url>
+                <caption>Brazil</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>75424</content-length>
+                <scan-time>247</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.ca/</short-url>
+                <url>http://www.ebay.ca/</url>
+                <caption>Canada</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>77329</content-length>
+                <scan-time>289</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com.cn/</short-url>
+                <url>http://www.ebay.com.cn/</url>
+                <caption>China</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=UTF-8</content-type>
+                <content-length>209362</content-length>
+                <scan-time>1295</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.cz/</short-url>
+                <url>http://www.ebay.cz/</url>
+                <caption>Czech Republic</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=utf-8</content-type>
+                <content-length>34239</content-length>
+                <scan-time>176</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.dk/</short-url>
+                <url>http://www.ebay.dk/</url>
+                <caption>Denmark</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=utf-8</content-type>
+                <content-length>33733</content-length>
+                <scan-time>4790</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.fi/</short-url>
+                <url>http://www.ebay.fi/</url>
+                <caption>Finland</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=utf-8</content-type>
+                <content-length>33827</content-length>
+                <scan-time>512</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.de/</short-url>
+                <url>http://www.ebay.de/</url>
+                <caption>Germany</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>56692</content-length>
+                <scan-time>234</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.gr/</short-url>
+                <url>http://www.ebay.gr/</url>
+                <caption>Greece</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=utf-8</content-type>
+                <content-length>38247</content-length>
+                <scan-time>228</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.fr/</short-url>
+                <url>http://www.ebay.fr/</url>
+                <caption>France</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>100377</content-length>
+                <scan-time>88</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.hu/</short-url>
+                <url>http://www.ebay.hu/</url>
+                <caption>Hungary</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=utf-8</content-type>
+                <content-length>34086</content-length>
+                <scan-time>3718</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com.hk/</short-url>
+                <url>http://www.ebay.com.hk/</url>
+                <caption>Hong Kong</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>67332</content-length>
+                <scan-time>445</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.ie/</short-url>
+                <url>http://www.ebay.ie/</url>
+                <caption>Ireland</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>41043</content-length>
+                <scan-time>110</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.in/</short-url>
+                <url>http://www.ebay.in/</url>
+                <caption>India</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.0 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>43533</content-length>
+                <scan-time>207</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.it/</short-url>
+                <url>http://www.ebay.it/</url>
+                <caption>Italy</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=ISO-8859-1</content-type>
+                <content-length>0</content-length>
+                <scan-time>938</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.auction.co.kr/default.html</short-url>
+                <url>http://www.auction.co.kr/default.html</url>
+                <caption>Korea</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html</content-type>
+                <content-length>271397</content-length>
+                <scan-time>392</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com.my/</short-url>
+                <url>http://www.ebay.com.my/</url>
+                <caption>Malaysia</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>46333</content-length>
+                <scan-time>247</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.mercadolibre.com.mx/</short-url>
+                <url>http://www.mercadolibre.com.mx/</url>
+                <caption>Mexico</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>69816</content-length>
+                <scan-time>155</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.nl/</short-url>
+                <url>http://www.ebay.nl/</url>
+                <caption>Netherlands</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>42870</content-length>
+                <scan-time>194</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
+            </link>
+            <link>
+                <short-url>http://pages.ebay.com/nz/</short-url>
+                <url>http://pages.ebay.com/nz/</url>
+                <caption>New Zealand</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>47247</content-length>
+                <scan-time>51</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.no/</short-url>
+                <url>http://www.ebay.no/</url>
+                <caption>Norway</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=utf-8</content-type>
+                <content-length>33174</content-length>
+                <scan-time>64</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.ph/</short-url>
+                <url>http://www.ebay.ph/</url>
+                <caption>Philippines</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>47619</content-length>
+                <scan-time>242</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.pl/</short-url>
+                <url>http://www.ebay.pl/</url>
+                <caption>Poland</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>39614</content-length>
+                <scan-time>236</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.pt/</short-url>
+                <url>http://www.ebay.pt/</url>
+                <caption>Portugal</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=utf-8</content-type>
+                <content-length>33729</content-length>
+                <scan-time>3352</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.ru/</short-url>
+                <url>http://www.ebay.ru/</url>
+                <caption>Russia</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>71899</content-length>
+                <scan-time>210</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com.sg/</short-url>
+                <url>http://www.ebay.com.sg/</url>
+                <caption>Singapore</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>48782</content-length>
+                <scan-time>166</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.es/</short-url>
+                <url>http://www.ebay.es/</url>
+                <caption>Spain</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=ISO-8859-1</content-type>
+                <content-length>0</content-length>
+                <scan-time>560</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.tradera.com/</short-url>
+                <url>http://www.tradera.com/</url>
+                <caption>Sweden</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=utf-8</content-type>
+                <content-length>34195</content-length>
+                <scan-time>655</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.ch/</short-url>
+                <url>http://www.ebay.ch/</url>
+                <caption>Switzerland</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>47932</content-length>
+                <scan-time>198</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ruten.com.tw/</short-url>
+                <url>http://www.ruten.com.tw/</url>
+                <caption>Taiwan</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=big5</content-type>
+                <content-length>0</content-length>
+                <scan-time>982</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.co.th</short-url>
+                <url>http://www.ebay.co.th</url>
+                <caption>Thailand</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=utf-8</content-type>
+                <content-length>146417</content-length>
+                <scan-time>2439</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.gittigidiyor.com/</short-url>
+                <url>http://www.gittigidiyor.com/</url>
+                <caption>Turkey</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html; charset=ISO-8859-9</content-type>
+                <content-length>0</content-length>
+                <scan-time>1276</scan-time>
+                <verified-thread>pool-1-thread-9</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.co.uk/</short-url>
+                <url>http://www.ebay.co.uk/</url>
+                <caption>United Kingdom</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>53403</content-length>
+                <scan-time>322</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.vn/</short-url>
+                <url>http://www.ebay.vn/</url>
+                <caption>Vietnam</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html</content-type>
+                <content-length>0</content-length>
+                <scan-time>1710</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
+            </link>
+            <link>
+                <short-url></short-url>
+                <url></url>
+                <caption>Start of layer</caption>
+                <status>Broken</status>
+                <verified>Yes</verified>
+                <http-response>Empty Link</http-response>
+                <content-type></content-type>
+                <content-length></content-length>
+                <scan-time>0</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
+            </link>
+            <link>
+                <short-url></short-url>
+                <url></url>
+                <caption>Click to close</caption>
+                <status>Broken</status>
+                <verified>Yes</verified>
+                <http-response>Empty Link</http-response>
+                <content-type></content-type>
+                <content-length></content-length>
+                <scan-time>0</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
+            </link>
+            <link>
+                <short-url></short-url>
+                <url></url>
+                <caption>End of layer</caption>
+                <status>Broken</status>
+                <verified>Yes</verified>
+                <http-response>Empty Link</http-response>
+                <content-type></content-type>
+                <content-length></content-length>
+                <scan-time>0</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
+            </link>
+        </links>
+        <summary>
+            <root-url>http://ebay.com</root-url>
+            <health>97.8903</health>
+            <scan-time>25189</scan-time>
+            <thread-count>20</thread-count>
+        </summary>
+        <thread-pool>
+            <threads>
+                <thread>
+                    <name>pool-1-thread-10</name>
+                    <job-count>17</job-count>
+                    <job-share>89.47369</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-20</name>
+                    <job-count>15</job-count>
+                    <job-share>78.94737</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-9</name>
+                    <job-count>4</job-count>
+                    <job-share>21.052631</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-19</name>
+                    <job-count>12</job-count>
+                    <job-share>63.15789</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-8</name>
+                    <job-count>3</job-count>
+                    <job-share>15.789473</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-18</name>
+                    <job-count>9</job-count>
+                    <job-share>47.368423</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-7</name>
+                    <job-count>13</job-count>
+                    <job-share>68.42105</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-17</name>
+                    <job-count>11</job-count>
+                    <job-share>57.894737</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-6</name>
+                    <job-count>12</job-count>
+                    <job-share>63.15789</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-16</name>
+                    <job-count>14</job-count>
+                    <job-share>73.68421</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-5</name>
+                    <job-count>14</job-count>
+                    <job-share>73.68421</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-15</name>
+                    <job-count>12</job-count>
+                    <job-share>63.15789</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-4</name>
+                    <job-count>12</job-count>
+                    <job-share>63.15789</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-14</name>
+                    <job-count>19</job-count>
+                    <job-share>100.0</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-3</name>
+                    <job-count>9</job-count>
+                    <job-share>47.368423</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-2</name>
+                    <job-count>3</job-count>
+                    <job-share>15.789473</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-13</name>
+                    <job-count>15</job-count>
+                    <job-share>78.94737</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-12</name>
+                    <job-count>19</job-count>
+                    <job-share>100.0</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-1</name>
+                    <job-count>11</job-count>
+                    <job-share>57.894737</job-share>
+                </thread>
+                <thread>
+                    <name>pool-1-thread-11</name>
+                    <job-count>13</job-count>
+                    <job-share>68.42105</job-share>
+                </thread>
+            </threads>
+        </thread-pool>
+    </page>
+</result>
