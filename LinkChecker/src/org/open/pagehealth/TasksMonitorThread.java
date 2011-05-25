@@ -13,7 +13,7 @@ public class TasksMonitorThread implements Runnable {
     ThreadPoolExecutor executor;
     Object             _callBack;
 
-    public TasksMonitorThread(ThreadPoolExecutor executor, Object callBack) {
+    public TasksMonitorThread(final ThreadPoolExecutor executor, final Object callBack) {
         this.executor = executor;
         this._callBack = callBack;
     }

@@ -6,7 +6,6 @@ import org.apache.http.HttpResponse;
 import org.apache.http.StatusLine;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpHead;
-import org.apache.http.client.params.HttpClientParams;
 import org.apache.http.conn.scheme.Scheme;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.params.BasicHttpParams;
@@ -36,7 +35,7 @@ public class PageLink {
     private long   _scanTime;
     private Thread _thread;
 
-    public PageLink(String link, String caption) {
+    public PageLink(final String link, final String caption) {
         _link = link;
         _caption = caption;
     }
@@ -58,7 +57,7 @@ public class PageLink {
     }
 
     public String getScanTime() {
-        return ""+_scanTime;
+        return "" + _scanTime;
     }
 
     public String getVerifiedThread() {
@@ -74,17 +73,17 @@ public class PageLink {
         return _isGood;
     }
 
-    private void setResult(boolean isGood, String errorMsg) {
+    private void setResult(final boolean isGood, final String errorMsg) {
         _isVerified = true;
         _isGood = isGood;
         _responseStatus = errorMsg;
     }
 
-    private void setBroken(String errorMsg) {
+    private void setBroken(final String errorMsg) {
         setResult(false, errorMsg);
     }
 
-    private void setGood(String response, String contentType, long contentLength) {
+    private void setGood(final String response, final String contentType, final long contentLength) {
         setResult(true, response);
         _contentLength = contentLength;
         _contentType = contentType;
@@ -98,24 +97,24 @@ public class PageLink {
             return;
         }
 
-        HttpResponse response;
+        final HttpResponse response;
         try {
-            HttpHead method = new HttpHead(_link);
+            final HttpHead method = new HttpHead(_link);
             method.addHeader("User-Agent", "Mozilla");
-            HttpClient client = getHttpClient();
-            long startTime = System.currentTimeMillis();
+            final HttpClient client = getHttpClient();
+            final long startTime = System.currentTimeMillis();
             response = client.execute(method);
             _scanTime = (System.currentTimeMillis() - startTime);
-            StatusLine line = response.getStatusLine();
+            final StatusLine line = response.getStatusLine();
             if (line.getStatusCode() == 404) {
                 setBroken(line.toString());
             } else {
                 String contentType = "";
-                Header contentTypeHeader = response.getLastHeader(HttpHeaders.CONTENT_TYPE);
+                final Header contentTypeHeader = response.getLastHeader(HttpHeaders.CONTENT_TYPE);
                 if (null != contentTypeHeader && contentTypeHeader.getValue() != null) {
                     contentType = contentTypeHeader.getValue();
                 }
-                Header lengthHeader = response.getLastHeader(HttpHeaders.CONTENT_LENGTH);
+                final Header lengthHeader = response.getLastHeader(HttpHeaders.CONTENT_LENGTH);
                 long contentLengh = 0;
                 if (null != lengthHeader) {
                     contentLengh = Long.parseLong(lengthHeader.getValue());
@@ -145,9 +144,9 @@ public class PageLink {
     }
 
     public String getShortURL() {
-        if(null == _link) return null;
+        if (null == _link) { return null; }
 
-        if(_link.trim().length() < 1) {
+        if (_link.trim().length() < 1) {
             return "";
         }
         return _link.length() > 40 ? _link.substring(0, 40) : _link;
@@ -169,13 +168,39 @@ public class PageLink {
             // If you know the URL that you are connecting to then this should not be a problem
             //trustAllHttpsCertificates
             //  Create a trust manager that does not validate certificate chains:
-            javax.net.ssl.TrustManager[] trustAllCerts = new javax.net.ssl.TrustManager[1];
-            javax.net.ssl.TrustManager tm = new EnvTrustManager();
+            final javax.net.ssl.TrustManager[] trustAllCerts = new javax.net.ssl.TrustManager[1];
+            final javax.net.ssl.TrustManager tm = new EnvTrustManager();
             trustAllCerts[0] = tm;
-            javax.net.ssl.SSLContext sc = javax.net.ssl.SSLContext.getInstance("SSL");
+            final javax.net.ssl.SSLContext sc = javax.net.ssl.SSLContext.getInstance("SSL");
             sc.init(null, trustAllCerts, null);
-            org.apache.http.conn.ssl.SSLSocketFactory sf = new org.apache.http.conn.ssl.SSLSocketFactory(sc,
-                                                                                                         org.apache.http.conn.ssl.SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
+            final org.apache.http.conn.ssl.SSLSocketFactory sf = new org.apache.http.conn.ssl.SSLSocketFactory(sc,
+                                                                                                               org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                       .apache.http.conn.ssl.SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
 
             //create scheme for apache HttpClient
             SCHEME = new Scheme("https", 443, sf);
@@ -183,7 +208,7 @@ public class PageLink {
 
             javax.net.ssl.HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
             HttpsURLConnection.setDefaultHostnameVerifier(new HostnameVerifier() {
-                public boolean verify(String urlHostName, SSLSession session) {
+                public boolean verify(final String urlHostName, final SSLSession session) {
                     System.out.println("Warning: URL Host: " + urlHostName + " vs. " + session.getPeerHost());
                     return true;
                 }
@@ -192,7 +217,7 @@ public class PageLink {
             // trust all HttpUnit Connection
             com.sun.net.ssl.internal.www.protocol.https.HttpsURLConnectionOldImpl
                     .setDefaultHostnameVerifier(new com.sun.net.ssl.HostnameVerifier() {
-                        public boolean verify(String urlHostname, String certHostname) {
+                        public boolean verify(final String urlHostname, final String certHostname) {
                             return true;
                         }
                     });
@@ -218,7 +243,7 @@ public class PageLink {
         final HttpParams params = new BasicHttpParams();
         params.setParameter(CoreConnectionPNames.CONNECTION_TIMEOUT, LinkChecker.CONNECTION_TIMEOUT);
         //HttpClientParams.setRedirecting(params, false);
-        DefaultHttpClient client = new DefaultHttpClient(params);
+        final DefaultHttpClient client = new DefaultHttpClient(params);
         client.getConnectionManager().getSchemeRegistry().register(SCHEME);
         return client;
     }
@@ -229,20 +254,20 @@ public class PageLink {
             return null;
         }
 
-        public boolean isServerTrusted(java.security.cert.X509Certificate[] certs) {
+        public boolean isServerTrusted(final java.security.cert.X509Certificate[] certs) {
             return true;
         }
 
-        public boolean isClientTrusted(java.security.cert.X509Certificate[] certs) {
+        public boolean isClientTrusted(final java.security.cert.X509Certificate[] certs) {
             return true;
         }
 
-        public void checkServerTrusted(java.security.cert.X509Certificate[] certs, String authType)
+        public void checkServerTrusted(final java.security.cert.X509Certificate[] certs, final String authType)
                 throws java.security.cert.CertificateException {
             return;
         }
 
-        public void checkClientTrusted(java.security.cert.X509Certificate[] certs, String authType)
+        public void checkClientTrusted(final java.security.cert.X509Certificate[] certs, final String authType)
                 throws java.security.cert.CertificateException {
             return;
         }

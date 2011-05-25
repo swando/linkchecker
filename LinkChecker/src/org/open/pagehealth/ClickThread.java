@@ -9,10 +9,10 @@ import org.apache.log4j.Logger;
  */
 public class ClickThread implements Runnable {
     private static final Logger LOG = Logger.getLogger(ClickThread.class);
-    private PageLink _Page_link;
-    private String         _name;
+    private final PageLink _Page_link;
+    private final String   _name;
 
-    public ClickThread(String name, PageLink pageLink) {
+    public ClickThread(final String name, final PageLink pageLink) {
         _name = name;
         _Page_link = pageLink;
     }
