@@ -8,16 +8,30 @@
                 <script src="sorttable.js"></script>
             </head>
             <body>
-                <h1><a name="top">LinkChecker Result</a></h1>
-                <h2><a name="index">Index</a></h2>
+                <h1>
+                    <a name="top">LinkChecker Report</a>
+                </h1>
+                <h2>
+                    <a name="index">Index</a>
+                </h2>
                 <ul>
-                    <li><a href="#index">Index</a></li>
-                    <li><a href="#summary">Summary</a></li>
-                    <li><a href="#pool">Thread-Pool Details</a></li>
-                    <li><a href="#url">URL Details</a></li>
+                    <li>
+                        <a href="#index">Index</a>
+                    </li>
+                    <li>
+                        <a href="#summary">Summary</a>
+                    </li>
+                    <li>
+                        <a href="#pool">Thread-Pool Details</a>
+                    </li>
+                    <li>
+                        <a href="#url">URL Details</a>
+                    </li>
                 </ul>
-                
-                <h2><a name="summary">Summary</a></h2>
+
+                <h2>
+                    <a name="summary">Summary</a>
+                </h2>
                 <ul>
                     <li>Scanned Page:
                         <a>
@@ -30,16 +44,20 @@
                     <li>Page Health:
                         <xsl:value-of select="format-number(result/page/summary/health, '##.#')"/> %
                     </li>
-                    <li>Total Scan Time:
+                    <li>Scan Duration:
                         <xsl:value-of select="format-number(result/page/summary/scan-time, '#,###')"/> ms
                     </li>
                     <li>Total Threads:
                         <xsl:value-of select="result/page/summary/thread-count"/>
                     </li>
                 </ul>
-                <div align="right"><a href="#top">Top</a></div>
+                <div align="right">
+                    <a href="#top">Top</a>
+                </div>
 
-                <h2><a name="pool">Thread-Pool Details</a></h2>
+                <h2>
+                    <a name="pool">Thread-Pool Details</a>
+                </h2>
                 <table border="1" class="sortable">
                     <tr bgcolor="#9acd32">
                         <th>Name</th>
@@ -51,7 +69,7 @@
                                 <xsl:value-of select="name"/>
                             </td>
                             <td width="70%" style="text-align:left;">
-                            <div>
+                                <div>
                                     <xsl:attribute name="style">
                                         background-color:#FF9900; width: <xsl:value-of select="job-share"/>%;
                                     </xsl:attribute>
@@ -62,9 +80,13 @@
                         </tr>
                     </xsl:for-each>
                 </table>
-                <div align="right"><a href="#top">Top</a></div>
+                <div align="right">
+                    <a href="#top">Top</a>
+                </div>
 
-                <h2><a name="url">URL Details</a></h2>
+                <h2>
+                    <a name="url">URL Details</a>
+                </h2>
                 <table border="1" class="sortable">
                     <tr bgcolor="#9acd32">
                         <th>Link</th>
@@ -74,7 +96,7 @@
                         <th>HTTP Response</th>
                         <th>Content-Type</th>
                         <th>Content-Length (bytes)</th>
-                        <th>Scan-Time (ms)</th>
+                        <th>Scan Duration (ms)</th>
                         <th>Verified-By</th>
                     </tr>
                     <xsl:for-each select="result/page/links/link">
@@ -88,7 +110,7 @@
                             <td>
                                 <a>
                                     <xsl:attribute name="href">
-                                    <xsl:value-of select="url"/>
+                                        <xsl:value-of select="url"/>
                                     </xsl:attribute>
                                     <xsl:value-of select="short-url"/>
                                 </a>
@@ -120,7 +142,9 @@
                         </tr>
                     </xsl:for-each>
                 </table>
-                <div align="right"><a href="#top">Top</a></div>
+                <div align="right">
+                    <a href="#top">Top</a>
+                </div>
             </body>
         </html>
     </xsl:template>

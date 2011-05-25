@@ -6,12 +6,19 @@ package org.open.pagehealth; /**
 
 import jline.ConsoleReader;
 import org.apache.log4j.Logger;
+import org.apache.xml.serialize.OutputFormat;
+import org.apache.xml.serialize.XMLSerializer;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.xml.sax.ContentHandler;
+import org.xml.sax.helpers.AttributesImpl;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -19,39 +26,59 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.Hashtable;
+import java.util.Properties;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.RejectedExecutionHandler;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-import org.apache.xml.serialize.OutputFormat;
-import org.apache.xml.serialize.*;
-import org.xml.sax.*;
-import org.xml.sax.helpers.*;
 
 /**
  * Example program to list links from a URL.
  */
 public class LinkChecker {
 
-    private static final Logger LOG       = Logger.getLogger(LinkChecker.class);
-    private static final int    POOL_SIZE = 20;
-    public static final int    CONNECTION_TIMEOUT = 10000;
+    public static final String PROPS_FILE =  "linkchecker.properties";
+
+    public static final Properties PROPERTIES = loadProperties();
+
+    private static final Logger LOG                = Logger.getLogger(LinkChecker.class);
+    private static final int    POOL_SIZE          = 20;
+    public static final  int    CONNECTION_TIMEOUT = 10000;
+
 
     private PageLink _rootPage;
     private long     _scanTime;
 
-    public static void main(String[] args) throws Exception {
-        LinkChecker checker = new LinkChecker();
+    public static void main(final String[] args) throws Exception {
+
+        final LinkChecker checker = new LinkChecker();
         checker.init();
+    }
+
+    public static Properties loadProperties() {
+        Properties props = null;
+        File propsFile = new File(PROPS_FILE);
+        try {
+            if(!propsFile.exists()) {
+                propsFile.createNewFile();
+                System.out.println("New File created. "+propsFile.getAbsolutePath());
+            }
+        props = new Properties();
+        props.load(new FileInputStream(PROPS_FILE));
+        System.out.println("Props File loaded. "+propsFile.getAbsolutePath());
+        }catch(Exception exp) {
+            exp.printStackTrace();
+        }
+        return props;
     }
 
     public void init() {
         //String rootLink = getUserWebSite();
-        String rootLink = "http://ebay.com";
+        final String rootLink = "http://ebay.com";
         _rootPage = new PageLink(rootLink, "Root");
-        long startTime = System.currentTimeMillis();
-        ArrayList<PageLink> pageLinks = getLinksNodes(_rootPage);
+        final long startTime = System.currentTimeMillis();
+        final ArrayList<PageLink> pageLinks = getLinksNodes(_rootPage);
         checkLinks(pageLinks);
         _scanTime = (System.currentTimeMillis() - startTime);
         LOG.info("Total time " + _scanTime + " ms");
@@ -60,7 +87,7 @@ public class LinkChecker {
 
     public String getUserWebSite() {
         try {
-            ConsoleReader reader = new ConsoleReader();
+            final ConsoleReader reader = new ConsoleReader();
             System.out.print("Enter a website URL [http://ebay.com]?: ");
             String line = reader.readLine();
 
@@ -68,7 +95,7 @@ public class LinkChecker {
                 if (!line.startsWith("http")) {
                     line = "http://" + line;
                 }
-                URL userURL = new URL(line);
+                final URL userURL = new URL(line);
                 userURL.getContent();
                 return userURL.toString();
             }
@@ -83,28 +110,27 @@ public class LinkChecker {
         return getUserWebSite();
     }
 
-    public void printResult(ArrayList<PageLink> pageLinks) {
+    public void printResult(final ArrayList<PageLink> pageLinks) {
         try {
-            String fileName = "report.xml";
+            final String fileName = "report.xml";
 
-            FileOutputStream fos = new FileOutputStream(fileName);
+            final FileOutputStream fos = new FileOutputStream(fileName);
             // XERCES 1 or 2 additionnal classes.
-            OutputFormat of = new OutputFormat("XML", "ISO-8859-1", true);
+            final OutputFormat of = new OutputFormat("XML", "ISO-8859-1", true);
             of.setIndent(1);
             of.setIndenting(true);
             //of.setDoctype(null, "report-format.dtd");
-            XMLSerializer serializer = new XMLSerializer(fos, of);
+            final XMLSerializer serializer = new XMLSerializer(fos, of);
             // SAX2.0 ContentHandler.
-            ContentHandler hd = serializer.asContentHandler();
+            final ContentHandler hd = serializer.asContentHandler();
             hd.startDocument();
             // Processing instruction sample.
             hd.processingInstruction("xml-stylesheet", "type=\"text/xsl\" href=\"report-format.xsl\"");
             // USER attributes.
 
-            AttributesImpl atts = new AttributesImpl();
             // USERS tag.
             hd.startElement("", "", "result", null);
-            AttributesImpl pageAttributes = new AttributesImpl();
+            final AttributesImpl pageAttributes = new AttributesImpl();
             pageAttributes.addAttribute("", "", "url", "CDATA", _rootPage.getURL());
             hd.startElement(null, null, "page", pageAttributes);
 
@@ -112,9 +138,9 @@ public class LinkChecker {
             hd.startElement(null, null, "links", null);
             int goodLinks = 0;
 
-            Hashtable<String, Integer> threadInfo = new Hashtable<String, Integer>();
+            final Hashtable<String, Integer> threadInfo = new Hashtable<String, Integer>();
 
-            for (PageLink page : pageLinks) {
+            for (final PageLink page : pageLinks) {
                 hd.startElement(null, null, "link", null);
 
                 hd.startElement(null, null, "short-url", null);
@@ -156,13 +182,13 @@ public class LinkChecker {
                 hd.characters(page.getScanTime().toCharArray(), 0, page.getScanTime().length());
                 hd.endElement("", "", "scan-time");
 
-                String thName = page.getVerifiedThread();
+                final String thName = page.getVerifiedThread();
                 if (threadInfo.containsKey(thName)) {
                     Integer jobCount = threadInfo.get(thName);
-                    jobCount = new Integer(jobCount.intValue() + 1);
+                    jobCount = jobCount.intValue() + 1;
                     threadInfo.put(thName, jobCount);
                 } else {
-                    threadInfo.put(thName, new Integer(1));
+                    threadInfo.put(thName, 1);
                 }
 
                 hd.startElement(null, null, "verified-thread", null);
@@ -181,12 +207,12 @@ public class LinkChecker {
             hd.endElement("", "", "root-url");
 
             hd.startElement(null, null, "health", null);
-            String health = ""+((float) goodLinks / pageLinks.size()) * 100;
+            final String health = "" + ((float) goodLinks / pageLinks.size()) * 100;
             hd.characters(health.toCharArray(), 0, health.length());
             hd.endElement("", "", "health");
 
             hd.startElement(null, null, "scan-time", null);
-            String scanTime = "" + _scanTime;
+            final String scanTime = "" + _scanTime;
             hd.characters(scanTime.toCharArray(), 0, scanTime.length());
             hd.endElement("", "", "scan-time");
 
@@ -198,37 +224,37 @@ public class LinkChecker {
             //thread-pool node
             int max_weight = 0;
 
-            Enumeration<String> keys = threadInfo.keys();
-            while(keys.hasMoreElements()) {
+            final Enumeration<String> keys = threadInfo.keys();
+            while (keys.hasMoreElements()) {
 
-            Integer count = threadInfo.get(keys.nextElement());
-                if(count > max_weight) {
-                   max_weight = count;
+                final Integer count = threadInfo.get(keys.nextElement());
+                if (count > max_weight) {
+                    max_weight = count;
                 }
             }
 
 
             hd.startElement("", "", "thread-pool", null);
             hd.startElement(null, null, "threads", null);
-            Enumeration<String> threadNames = threadInfo.keys();
-            while(threadNames.hasMoreElements()) {
+            final Enumeration<String> threadNames = threadInfo.keys();
+            while (threadNames.hasMoreElements()) {
 
                 hd.startElement(null, null, "thread", null);
 
-                String threadName = threadNames.nextElement();
+                final String threadName = threadNames.nextElement();
 
                 hd.startElement(null, null, "name", null);
                 hd.characters(threadName.toCharArray(), 0, threadName.length());
                 hd.endElement("", "", "name");
 
                 hd.startElement(null, null, "job-count", null);
-                Integer jobCount = threadInfo.get(threadName);
-                String count = "" + jobCount;
+                final Integer jobCount = threadInfo.get(threadName);
+                final String count = "" + jobCount;
                 hd.characters(count.toCharArray(), 0, count.length());
                 hd.endElement("", "", "job-count");
 
                 hd.startElement(null, null, "job-share", null);
-                String share = ""+(float)jobCount/(max_weight)*100;
+                final String share = "" + (float) jobCount / (max_weight) * 100;
                 hd.characters(share.toCharArray(), 0, share.length());
                 hd.endElement("", "", "job-share");
 
@@ -250,19 +276,17 @@ public class LinkChecker {
     }
 
 
-
-
-    public ArrayList<PageLink> getLinksNodes(PageLink checkPage) {
-        long startTime = System.currentTimeMillis();
+    public ArrayList<PageLink> getLinksNodes(final PageLink checkPage) {
+        final long startTime = System.currentTimeMillis();
         try {
             LOG.info("Scanning page: " + checkPage.getURL());
-            Connection conn = Jsoup.connect(checkPage.getURL());
-            Document doc = conn.get();
-            Elements links = doc.select("a[href]");
-            ArrayList<PageLink> pageLinks = new ArrayList<PageLink>(links.size());
+            final Connection conn = Jsoup.connect(checkPage.getURL());
+            final Document doc = conn.get();
+            final Elements links = doc.select("a[href]");
+            final ArrayList<PageLink> pageLinks = new ArrayList<PageLink>(links.size());
             LOG.info("Links: " + links.size());
-            for (Element link : links) {
-                String li = link.attr("abs:href");
+            for (final Element link : links) {
+                final String li = link.attr("abs:href");
                 pageLinks.add(new PageLink(li, trim(link.text(), 35)));
                 //print(" * a: <%s>  (%s)", li, trim(link.text(), 35));
             }
@@ -274,7 +298,7 @@ public class LinkChecker {
         return null;
     }
 
-    public void checkLinks(ArrayList<PageLink> pageLinks) {
+    public void checkLinks(final ArrayList<PageLink> pageLinks) {
 
 
         if (null == pageLinks || pageLinks.size() < 1) {
@@ -288,18 +312,18 @@ public class LinkChecker {
         }*/
 
 
-        BlockingQueue<Runnable> worksQueue = new ArrayBlockingQueue<Runnable>(pageLinks.size());
-        RejectedExecutionHandler executionHandler = new TaskOverflowHandler();
+        final BlockingQueue<Runnable> worksQueue = new ArrayBlockingQueue<Runnable>(pageLinks.size());
+        final RejectedExecutionHandler executionHandler = new TaskOverflowHandler();
 
         // Create the ThreadPoolExecutor
-        ThreadPoolExecutor executor =
+        final ThreadPoolExecutor executor =
                 new ThreadPoolExecutor(POOL_SIZE, POOL_SIZE, 3, TimeUnit.SECONDS, worksQueue, executionHandler);
         executor.allowCoreThreadTimeOut(true);
 
-        Object callback = new Object();
+        final Object callback = new Object();
 
         // Starting the monitor thread as a daemon
-        Thread monitor = new Thread(new TasksMonitorThread(executor, callback), "TasksMonitorThread");
+        final Thread monitor = new Thread(new TasksMonitorThread(executor, callback), "TasksMonitorThread");
         monitor.setDaemon(true);
         monitor.start();
         // Adding the tasks
@@ -319,7 +343,7 @@ public class LinkChecker {
         LOG.info("Stopped the pool: " + executor.isShutdown());
     }
 
-    private String trim(String s, int width) {
+    private String trim(final String s, final int width) {
         if (s.length() > width) { return s.substring(0, width - 1) + "."; } else { return s; }
     }
 }

@@ -12,7 +12,7 @@
                 <http-response>HTTP/1.1 404 Not Found</http-response>
                 <content-type></content-type>
                 <content-length></content-length>
-                <scan-time>480</scan-time>
+                <scan-time>504</scan-time>
                 <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
@@ -23,8 +23,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>18242</content-length>
-                <scan-time>1945</scan-time>
+                <content-length>18237</content-length>
+                <scan-time>2472</scan-time>
                 <verified-thread>pool-1-thread-2</verified-thread>
             </link>
             <link>
@@ -35,8 +35,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>29789</content-length>
-                <scan-time>269</scan-time>
+                <content-length>29779</content-length>
+                <scan-time>624</scan-time>
                 <verified-thread>pool-1-thread-3</verified-thread>
             </link>
             <link>
@@ -47,8 +47,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>56218</content-length>
-                <scan-time>461</scan-time>
+                <content-length>56203</content-length>
+                <scan-time>257</scan-time>
                 <verified-thread>pool-1-thread-4</verified-thread>
             </link>
             <link>
@@ -59,8 +59,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>37129</content-length>
-                <scan-time>331</scan-time>
+                <content-length>37123</content-length>
+                <scan-time>287</scan-time>
                 <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
@@ -71,8 +71,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>71944</content-length>
-                <scan-time>791</scan-time>
+                <content-length>73956</content-length>
+                <scan-time>595</scan-time>
                 <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
@@ -83,8 +83,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>100982</content-length>
-                <scan-time>761</scan-time>
+                <content-length>101037</content-length>
+                <scan-time>745</scan-time>
                 <verified-thread>pool-1-thread-7</verified-thread>
             </link>
             <link>
@@ -95,8 +95,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>18066</content-length>
-                <scan-time>2066</scan-time>
+                <content-length>18738</content-length>
+                <scan-time>2463</scan-time>
                 <verified-thread>pool-1-thread-8</verified-thread>
             </link>
             <link>
@@ -107,8 +107,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>81124</content-length>
-                <scan-time>2234</scan-time>
+                <content-length>81140</content-length>
+                <scan-time>2413</scan-time>
                 <verified-thread>pool-1-thread-9</verified-thread>
             </link>
             <link>
@@ -120,7 +120,7 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>23890</content-length>
-                <scan-time>493</scan-time>
+                <scan-time>484</scan-time>
                 <verified-thread>pool-1-thread-10</verified-thread>
             </link>
             <link>
@@ -143,8 +143,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>74380</content-length>
-                <scan-time>216</scan-time>
+                <content-length>74378</content-length>
+                <scan-time>315</scan-time>
                 <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
@@ -155,8 +155,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>116498</content-length>
-                <scan-time>219</scan-time>
+                <content-length>116500</content-length>
+                <scan-time>316</scan-time>
                 <verified-thread>pool-1-thread-13</verified-thread>
             </link>
             <link>
@@ -167,8 +167,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>110145</content-length>
-                <scan-time>305</scan-time>
+                <content-length>112795</content-length>
+                <scan-time>403</scan-time>
                 <verified-thread>pool-1-thread-14</verified-thread>
             </link>
             <link>
@@ -179,8 +179,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>58136</content-length>
-                <scan-time>380</scan-time>
+                <content-length>55689</content-length>
+                <scan-time>356</scan-time>
                 <verified-thread>pool-1-thread-15</verified-thread>
             </link>
             <link>
@@ -191,8 +191,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>94136</content-length>
-                <scan-time>296</scan-time>
+                <content-length>94925</content-length>
+                <scan-time>340</scan-time>
                 <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
@@ -203,8 +203,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>96315</content-length>
-                <scan-time>313</scan-time>
+                <content-length>88986</content-length>
+                <scan-time>312</scan-time>
                 <verified-thread>pool-1-thread-17</verified-thread>
             </link>
             <link>
@@ -215,8 +215,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>92182</content-length>
-                <scan-time>392</scan-time>
+                <content-length>92150</content-length>
+                <scan-time>519</scan-time>
                 <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
@@ -227,8 +227,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>89067</content-length>
-                <scan-time>357</scan-time>
+                <content-length>99168</content-length>
+                <scan-time>319</scan-time>
                 <verified-thread>pool-1-thread-19</verified-thread>
             </link>
             <link>
@@ -239,8 +239,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>73968</content-length>
-                <scan-time>178</scan-time>
+                <content-length>73992</content-length>
+                <scan-time>264</scan-time>
                 <verified-thread>pool-1-thread-20</verified-thread>
             </link>
             <link>
@@ -251,8 +251,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>75760</content-length>
-                <scan-time>281</scan-time>
+                <content-length>73648</content-length>
+                <scan-time>337</scan-time>
                 <verified-thread>pool-1-thread-11</verified-thread>
             </link>
             <link>
@@ -264,8 +264,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>61237</content-length>
-                <scan-time>269</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <scan-time>235</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
             </link>
             <link>
                 <short-url>http://coins.shop.ebay.com</short-url>
@@ -275,9 +275,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>86241</content-length>
-                <scan-time>348</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <content-length>89061</content-length>
+                <scan-time>277</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
             </link>
             <link>
                 <short-url>http://collectibles.shop.ebay.com</short-url>
@@ -287,9 +287,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>170037</content-length>
-                <scan-time>554</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
+                <content-length>174262</content-length>
+                <scan-time>659</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://computers.shop.ebay.com</short-url>
@@ -299,9 +299,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>118627</content-length>
-                <scan-time>279</scan-time>
-                <verified-thread>pool-1-thread-3</verified-thread>
+                <content-length>131338</content-length>
+                <scan-time>259</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
             </link>
             <link>
                 <short-url>http://electronics.shop.ebay.com</short-url>
@@ -311,9 +311,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>109014</content-length>
-                <scan-time>278</scan-time>
-                <verified-thread>pool-1-thread-16</verified-thread>
+                <content-length>122259</content-length>
+                <scan-time>248</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
                 <short-url>http://crafts.shop.ebay.com</short-url>
@@ -323,9 +323,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>92623</content-length>
-                <scan-time>206</scan-time>
-                <verified-thread>pool-1-thread-11</verified-thread>
+                <content-length>94051</content-length>
+                <scan-time>259</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
             </link>
             <link>
                 <short-url>http://dolls.shop.ebay.com</short-url>
@@ -335,9 +335,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>66139</content-length>
-                <scan-time>252</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>66117</content-length>
+                <scan-time>237</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
             </link>
             <link>
                 <short-url>http://dvd.shop.ebay.com</short-url>
@@ -347,9 +347,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>153911</content-length>
-                <scan-time>266</scan-time>
-                <verified-thread>pool-1-thread-17</verified-thread>
+                <content-length>147624</content-length>
+                <scan-time>143</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
             </link>
             <link>
                 <short-url>http://entertainment-memorabilia.shop.eb</short-url>
@@ -359,9 +359,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>73775</content-length>
-                <scan-time>326</scan-time>
-                <verified-thread>pool-1-thread-5</verified-thread>
+                <content-length>77540</content-length>
+                <scan-time>267</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
                 <short-url>http://fashion.ebay.com</short-url>
@@ -371,9 +371,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>96699</content-length>
-                <scan-time>294</scan-time>
-                <verified-thread>pool-1-thread-19</verified-thread>
+                <content-length>96705</content-length>
+                <scan-time>195</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
             </link>
             <link>
                 <short-url>http://gift-certificates.shop.ebay.com</short-url>
@@ -383,9 +383,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>59858</content-length>
-                <scan-time>220</scan-time>
-                <verified-thread>pool-1-thread-15</verified-thread>
+                <content-length>59784</content-length>
+                <scan-time>278</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
             </link>
             <link>
                 <short-url>http://health-beauty.shop.ebay.com</short-url>
@@ -395,9 +395,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>102086</content-length>
-                <scan-time>665</scan-time>
-                <verified-thread>pool-1-thread-18</verified-thread>
+                <content-length>109082</content-length>
+                <scan-time>619</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
             </link>
             <link>
                 <short-url>http://home.shop.ebay.com</short-url>
@@ -407,9 +407,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>76424</content-length>
-                <scan-time>304</scan-time>
-                <verified-thread>pool-1-thread-4</verified-thread>
+                <content-length>83390</content-length>
+                <scan-time>225</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
             </link>
             <link>
                 <short-url>http://jewelry.shop.ebay.com</short-url>
@@ -419,9 +419,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>95886</content-length>
-                <scan-time>365</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <content-length>107423</content-length>
+                <scan-time>356</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
                 <short-url>http://music.shop.ebay.com</short-url>
@@ -431,9 +431,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>71280</content-length>
-                <scan-time>241</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <content-length>63783</content-length>
+                <scan-time>213</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
             </link>
             <link>
                 <short-url>http://instruments.shop.ebay.com</short-url>
@@ -443,9 +443,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>84909</content-length>
-                <scan-time>246</scan-time>
-                <verified-thread>pool-1-thread-1</verified-thread>
+                <content-length>87519</content-length>
+                <scan-time>213</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
                 <short-url>http://pet-supplies.shop.ebay.com</short-url>
@@ -455,9 +455,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>71661</content-length>
-                <scan-time>283</scan-time>
-                <verified-thread>pool-1-thread-11</verified-thread>
+                <content-length>83329</content-length>
+                <scan-time>304</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
             </link>
             <link>
                 <short-url>http://pottery-glass.shop.ebay.com</short-url>
@@ -467,9 +467,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>48415</content-length>
-                <scan-time>228</scan-time>
-                <verified-thread>pool-1-thread-3</verified-thread>
+                <content-length>48311</content-length>
+                <scan-time>285</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
             </link>
             <link>
                 <short-url>http://realestate.shop.ebay.com</short-url>
@@ -479,9 +479,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>70252</content-length>
-                <scan-time>436</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <content-length>69807</content-length>
+                <scan-time>345</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
             </link>
             <link>
                 <short-url>http://services.shop.ebay.com</short-url>
@@ -491,9 +491,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>67278</content-length>
-                <scan-time>256</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>55846</content-length>
+                <scan-time>299</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
             </link>
             <link>
                 <short-url>http://sports-cards.shop.ebay.com</short-url>
@@ -503,9 +503,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>87064</content-length>
-                <scan-time>412</scan-time>
-                <verified-thread>pool-1-thread-16</verified-thread>
+                <content-length>87549</content-length>
+                <scan-time>229</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
                 <short-url>http://sporting-goods.shop.ebay.com</short-url>
@@ -515,9 +515,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>79840</content-length>
-                <scan-time>392</scan-time>
-                <verified-thread>pool-1-thread-17</verified-thread>
+                <content-length>97796</content-length>
+                <scan-time>355</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
             </link>
             <link>
                 <short-url>http://stamps.shop.ebay.com</short-url>
@@ -527,9 +527,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>116758</content-length>
-                <scan-time>247</scan-time>
-                <verified-thread>pool-1-thread-15</verified-thread>
+                <content-length>108667</content-length>
+                <scan-time>315</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com/tickets</short-url>
@@ -539,9 +539,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>53506</content-length>
-                <scan-time>110</scan-time>
-                <verified-thread>pool-1-thread-5</verified-thread>
+                <content-length>53893</content-length>
+                <scan-time>233</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
             </link>
             <link>
                 <short-url>http://toys.shop.ebay.com</short-url>
@@ -551,9 +551,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>137256</content-length>
-                <scan-time>394</scan-time>
-                <verified-thread>pool-1-thread-19</verified-thread>
+                <content-length>134386</content-length>
+                <scan-time>323</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
                 <short-url>http://travel.shop.ebay.com</short-url>
@@ -563,9 +563,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>67095</content-length>
-                <scan-time>247</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <content-length>72371</content-length>
+                <scan-time>232</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
             </link>
             <link>
                 <short-url>http://video-games.shop.ebay.com</short-url>
@@ -575,9 +575,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>70028</content-length>
-                <scan-time>232</scan-time>
-                <verified-thread>pool-1-thread-1</verified-thread>
+                <content-length>73549</content-length>
+                <scan-time>242</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
             </link>
             <link>
                 <short-url>http://everythingelse.shop.ebay.com</short-url>
@@ -587,9 +587,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>71516</content-length>
-                <scan-time>332</scan-time>
-                <verified-thread>pool-1-thread-7</verified-thread>
+                <content-length>71682</content-length>
+                <scan-time>427</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
             </link>
             <link>
                 <short-url>http://fashion.ebay.com</short-url>
@@ -599,9 +599,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>96713</content-length>
-                <scan-time>201</scan-time>
-                <verified-thread>pool-1-thread-4</verified-thread>
+                <content-length>96705</content-length>
+                <scan-time>168</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
             </link>
             <link>
                 <short-url>http://fashion.ebay.com/womens-clothing</short-url>
@@ -611,9 +611,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>145731</content-length>
-                <scan-time>200</scan-time>
-                <verified-thread>pool-1-thread-5</verified-thread>
+                <content-length>145544</content-length>
+                <scan-time>256</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
                 <short-url>http://fashion.ebay.com/womens-shoes</short-url>
@@ -623,9 +623,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>134165</content-length>
-                <scan-time>181</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
+                <content-length>135517</content-length>
+                <scan-time>159</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
                 <short-url>http://fashion.ebay.com/handbags/Handbag</short-url>
@@ -635,9 +635,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>133751</content-length>
-                <scan-time>613</scan-time>
-                <verified-thread>pool-1-thread-3</verified-thread>
+                <content-length>134094</content-length>
+                <scan-time>415</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
             </link>
             <link>
                 <short-url>http://clothing.shop.ebay.com/4251/i.htm</short-url>
@@ -647,9 +647,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>139613</content-length>
-                <scan-time>709</scan-time>
-                <verified-thread>pool-1-thread-6</verified-thread>
+                <content-length>140044</content-length>
+                <scan-time>746</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
             </link>
             <link>
                 <short-url>http://fashion.ebay.com/mens-clothing</short-url>
@@ -659,9 +659,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>142833</content-length>
-                <scan-time>156</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>143828</content-length>
+                <scan-time>133</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
             </link>
             <link>
                 <short-url>http://fashion.ebay.com/mens-shoes</short-url>
@@ -671,9 +671,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>133811</content-length>
-                <scan-time>161</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <content-length>135131</content-length>
+                <scan-time>162</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
             </link>
             <link>
                 <short-url>http://clothing.shop.ebay.com/4250/i.htm</short-url>
@@ -683,9 +683,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>144589</content-length>
-                <scan-time>675</scan-time>
-                <verified-thread>pool-1-thread-15</verified-thread>
+                <content-length>143938</content-length>
+                <scan-time>605</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
                 <short-url>http://clothing.shop.ebay.com/171146/i.h</short-url>
@@ -695,9 +695,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>143748</content-length>
-                <scan-time>972</scan-time>
-                <verified-thread>pool-1-thread-11</verified-thread>
+                <content-length>139075</content-length>
+                <scan-time>758</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
                 <short-url>http://clothing.shop.ebay.com/3082/i.htm</short-url>
@@ -707,9 +707,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>144838</content-length>
-                <scan-time>755</scan-time>
-                <verified-thread>pool-1-thread-4</verified-thread>
+                <content-length>137860</content-length>
+                <scan-time>720</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
             </link>
             <link>
                 <short-url>http://fashionvault.ebay.com</short-url>
@@ -719,9 +719,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>23802</content-length>
-                <scan-time>374</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
+                <content-length>23812</content-length>
+                <scan-time>268</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
             </link>
             <link>
                 <short-url>http://www.motors.ebay.com</short-url>
@@ -731,9 +731,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>74002</content-length>
-                <scan-time>139</scan-time>
-                <verified-thread>pool-1-thread-1</verified-thread>
+                <content-length>74006</content-length>
+                <scan-time>73</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://parts.motors.ebay.com/Parts-Acces</short-url>
@@ -744,8 +744,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=utf-8</content-type>
                 <content-length>92206</content-length>
-                <scan-time>59</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <scan-time>390</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
                 <short-url>http://motors.shop.ebay.com/6001/i.html</short-url>
@@ -755,9 +755,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>179356</content-length>
-                <scan-time>577</scan-time>
-                <verified-thread>pool-1-thread-5</verified-thread>
+                <content-length>180546</content-length>
+                <scan-time>664</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
             </link>
             <link>
                 <short-url>http://motors.shop.ebay.com/6024/i.html</short-url>
@@ -767,9 +767,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>173754</content-length>
-                <scan-time>324</scan-time>
-                <verified-thread>pool-1-thread-17</verified-thread>
+                <content-length>173021</content-length>
+                <scan-time>279</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
             </link>
             <link>
                 <short-url>http://motors.shop.ebay.com/66466/i.html</short-url>
@@ -779,9 +779,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>150990</content-length>
-                <scan-time>281</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>150228</content-length>
+                <scan-time>240</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
             </link>
             <link>
                 <short-url>http://motors.shop.ebay.com/26429/i.html</short-url>
@@ -791,9 +791,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>155217</content-length>
-                <scan-time>308</scan-time>
-                <verified-thread>pool-1-thread-16</verified-thread>
+                <content-length>154653</content-length>
+                <scan-time>325</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
             </link>
             <link>
                 <short-url>http://motors.shop.ebay.com/6038/i.html</short-url>
@@ -803,8 +803,8 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>164056</content-length>
-                <scan-time>319</scan-time>
+                <content-length>163982</content-length>
+                <scan-time>282</scan-time>
                 <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
@@ -816,8 +816,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=utf-8</content-type>
                 <content-length>50580</content-length>
-                <scan-time>103</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <scan-time>346</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://garage.motors.ebay.com/</short-url>
@@ -828,20 +828,20 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=utf-8</content-type>
                 <content-length>133491</content-length>
-                <scan-time>60</scan-time>
+                <scan-time>304</scan-time>
                 <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
                 <short-url>http://electronics-technology.shop.ebay.</short-url>
                 <url>http://electronics-technology.shop.ebay.com</url>
-                <caption>Electronics &amp; Technology</caption>
+                <caption>Electronics</caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>101591</content-length>
-                <scan-time>249</scan-time>
-                <verified-thread>pool-1-thread-19</verified-thread>
+                <content-length>107739</content-length>
+                <scan-time>245</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
             </link>
             <link>
                 <short-url>http://photography.shop.ebay.com</short-url>
@@ -851,9 +851,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>89070</content-length>
-                <scan-time>293</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <content-length>102695</content-length>
+                <scan-time>318</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
             </link>
             <link>
                 <short-url>http://cell-phones.shop.ebay.com</short-url>
@@ -863,9 +863,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>75782</content-length>
-                <scan-time>223</scan-time>
-                <verified-thread>pool-1-thread-7</verified-thread>
+                <content-length>68149</content-length>
+                <scan-time>219</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
             </link>
             <link>
                 <short-url>http://computers.shop.ebay.com</short-url>
@@ -875,9 +875,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>118614</content-length>
-                <scan-time>363</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <content-length>124994</content-length>
+                <scan-time>246</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
             </link>
             <link>
                 <short-url>http://electronics.shop.ebay.com</short-url>
@@ -887,9 +887,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>109025</content-length>
-                <scan-time>289</scan-time>
-                <verified-thread>pool-1-thread-18</verified-thread>
+                <content-length>115955</content-length>
+                <scan-time>263</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
             </link>
             <link>
                 <short-url>http://collectibles-art.shop.ebay.com</short-url>
@@ -899,9 +899,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>165781</content-length>
-                <scan-time>286</scan-time>
-                <verified-thread>pool-1-thread-1</verified-thread>
+                <content-length>149422</content-length>
+                <scan-time>274</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
             </link>
             <link>
                 <short-url>http://antiques.shop.ebay.com</short-url>
@@ -911,9 +911,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>110351</content-length>
-                <scan-time>220</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>115597</content-length>
+                <scan-time>302</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
             </link>
             <link>
                 <short-url>http://art.shop.ebay.com</short-url>
@@ -923,9 +923,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>59960</content-length>
-                <scan-time>229</scan-time>
-                <verified-thread>pool-1-thread-7</verified-thread>
+                <content-length>55681</content-length>
+                <scan-time>250</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
                 <short-url>http://coins.shop.ebay.com</short-url>
@@ -935,9 +935,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>91779</content-length>
-                <scan-time>335</scan-time>
-                <verified-thread>pool-1-thread-16</verified-thread>
+                <content-length>90443</content-length>
+                <scan-time>239</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
             </link>
             <link>
                 <short-url>http://collectibles.shop.ebay.com</short-url>
@@ -947,9 +947,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>170081</content-length>
-                <scan-time>524</scan-time>
-                <verified-thread>pool-1-thread-19</verified-thread>
+                <content-length>170112</content-length>
+                <scan-time>655</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
             </link>
             <link>
                 <short-url>http://dolls.shop.ebay.com/</short-url>
@@ -959,9 +959,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>66197</content-length>
-                <scan-time>209</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <content-length>75835</content-length>
+                <scan-time>219</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
                 <short-url>http://entertainment-memorabilia.shop.eb</short-url>
@@ -971,9 +971,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>77557</content-length>
-                <scan-time>238</scan-time>
-                <verified-thread>pool-1-thread-17</verified-thread>
+                <content-length>77524</content-length>
+                <scan-time>250</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
                 <short-url>http://sports-cards.shop.ebay.com/</short-url>
@@ -983,9 +983,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>87076</content-length>
-                <scan-time>234</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
+                <content-length>87008</content-length>
+                <scan-time>278</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://stamps.shop.ebay.com/</short-url>
@@ -995,9 +995,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>111375</content-length>
-                <scan-time>269</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <content-length>108654</content-length>
+                <scan-time>242</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
             </link>
             <link>
                 <short-url>http://home-outdoors-decor.shop.ebay.com</short-url>
@@ -1007,9 +1007,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>134956</content-length>
-                <scan-time>240</scan-time>
-                <verified-thread>pool-1-thread-3</verified-thread>
+                <content-length>133078</content-length>
+                <scan-time>217</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
             </link>
             <link>
                 <short-url>http://baby.shop.ebay.com</short-url>
@@ -1019,9 +1019,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>94155</content-length>
-                <scan-time>204</scan-time>
-                <verified-thread>pool-1-thread-18</verified-thread>
+                <content-length>92566</content-length>
+                <scan-time>190</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
             </link>
             <link>
                 <short-url>http://crafts.shop.ebay.com</short-url>
@@ -1031,9 +1031,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>86835</content-length>
-                <scan-time>313</scan-time>
-                <verified-thread>pool-1-thread-1</verified-thread>
+                <content-length>94027</content-length>
+                <scan-time>261</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
             </link>
             <link>
                 <short-url>http://home.shop.ebay.com</short-url>
@@ -1043,9 +1043,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>80568</content-length>
-                <scan-time>297</scan-time>
-                <verified-thread>pool-1-thread-6</verified-thread>
+                <content-length>88936</content-length>
+                <scan-time>308</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
                 <short-url>http://pet-supplies.shop.ebay.com</short-url>
@@ -1055,9 +1055,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>69450</content-length>
-                <scan-time>198</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>76495</content-length>
+                <scan-time>227</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
             </link>
             <link>
                 <short-url>http://sporting-goods.shop.ebay.com</short-url>
@@ -1067,9 +1067,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>82797</content-length>
-                <scan-time>257</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <content-length>92238</content-length>
+                <scan-time>243</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
                 <short-url>http://toys.shop.ebay.com</short-url>
@@ -1079,9 +1079,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>133163</content-length>
-                <scan-time>387</scan-time>
-                <verified-thread>pool-1-thread-15</verified-thread>
+                <content-length>134395</content-length>
+                <scan-time>351</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
             </link>
             <link>
                 <short-url>http://movies-music-games.shop.ebay.com</short-url>
@@ -1091,9 +1091,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>69559</content-length>
-                <scan-time>176</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <content-length>68899</content-length>
+                <scan-time>261</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
                 <short-url>http://dvd.shop.ebay.com</short-url>
@@ -1103,9 +1103,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>154030</content-length>
-                <scan-time>221</scan-time>
-                <verified-thread>pool-1-thread-7</verified-thread>
+                <content-length>149274</content-length>
+                <scan-time>266</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
             </link>
             <link>
                 <short-url>http://music.shop.ebay.com</short-url>
@@ -1115,9 +1115,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>65611</content-length>
-                <scan-time>222</scan-time>
-                <verified-thread>pool-1-thread-17</verified-thread>
+                <content-length>68970</content-length>
+                <scan-time>197</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
                 <short-url>http://video-games.shop.ebay.com</short-url>
@@ -1127,33 +1127,33 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>75255</content-length>
-                <scan-time>183</scan-time>
-                <verified-thread>pool-1-thread-5</verified-thread>
+                <content-length>73625</content-length>
+                <scan-time>190</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
             </link>
             <link>
-                <short-url>http://deals.ebay.com</short-url>
-                <url>http://deals.ebay.com</url>
+                <short-url>http://deals.ebay.com/?_trksid=p5197.m21</short-url>
+                <url>http://deals.ebay.com/?_trksid=p5197.m21</url>
                 <caption>Deals &amp; Gifts</caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>156727</content-length>
-                <scan-time>316</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
+                <content-length>154211</content-length>
+                <scan-time>421</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
             </link>
             <link>
-                <short-url>http://deals.ebay.com</short-url>
-                <url>http://deals.ebay.com</url>
+                <short-url>http://deals.ebay.com/?_trksid=p5197.m13</short-url>
+                <url>http://deals.ebay.com/?_trksid=p5197.m1386</url>
                 <caption>Daily Deals</caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>157166</content-length>
-                <scan-time>281</scan-time>
-                <verified-thread>pool-1-thread-18</verified-thread>
+                <content-length>154209</content-length>
+                <scan-time>907</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
             </link>
             <link>
                 <short-url>http://dealfinder.ebay.com</short-url>
@@ -1163,9 +1163,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=utf-8</content-type>
-                <content-length>183117</content-length>
-                <scan-time>3148</scan-time>
-                <verified-thread>pool-1-thread-3</verified-thread>
+                <content-length>179439</content-length>
+                <scan-time>3108</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
             </link>
             <link>
                 <short-url>http://giftcard.ebay.com</short-url>
@@ -1176,8 +1176,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>38157</content-length>
-                <scan-time>92</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <scan-time>96</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://brands.ebay.com</short-url>
@@ -1187,9 +1187,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>29209</content-length>
-                <scan-time>252</scan-time>
-                <verified-thread>pool-1-thread-16</verified-thread>
+                <content-length>29205</content-length>
+                <scan-time>155</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebayclassifieds.com</short-url>
@@ -1200,7 +1200,7 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>31496</content-length>
-                <scan-time>171</scan-time>
+                <scan-time>78</scan-time>
                 <verified-thread>pool-1-thread-4</verified-thread>
             </link>
             <link>
@@ -1211,9 +1211,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>31054</content-length>
-                <scan-time>79</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>31053</content-length>
+                <scan-time>56</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/help/buy/basics.ht</short-url>
@@ -1223,9 +1223,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>33157</content-length>
-                <scan-time>53</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <content-length>33156</content-length>
+                <scan-time>120</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/sellerinformation/</short-url>
@@ -1236,8 +1236,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>29369</content-length>
-                <scan-time>102</scan-time>
-                <verified-thread>pool-1-thread-1</verified-thread>
+                <scan-time>97</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/sellerinformation/</short-url>
@@ -1248,8 +1248,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>29133</content-length>
-                <scan-time>117</scan-time>
-                <verified-thread>pool-1-thread-5</verified-thread>
+                <scan-time>110</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/coverage/index.htm</short-url>
@@ -1260,8 +1260,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>23890</content-length>
-                <scan-time>52</scan-time>
-                <verified-thread>pool-1-thread-7</verified-thread>
+                <scan-time>53</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/coverage/index.htm</short-url>
@@ -1272,8 +1272,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>23890</content-length>
-                <scan-time>54</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <scan-time>66</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/topratedsellers/in</short-url>
@@ -1284,8 +1284,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>28060</content-length>
-                <scan-time>50</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <scan-time>84</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/topratedsellers/in</short-url>
@@ -1296,8 +1296,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>28060</content-length>
-                <scan-time>67</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <scan-time>182</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
                 <short-url>http://www.paypal.com</short-url>
@@ -1308,8 +1308,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=UTF-8</content-type>
                 <content-length>0</content-length>
-                <scan-time>2587</scan-time>
-                <verified-thread>pool-1-thread-17</verified-thread>
+                <scan-time>1836</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://www.paypal.com</short-url>
@@ -1320,8 +1320,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=UTF-8</content-type>
                 <content-length>0</content-length>
-                <scan-time>1807</scan-time>
-                <verified-thread>pool-1-thread-6</verified-thread>
+                <scan-time>1668</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
             </link>
             <link>
                 <short-url>http://signin.ebay.com/ws/eBayISAPI.dll?</short-url>
@@ -1331,9 +1331,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>18111</content-length>
-                <scan-time>222</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>18108</content-length>
+                <scan-time>599</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
             </link>
             <link>
                 <short-url>https://scgi.ebay.com/ws/eBayISAPI.dll?R</short-url>
@@ -1343,21 +1343,21 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>81136</content-length>
-                <scan-time>366</scan-time>
-                <verified-thread>pool-1-thread-7</verified-thread>
+                <content-length>81134</content-length>
+                <scan-time>427</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PT4uDMBDF74LfQVjaW9QkaqIQlt0u9CSV3e5NKPFP21A1IcaVfvsd%2By7zmzfvHeat1FNQymdAaICTImFFSoLy5xyQGGPfs4u4O2fqIorWdQ37Rj7DVo9R627RhzFDj1SlO%2BT00t4RtR069lNvpVN6QpSg4yeKGCjlWfp%2B%2FWvnWhAe5%2FvLtR2A8f7iZAMeTPuYVVcLk%2BKchSOJQSl7%2BUbaEcJyuOkd%2FTqfqur7tCOZcjOshxctQL%2BHjbWbgHECaLZ7Rn1PagGvSNUJkiWUMt9rOsESknPuewpsTDmnnPGMMBJTlsYQsY%2Bt9A9v%2BlL%2BHwEAAA%3D%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742988&amp;m=167560&amp;pi=5197</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PT2uDQBDF74LfQSjJbdWdXXdVkNKmkFOItPYmhPVPEom6i66VfPuOeZf5zZsZmPdWLK13Uk8PuEdFGsmUg3f6KTwIKXWdacnu1poyDYJ1Xf22Uk%2B%2F1kNQ21vwYUzfki7XDbF6qe%2BETQ05tmM7KdvpkTAgx08SSFQUi%2Bj9%2BlfPZQZxmOwv17pHpvuLVRV6WKfH3DVlZiKaSH%2BAEBXJl2%2FUNOCy6m96x76Kc55%2Fn3cgOjtje3jRgvR72FjbEZlyRLPNBXMdpTOMoromA8EZk65TNZnkkMSx63RoU8EpgMAvRSyBAgdM%2FtiO%2FgH6qI3LHwEAAA%3D%3D&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=742988&amp;m=167560&amp;pi=5197</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>199102</content-length>
-                <scan-time>746</scan-time>
-                <verified-thread>pool-1-thread-11</verified-thread>
+                <content-length>199401</content-length>
+                <scan-time>924</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
@@ -1367,21 +1367,21 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>197492</content-length>
-                <scan-time>804</scan-time>
-                <verified-thread>pool-1-thread-19</verified-thread>
+                <content-length>196963</content-length>
+                <scan-time>669</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaW9RMoolCWHa70JO07HZvQokfbUPVhBhX%2Bu837VzmeZ95L%2FNW6Smq5CMCEmFaUlZmEFU%2FpwhSjMPALuLmnKnLJFnXNe4b%2BYhbPSatuyYfxgw9UkfdIaeX9oaI7dC%2Bn3orndIT4mj%2FiZICOOUp4%2B%2BXv3auBfC02J4v7eAZb89ONt75be%2Bz6mphMlyweITUT8Ze3kg7%2BrIcrnpDvk6H4%2FH7sIFcudnH3YsWT7%2B7J2s3ecbUo3necxIGUgv%2FiVSdgJwSwsKg6QSjUPAiDJTXmHBOOOM5MEgJy1JfsXcBYfAPsktcLB4BAAA%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742989&amp;m=167560&amp;pi=5197</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaW9SMMYlCWHa70FNp2XVvQokfbUPViMaV%2Fvuddg4zzzwzl%2FetWNrgoB8BsIDyPBU5g%2BDwUwQQU%2Bp706Juzo1lHkXruoZtpR9hbfuodtfoYxy7lpiTbYizS30jydSQfTu0k3bGDkSS%2FSeJMpBMxkK%2BX%2F7quVQg42x7vtQdMt2ena7Q4Zzus2lKNaY0E2EPMVYqXn7UU4%2FPurvaTfJVHE%2Bn7%2BMGuHEzrrsXLUi%2FuydbNyBThjg%2B7zzxPW0VJtGmUcBZkgjfqxolGGQy8z2DmnJGAXgqOZcCKDDA4HeF%2FR8FiyGPHgEAAA%3D%3D&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=742989&amp;m=167560&amp;pi=5197</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>183951</content-length>
-                <scan-time>584</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <content-length>186017</content-length>
+                <scan-time>1024</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
@@ -1391,21 +1391,21 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>183118</content-length>
-                <scan-time>524</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <content-length>184023</content-length>
+                <scan-time>771</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaWzQfahIhLLtd6Eladrs3ocSPtqFqgsaV%2Fvuddi7zzDPvHOattGNU6kdEWUTSIuVFRqPy5xRRTEgYTIu6ee%2BqIknWdY27Wj%2Fixg5J46%2FJh3N9h8zRtsjbpbkhMnu078Zu0t7YEQm0%2F0QJl5hKmvH3y18zV4oKLLfnS9MDk%2B3Z6xoc9Ok%2Bm7ZSLiOSxwPFUBl%2FeaenAcK6v9oN%2Bzodjsfvw4bmxs8w7l60AP3unmz9CExSQPfc5ywMtFXwiTatonnKGA%2BDulU8pVLiMDCgCROCCS5yyilmPMMQme4KTv8B7intVh4BAAA%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742990&amp;m=167560&amp;pi=5197</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaW9SMMTFCWHa70FNp2XVvQokfbUPViMaV%2Fvuddi7zzDMzh%2FetWNrgoB8BsIDyPBU5g%2BDwUwQQU%2Bp706Juzo1lHkXruoZtpR9hbfuodtfoYxy7lpiTbYizS30jdHZk3w7tpJ2xA8nI%2FpNEQsYgIRXvl796LhVksdyeL3WHTLdnpyt02Kf7bJpSjSmVIuwhxkrFy4966vFYd1e7Sb6K4%2Bn0fdwAN27GcfeiBel392TrBmTKEMfnnie%2Bp63CJNo0CjhLEuF7VaMEAylj3zOoKWcUgKcZ55kACgww%2BF3h6z9Z6ZD1HgEAAA%3D%3D&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=742990&amp;m=167560&amp;pi=5197</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>182184</content-length>
-                <scan-time>680</scan-time>
-                <verified-thread>pool-1-thread-1</verified-thread>
+                <content-length>178558</content-length>
+                <scan-time>909</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
@@ -1415,21 +1415,45 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>180520</content-length>
-                <scan-time>670</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <content-length>176510</content-length>
+                <scan-time>683</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2Py2qDQBSG94LvIJRkNzoX56IwlDaFrCShTXdCGC9JhqgjOlby9j3J2Zzv%2F86%2FOW%2BFG6LCPCLKIpLmqcw5jYqfU0QxIWEwLfrm%2FVjmSbKua9xW5hHXrk9qf00%2BxrFrkT26Bnm31DdEhwbt26GdjLduQESg%2FSdKJBZcca7eL3%2F1XGqqcLY9X%2BoOmGzP3lTgYE%2F32TalHjnJZNxTDMPly49m6qFsuqvbsK%2FT4Xj8PmyosH6GuHvRAvS7e7LzAzBJAcfnXbAwME7DK8Y2moqUMRkGVaNlSrMMtAVNmFJMSSWopJhJjqEy3XUaBv9jozfEHwEAAA%3D%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742991&amp;m=167560&amp;pi=5197</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2QTYuDMBCG74L%2FQVjaW9SMSfyAsGy70FNp2bo3ocRo2%2BAnGlf673fauczzPjOXmY98qb2jenrAPCoyHmcMvOMl9yCk1HWmRT6sHYssCNZ19etSPX09dIG29%2BBrHNuamPNQEd2qeTaacPsgh7qvJ2XN0JNdq3RDopAcdiQQoeBcCPi8%2Fem5kJCE6fZ60y0y3V6tKtFhn5rZVIUcOU1jv4MQi8dvP6qpw2XV3odN9J2fzuef0waEsTPG%2FZsWpN%2F9iwfbI1OGOL7mInIdNUg8SZlKgmBRFLtOWcmYQZqiNqipYBRA8ESIJAYKDPADjWSu8w%2F4%2BCvUJwEAAA%3D%3D&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=742991&amp;m=167560&amp;pi=5197</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>188294</content-length>
-                <scan-time>631</scan-time>
-                <verified-thread>pool-1-thread-5</verified-thread>
+                <content-length>203522</content-length>
+                <scan-time>1046</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
+            </link>
+            <link>
+                <short-url>http://www.ebay.com/ctg/Apple-iPod-class</short-url>
+                <url>http://www.ebay.com/ctg/Apple-iPod-classic-5th-Generation-Black-30-GB-/60655662</url>
+                <caption>Apple iPod classic 5th Generation .</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>201493</content-length>
+                <scan-time>557</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTWuDQBCG74L%2FQSjJbdUd90OFpbQp5BQSWnsTwvqRZIm6omsl%2F76TzGWe95k5zLwVSxsc9CMAFlCRc5kzCA4%2FRQAxpb43Lerm3FjmUbSua9hW%2BhHWto9qd40%2BxrFriTnZhji71DcCQ0P27dBO2hk7ECrI%2FpNEMhY85Tx9v%2FzVc6kgjbPt%2BVJ3yHR7drpCh326z6Yp1chpJsMeYiwuX37UU4%2FLurvaTfJVHE%2Bn7%2BMGhHEzxt2LFqTf3ZOtG5ApQxyfc5H4nrYKX9GmUSBYkkjfqxolGWQZ%2BJ5BTQWjAHimEKkECgz9dFfc9%2F4B1Co9qx8BAAA%3D&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=742992&amp;m=167560&amp;pi=5197</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>190288</content-length>
+                <scan-time>924</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
@@ -1439,21 +1463,21 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>183912</content-length>
-                <scan-time>602</scan-time>
-                <verified-thread>pool-1-thread-4</verified-thread>
+                <content-length>187591</content-length>
+                <scan-time>837</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PwYqDMBCG74LvICztLWom0UQhLLtd6GWlpdu9CSVqWkPViMaVvv2mnct8%2Fzf%2FZd4KMwSFfARAAkxzyvIEguLnHECMse9Ni2itHcs8itZ1DVUlH2Ft%2Bqi2t%2BhjHDuF9NE0yJqlbhG1LdqrQU3SajMgAmj%2Fib6lVbNFhWlUh6IMCCUcx%2B%2FXv3ouBfA4216udecYby9WVs65Pd1n3ZRiTHDGwh5iNwl7%2BVFOvSvL7mY25Ot8OB5Phw2k2s4u7l60OPrdPdnYwTGmDsfnPSW%2BJ41wf0ndCEgpIcz3qkYwClkGvqedxoRzwhlPgUFMWBK7ynQXie%2F9AwX4OVwsAQAA&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742992&amp;m=167560&amp;pi=5197</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2QwYqDMBCG74LvICztLdVMYqKFsOx2oZeVSte9FUqqaZWqEY0rffuddi7zzffPZeatmE2Q6UcAPKBiG8sthyD7KQKIKPW9cVa1c8NpG4bLsmzMRT82pe3C0t3Cj2FoDWlyWxFn57Im3NVkb3ozatfYnjAg%2B0%2FyrZ2ZHMlsZVoSpsA4S2j0fv0rp5OCJErX52vZItP12ekLOuzjfWqqkxpimspNBxFWLF9%2B0GOHy7q92RX7Kg55fjysQDRuwnH3ohnpd%2Fdk63pkyhGHZy6Y72mr8C7dVAoEZ0z63qVSkkOaYtigpoJTABEnQiQSKHDAN9yV8L1%2F7x%2BXgywBAAA%3D&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=742993&amp;m=167560&amp;pi=5197</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>187616</content-length>
-                <scan-time>684</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
+                <content-length>192148</content-length>
+                <scan-time>759</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
@@ -1463,21 +1487,21 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>186213</content-length>
-                <scan-time>746</scan-time>
+                <content-length>190558</content-length>
+                <scan-time>639</scan-time>
                 <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaW9R8aFQIy24XepKWbXsTSvxoN1STENNK%2F%2F1OO5d55nnfy3zURke1fEaERphVjFcZierDMSIpxmHg7uLPe9tUSbIsSzy08hl3Zko6f02%2BrB0HpPamR1pqg6jr0XbQg5NeGY0OanwMDjG0%2FUZJTrKCUpZ9Xh7d3AhSpOX6fOlGYLw%2Be9mCg%2B1us%2BobYTNc8ngiKUzG395KN0FZjlezoj%2FH3X7%2Fu1uRXPkZzs2b7kCnzYuN18CYAdpXntMwkEbAP1L1guSMUh4GbS84I2UJoQKNaVHQghc54SSlPEuh4m4iD4N%2FEiyP%2BCQBAAA%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742993&amp;m=167560&amp;pi=5197</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaW9RMYvyAsOx2oadS2dqbUOJHu6FqRGOl%2F36nncs888x7eT%2BKpfUO6ukB96jIojjj4B1OhQchpa4zLfLP2rHMgmBdV7%2Bt1NOvTR%2FU9hZ8jWPXEp2bhgxqMIRNDdm3Qzspq81ATrp7tBPhZP9NAgFRwhiPPq%2BPei4lJGG6vVzrDpluL1ZV6HBP91k3pRwjmsZ%2BDyFOFL%2F9qKYew6q7mQ37KY55%2FnvcgNB2xnP3pgXpvHuxsQMy5Yjj6y%2BY6ygjsY%2FSjQTBGYtdp2pkzCFNueto1FRwCiCiRIgkBgocsP5dYvAfWY0yQCQBAAA%3D&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=742994&amp;m=167560&amp;pi=5197</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>189421</content-length>
-                <scan-time>854</scan-time>
-                <verified-thread>pool-1-thread-15</verified-thread>
+                <content-length>185831</content-length>
+                <scan-time>802</scan-time>
+                <verified-thread>pool-1-thread-9</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com/ctg/Apple-iPod-nano-</short-url>
@@ -1487,20 +1511,20 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>185918</content-length>
-                <scan-time>624</scan-time>
-                <verified-thread>pool-1-thread-16</verified-thread>
+                <content-length>183569</content-length>
+                <scan-time>997</scan-time>
+                <verified-thread>pool-1-thread-8</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTWuDQBCG74L%2FQSjJbXW%2FdFdhKU0KuVQS2vQmhHU1yeLHim4a8u87yRxmnnnmvcxb6cao1I%2BIsojwgosipVH5c4woJiQM5pu6ej9VRZLc7%2Fe4rfUjNm5IjL8kH9PUt8geXINMr5fFGiT8Fe3asZ21t25Em16bDpEMo90GfWnfLh6Vrml7lMhU5lhw%2FH7%2BM0ulqMT5%2BnQ2PTBZn7yuwcGcu8U2lZpSkot4oBgqFS8%2F6XmAsO4vbsU%2Bj%2FvD4Xu%2Fopn1C6zbF92AfrdPdn4EJhxwet4zFgbaKXhQ20bRjDMmwqBulOA0z3kYWNCEScmkkBkVFDORYojMnYL%2BD%2B8%2Brh81AQAA&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742994&amp;m=167560&amp;pi=5197</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2QTYuDMBCG74L%2FQVjaW9SMMVEhLNsu9LLSsuvehBJj2gY%2FIhq39N9v2rnM8z4zl5m3alVBKR4BkADTImUFgaD8qQKIMfa9eeU3a6e6iKL7%2FR6qRjxCaYZI2mv0MU29QvpkWiR7sSxaImZv6KBGNQurzYh2vZAdwjRGhx36ElYtFpWmVT2KsjTLY0bi98ufXGoOWZxvzxfZO8bbsxWNc67P3aLbmk8pzlk4QOwqZS8%2FiXlwy6K%2Fmk3yWR1Pp%2B%2FjBqi2i4v7F62OfvdPNnZ0jInD6Tmnie8Jw92BQrccKEkS5ntNyxmBPE99TzuNKcEANM0ozRhgIOD%2B0fHM9%2F4BD9fo9zUBAAA%3D&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=742995&amp;m=167560&amp;pi=5197</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>181278</content-length>
-                <scan-time>1042</scan-time>
+                <content-length>180962</content-length>
+                <scan-time>721</scan-time>
                 <verified-thread>pool-1-thread-2</verified-thread>
             </link>
             <link>
@@ -1511,21 +1535,21 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>179079</content-length>
-                <scan-time>623</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>175161</content-length>
+                <scan-time>734</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaW9RMojFCWHa70MtKS7d7E0r8aA1VEzSu9N9v2rnM8z7zXuat0GNQyEcAJMA0pyxPICh%2BzgHEGPvetIjOWlPmUbSua9hW8hHWeohqe4s%2BjOlbpI66QVYvdYeo7dC%2BHdtJWqVHlFK0%2F0Tf0razRYVu2h5FHCDlmML79a%2BeSwFZzLeXa907xtuLlZVzbk%2F3WTWlMAnmLBwgdpOwlzdyGlxZ9je9IV%2Fnw%2FF4OmwgVXZ2cfeixdHv7snajo4xdWie95T4ntTC%2FSVVIyClhDDfqxrBKHCe%2BJ5yGpMsIxnLUmAQE5bErjLdReZ7%2F0psOmcsAQAA&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742995&amp;m=167560&amp;pi=5197</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2QwW7CMAxA75X6D5UmuIU2bpo0laJpYxKXIRDrbkgobQNEFBK16RB%2FP4Mvfn72wfZbPZlkrR8JsITyqhAVg2T9UyeQURpHw6TOIfh9lab3%2B31hGv1YtO6atuGUfnjfG2K3riPBTe2ZsHAmK3Mzgw7W3QhnZPVJvnUwYyBr15mepBKAS8rg%2FfjXjnsFZSbnh2PbI9P5IegGHebhMtpur3xBpVhcIcMoxMt7PVxxWPcnN8u%2F6s12u9vMgNswYrl80YT0u3yyCzdkyhD9s8%2FzONJO4V3adgo4y3MRR02nBAMpeRxZ1JQzilsWJeelAAoM8A0XJePoHyh%2B9dYsAQAA&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=742996&amp;m=167560&amp;pi=5197</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>184182</content-length>
-                <scan-time>672</scan-time>
-                <verified-thread>pool-1-thread-8</verified-thread>
+                <content-length>181964</content-length>
+                <scan-time>812</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
@@ -1535,21 +1559,21 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>181151</content-length>
-                <scan-time>562</scan-time>
-                <verified-thread>pool-1-thread-9</verified-thread>
+                <content-length>178633</content-length>
+                <scan-time>890</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2Py4qDMBSG94LvIAztLpqL5iKEYdqBrqQy7eyEEqNtg5eIpiN9%2B0l7Nuf7v%2FNvzkdhx6hQzwiTCKV5yvIMR8XpHGGIUBjMD3l3bqryJFnXNW5r9Yy1HRLtbsnXNPUtMKVtgO7VshgNqLuDQzu2s3LGjmDXK90BDsFhBxIOIeOCkM%2Frn14qiTkU28tV957R9uJU7Z3fc7eYppJThgSLBwz9ZOztJzUPvqz6m92Q7%2FOxLH%2BOG0yNW3zcv%2Bnh6Xf%2FYutGzyj1OL3ulISBstK%2FpEwjMU0JYWFQN5KlWAgaBsZrRDgnnHGKGYaEZdBX5k6KMPgHFQ%2BZECcBAAA%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742996&amp;m=167560&amp;pi=5197</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB3QTYvCMBAG4Huh%2F6Gw6C02maZJWgjL6oInUVb3JkhMq4Z%2BpLRxxX%2B%2Fo7nMM%2B%2FMZfJxuNfJxjwT4AkTZS5LDslmf0iAMhZH413fQhiOZZo%2BHo9FfTbPhfVdasM1%2FRqGtiZu5ytiWzNNzhIRbmRd9%2FVogvM9WbbGNkRRsl6SVFEqVZFln5c%2FOx01KFrMTxfbotn8FMwZM6xjM7nqqIecFXLRAcWXy3c%2BmLHDZdNe%2FSz7Pmx3u5%2FtDIQLE7art%2B6o39XLPvRoxpHDay6yODJe40nGVRoEzzIZR%2BdKSw5FgXQYM8EZgMiVEEoCAw74A41mNI7%2BAVy0JPIoAQAA&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=742997&amp;m=167560&amp;pi=5197</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>184029</content-length>
-                <scan-time>806</scan-time>
-                <verified-thread>pool-1-thread-7</verified-thread>
+                <content-length>182216</content-length>
+                <scan-time>818</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com/ctg/Apple-iPod-class</short-url>
@@ -1559,21 +1583,21 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>178674</content-length>
-                <scan-time>542</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <content-length>180027</content-length>
+                <scan-time>855</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB3PTYuDMBAG4LvgfxCW9hY1iWZUCMu2Cz1JZdu9CSV%2BtA1%2BRDRd6b%2Ffaecyz7wzl%2FnIzejl6ukx7tEoiyCLmZefzh4LKXWd%2BSHv1k5lFgTruvptpZ5%2BbYagtrfga5r6lujCNGRUoyGxvZNDO7azstqMZNeruiMJOexIAAACREo%2Fr3%2F1UkqWhOn2cq17NN1erKowwz53i25KOcU0BX9gIVYM73xS84DHqr%2BZDf8%2BH4vi57hhQtsFx%2F1bD9Tv%2FmVjRzSNkNNrL7jrKCPxHaUbyUTEObhO1UiIWJoiNcaUJwlPIBEMWMghDjGfO0lD1%2FkHc0hkQyQBAAA%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742997&amp;m=167560&amp;pi=5197</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2QTYuDMBCG74L%2FQVjaW9SMMVEhLNsu9FQqW%2FcmlPjRNviRoHGl%2F35j5zLPPDOXdz6KpfXO4uUB8TDNYpYR8M7XwoMQY9eZFv40RpdZEKzr6reVePm1GoLaPIIvrfsWyVw1aBSjQrF5olM7tpMwUo3o0Iu6Qwk6HVDAGKOMpvjz%2FlfPJYckTPe3e91bxvubEZV1tk%2FdLJuS6xinzB8gtBWzt9diGuyx6B9qF30Xlzz%2FueyASjPb8fimxdLvcWNlRsuYWNTbnkauIxS3cYRsOFASRcx1qoYzAmmauI60GlOCAWicUJowwEDApu%2F49oR%2F6CqRGyQBAAA%3D&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=742998&amp;m=167560&amp;pi=5197</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>184969</content-length>
-                <scan-time>875</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <content-length>183180</content-length>
+                <scan-time>1050</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com/ctg/Apple-iPod-nano-</short-url>
@@ -1583,21 +1607,21 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>181607</content-length>
-                <scan-time>778</scan-time>
-                <verified-thread>pool-1-thread-4</verified-thread>
+                <content-length>180861</content-length>
+                <scan-time>966</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2QTYuDMBCG74L%2FQVjaWzRfJlEIy24XepLKbvcmlPjRNlRN0LjSf7%2Bxc5lnnnkvM2%2BFGaNCPSNMIkRzyvMUR8XPOcIQoTCYFnl3zlZ5kqzrGne1esaNGZLG3ZIPa%2FsO6NK0wJmluQM8tuDYjd2knDYjIBgcP0HCIYNMMPp%2B%2FWvmSmIBs%2F3l2vSe0f7iVO2d79Nj1m0lbYoyHg8Y%2Bkr5y1s1DT6s%2BpvZka%2FzqSy%2FTzvMtJv9eHjR4un3sLFxo2dEPdptz0gYKCP9KUq3EjNKCA%2BDupWc4iwTYaC9RkQIIrhgmGNIeAp9ZHrI7QH%2FeW%2FfiiABAAA%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742998&amp;m=167560&amp;pi=5197</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaW9SMMVEhLLtd6Km07Lo3ocSPtqFqgsaV%2Fvuddi7vM8%2FM5X0rly44qEcALKC8SEXBIDj8lAHElPretMibc7Yqomhd17Cr1SNszBA17hp9WNt3RJ9MS5xZmhuBsSX7buwm5bQZSQJk%2F0kiEfOYZ5y9X%2F6auZKQxfn2fGl6ZLo9O1Wjw5zus24raVOai3CAGCcVL2%2FVNOCz6q9mk3yVx9Pp%2B7gBrt2M6%2B5FC9Lv7snGjciUIdrnnSe%2Bp4zEKkq3EjhLEuF7dSsFgzzPfU%2BjppxRAJ5mnGcCKDDA5ndJMf4BjzhLLCABAAA%3D&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=742999&amp;m=167560&amp;pi=5197</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>184137</content-length>
-                <scan-time>891</scan-time>
-                <verified-thread>pool-1-thread-5</verified-thread>
+                <content-length>183126</content-length>
+                <scan-time>785</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com/ctg/Apple-iPod-touch</short-url>
@@ -1607,21 +1631,21 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>182075</content-length>
-                <scan-time>701</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <content-length>181391</content-length>
+                <scan-time>754</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBRF94L%2FQRjaXTRfJlEIw7QDXUll2tkJJUbbBj8imo7030%2Fat3nnnnc376OwY1SoZ4RJhGhOeZ7iqDidIwwRCoP5Ie%2FOTVWeJOu6xm2tnrG2Q6LdLfmapr4FprQN0L1aFqMBc3dwaMd2Vs7YEex6pTuAGASHHUgE5hBRQT%2Bvf3qpJBYw216uuveMthenau%2F8nrvFNJWcUpTxeMDQT8rfflLz4Muqv9kN%2BT4fy%2FLnuMHMuMXH%2FZsenn73L7Zu9Iyox%2Bl1ZyQMlJX%2BJ2UaiRklhIdB3UhOcZZlYWC8RkQIIrhgmGNIeAp9Ze4kwmHwDzQaBXMpAQAA&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=742999&amp;m=167560&amp;pi=5197</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2QTYuDMBCG74L%2FQVjaW9SMMbFCWLZd6KlUtu5NKDHaNviJxpX%2B%2B512LvPMO%2FMyzHzkS%2B2d1NMD5lGexiJl4J0uuQchpa4zLfJh7VikQbCuq1%2BX6unroQu0vQdf49jWxGRDRXSr5tlowu2DHOu%2BnpQ1Q0%2F2rdINoTwkxz0JEhAhZQn7vP3puZCQhLvt9aZbZLq9WlWihnlqZlMVcozpTvgdhBixeOujmjocVu192ETf%2BTnLfs4b4MbOWB7etCD9Hl482B6ZMsTx1eeR66hB4k3KVBI4iyLhOmUlBYtwhesYlClnFIDHCeeJAAoM8AWNpOj9B%2FkmnC0pAQAA&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=743000&amp;m=167560&amp;pi=5197</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>184069</content-length>
-                <scan-time>577</scan-time>
-                <verified-thread>pool-1-thread-1</verified-thread>
+                <content-length>190826</content-length>
+                <scan-time>668</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com/ctg/Apple-iPod-class</short-url>
@@ -1631,21 +1655,21 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>186587</content-length>
-                <scan-time>725</scan-time>
-                <verified-thread>pool-1-thread-16</verified-thread>
+                <content-length>188788</content-length>
+                <scan-time>909</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTYuDMBCG74L%2FQVjaWzRfmlQIy24XepKW3e5NKDHaNlRN0HSl%2F36nncs888wLw7xVbkwq%2FUgoSwgvuShzmlQ%2Fx4RiQuJouqtrCL4us2xZlrRr9CM1bshMuGQf3vcdsgfXItPrebYG8XBFu27sJh2sGxHFaPeJMi4J5SRn7%2Bc%2FM9eKSrxZn86mBybrU9ANOOjTbbZtrXxONiIdKIbKxct7PQ0Q1v3FrdjXcX84fO9XtLBhhnH7ojvQ7%2FbJLozAhAP6575gcaSdgme0bRUtOGMijppWCc7gRBxZ0IRJyaSQBRUUM5FjiEw30HH0D%2FM7PPMiAQAA&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=743000&amp;m=167560&amp;pi=5197</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTWvDMAyG74H8h8Bob05s2bHTgBlbBz2Vhi27BYrz0dY0XyTOQv%2F91OqiR4900PuWL01wNI8ARMBkGqtUQHD8yQOgjPnetOibc2ORRtG6rmFTmkdYDV1UuWv0MY5tQ2w21KRqzTzbigh3I4embybj7NAToOTwSSKRMBAs5u%2BXv2ouNCR0tz1fqhaZbc%2FOlOiwT%2FfZ1oUeY7ZTYQcUK1YvP5qpw2PTXocN%2F8pPWfZ92oC0bsZx%2F6IF6Xf%2F5MH1yEwgjs%2B95L5nBo1hjK01SMG58r2y1kpwSlFb1EwKBiDjRMpEAb4LmP2umfC9f3dedKsiAQAA&amp;ch=3&amp;g=247149c41300a02652a457b4ffac0ed4&amp;i=-9999&amp;aii=164122658668721242&amp;lid=743001&amp;m=167560&amp;pi=5197</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>159050</content-length>
-                <scan-time>763</scan-time>
-                <verified-thread>pool-1-thread-11</verified-thread>
+                <content-length>155923</content-length>
+                <scan-time>771</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com/ctg/Apple-iPod-class</short-url>
@@ -1655,33 +1679,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>158167</content-length>
-                <scan-time>667</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
-            </link>
-            <link>
-                <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;u=1H4sIAAAAAAAAAB2PTWuDQBCG74L%2FQSjJbXW%2F3FVhKU0KuVQibXoTwqqbRKKu6FrJv%2B8kc5nnfea9zFtuhyDXj4CygPCMyyymQf5zCigmxPemRd2cG8ssitZ1DU2lH2Ft%2B6h21%2BhjHDuD2sI2aNCDRcLd0MEMZtKutQPadYtBCTrs0Jd2ZnYot43pUJRSRrig6fvlr55LRROcbs%2BXugMm27PTFTjY031um1KNMUll2FMME8uXH%2FXUQ1l3V7thn6djUXwfN1S0boa4f9EC9Lt%2FsnUDMOGA4%2FMumO9pq%2BA13TaKCs6Y9L2qUZIzjEG3oAlLEpbIRFBJMZMxhsp0V4T73j%2Fx%2B3e0MAEAAA%3D%3D&amp;ch=3&amp;g=1ed411191300a02652b7f567ffce4451&amp;i=-9999&amp;aii=138838786272037507&amp;lid=743001&amp;m=167560&amp;pi=5197</url>
-                <caption></caption>
-                <status>Good</status>
-                <verified>Yes</verified>
-                <http-response>HTTP/1.1 200 OK</http-response>
-                <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>198016</content-length>
-                <scan-time>657</scan-time>
-                <verified-thread>pool-1-thread-19</verified-thread>
-            </link>
-            <link>
-                <short-url>http://www.ebay.com/ctg/Apple-iPod-nano-</short-url>
-                <url>http://www.ebay.com/ctg/Apple-iPod-nano-6th-Generation-Blue-8-GB-Latest-Model-/92314629</url>
-                <caption>Apple iPod nano 6th Generation Blu.</caption>
-                <status>Good</status>
-                <verified>Yes</verified>
-                <http-response>HTTP/1.1 200 OK</http-response>
-                <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>195626</content-length>
-                <scan-time>652</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>155017</content-length>
+                <scan-time>1205</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
                 <short-url>http://deals.ebay.com/</short-url>
@@ -1691,105 +1691,105 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>157170</content-length>
-                <scan-time>281</scan-time>
+                <content-length>154211</content-length>
+                <scan-time>778</scan-time>
                 <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
-                <short-url>http://deals.ebay.com/5000038533_NOOK_by</short-url>
-                <url>http://deals.ebay.com/5000038533_NOOK_by_Barnes__Noble_Wi_Fi_eReader</url>
+                <short-url>http://deals.ebay.com/5000038776_Apple_1</short-url>
+                <url>http://deals.ebay.com/5000038776_Apple_17in_MacBook_Pro_Core_i5_2_53GHz_MC024LL_A</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>157932</content-length>
-                <scan-time>17408</scan-time>
-                <verified-thread>pool-1-thread-8</verified-thread>
-            </link>
-            <link>
-                <short-url>http://deals.ebay.com/5000038533_NOOK_by</short-url>
-                <url>http://deals.ebay.com/5000038533_NOOK_by_Barnes__Noble_Wi_Fi_eReader</url>
-                <caption>NOOK by Barnes &amp; Noble Wi-Fi eRead.</caption>
-                <status>Good</status>
-                <verified>Yes</verified>
-                <http-response>HTTP/1.1 200 OK</http-response>
-                <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>157939</content-length>
-                <scan-time>2485</scan-time>
-                <verified-thread>pool-1-thread-9</verified-thread>
-            </link>
-            <link>
-                <short-url>http://deals.ebay.com/5000038474_Callawa</short-url>
-                <url>http://deals.ebay.com/5000038474_Callaway_FT_9_Driver</url>
-                <caption></caption>
-                <status>Good</status>
-                <verified>Yes</verified>
-                <http-response>HTTP/1.1 200 OK</http-response>
-                <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>157876</content-length>
-                <scan-time>1436</scan-time>
-                <verified-thread>pool-1-thread-15</verified-thread>
-            </link>
-            <link>
-                <short-url>http://deals.ebay.com/5000038474_Callawa</short-url>
-                <url>http://deals.ebay.com/5000038474_Callaway_FT_9_Driver</url>
-                <caption>Callaway FT-9 Driver</caption>
-                <status>Good</status>
-                <verified>Yes</verified>
-                <http-response>HTTP/1.1 200 OK</http-response>
-                <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>157878</content-length>
-                <scan-time>1355</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
-            </link>
-            <link>
-                <short-url>http://deals.ebay.com/5000038499_ION_iPr</short-url>
-                <url>http://deals.ebay.com/5000038499_ION_iProfile_LP_to_iPod_USB_Turntable__Refurbished</url>
-                <caption></caption>
-                <status>Good</status>
-                <verified>Yes</verified>
-                <http-response>HTTP/1.1 200 OK</http-response>
-                <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>157967</content-length>
-                <scan-time>17241</scan-time>
-                <verified-thread>pool-1-thread-18</verified-thread>
-            </link>
-            <link>
-                <short-url>http://deals.ebay.com/5000038499_ION_iPr</short-url>
-                <url>http://deals.ebay.com/5000038499_ION_iProfile_LP_to_iPod_USB_Turntable__Refurbished</url>
-                <caption>ION iProfile LP to iPod USB Turnta.</caption>
-                <status>Good</status>
-                <verified>Yes</verified>
-                <http-response>HTTP/1.1 200 OK</http-response>
-                <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>157972</content-length>
-                <scan-time>2026</scan-time>
-                <verified-thread>pool-1-thread-7</verified-thread>
-            </link>
-            <link>
-                <short-url>http://deals.ebay.com/5000038476_Fila_DL</short-url>
-                <url>http://deals.ebay.com/5000038476_Fila_DLS_96_Mens_Basketball_Shoe</url>
-                <caption></caption>
-                <status>Good</status>
-                <verified>Yes</verified>
-                <http-response>HTTP/1.1 200 OK</http-response>
-                <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>157913</content-length>
-                <scan-time>13114</scan-time>
+                <content-length>155015</content-length>
+                <scan-time>1921</scan-time>
                 <verified-thread>pool-1-thread-2</verified-thread>
             </link>
             <link>
-                <short-url>http://deals.ebay.com/5000038476_Fila_DL</short-url>
-                <url>http://deals.ebay.com/5000038476_Fila_DLS_96_Mens_Basketball_Shoe</url>
-                <caption>Fila DLS 96 Mens Basketball Shoe</caption>
+                <short-url>http://deals.ebay.com/5000038776_Apple_1</short-url>
+                <url>http://deals.ebay.com/5000038776_Apple_17in_MacBook_Pro_Core_i5_2_53GHz_MC024LL_A</url>
+                <caption>Apple 17in MacBook Pro Core i5 2.5.</caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>157910</content-length>
-                <scan-time>1248</scan-time>
-                <verified-thread>pool-1-thread-1</verified-thread>
+                <content-length>155003</content-length>
+                <scan-time>2233</scan-time>
+                <verified-thread>pool-1-thread-9</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038762_Black__</short-url>
+                <url>http://deals.ebay.com/5000038762_Black__Decker_WM125_WorkMate_Portable_Project_Center</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>155029</content-length>
+                <scan-time>1504</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038762_Black__</short-url>
+                <url>http://deals.ebay.com/5000038762_Black__Decker_WM125_WorkMate_Portable_Project_Center</url>
+                <caption>Black &amp; Decker WM125 WorkMate Port.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>155033</content-length>
+                <scan-time>2142</scan-time>
+                <verified-thread>pool-1-thread-13</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038764_Viewson</short-url>
+                <url>http://deals.ebay.com/5000038764_Viewsonic_VA2431wm_24in_LCD_Monitor</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>154968</content-length>
+                <scan-time>13977</scan-time>
+                <verified-thread>pool-1-thread-15</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038764_Viewson</short-url>
+                <url>http://deals.ebay.com/5000038764_Viewsonic_VA2431wm_24in_LCD_Monitor</url>
+                <caption>Viewsonic VA2431wm 24in LCD Monito.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>154972</content-length>
+                <scan-time>2052</scan-time>
+                <verified-thread>pool-1-thread-20</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038778_Bushnel</short-url>
+                <url>http://deals.ebay.com/5000038778_Bushnell_Golf_Pin_Pro_Laser_Rangefinder_w_Case</url>
+                <caption></caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>155007</content-length>
+                <scan-time>1441</scan-time>
+                <verified-thread>pool-1-thread-8</verified-thread>
+            </link>
+            <link>
+                <short-url>http://deals.ebay.com/5000038778_Bushnel</short-url>
+                <url>http://deals.ebay.com/5000038778_Bushnell_Golf_Pin_Pro_Laser_Rangefinder_w_Case</url>
+                <caption>Bushnell Golf Pin Pro Laser Rangef.</caption>
+                <status>Good</status>
+                <verified>Yes</verified>
+                <http-response>HTTP/1.1 200 OK</http-response>
+                <content-type>text/html;charset=UTF-8</content-type>
+                <content-length>155006</content-length>
+                <scan-time>4626</scan-time>
+                <verified-thread>pool-1-thread-7</verified-thread>
             </link>
             <link>
                 <short-url>http://deals.ebay.com/</short-url>
@@ -1799,117 +1799,117 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>157169</content-length>
-                <scan-time>366</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <content-length>154210</content-length>
+                <scan-time>300</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;l</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;lid=883187&amp;m=185899&amp;pg=5197&amp;aii=138838723458140750&amp;u=1H4sIAAAAAAAAAFP2zc9T8E2sVDAyVjA0sTIxtzI1UvANDlEwMjA05OXKzEyxNTS2sDC2MDcyNjG1MDQxMDc14OUCAC3qEVI3AAAA&amp;i=-9999&amp;g=1ed411191300a02652b7f567ffce4451&amp;uf=0</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;lid=883187&amp;m=185899&amp;pg=5197&amp;aii=164122582969922628&amp;u=1H4sIAAAAAAAAAFMOKU1V8E2sVDAyUTA0szI1tzIxUvANDlEwMjA05OXKzEyxNTQzMTQyMrUwsjSztDQyMjOy4OUCAHWOy%2F83AAAA&amp;i=-9999&amp;g=247149c41300a02652a457b4ffac0ed4&amp;uf=0</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>application/xhtml+xml; charset=utf-8</content-type>
                 <content-length>6317</content-length>
-                <scan-time>629</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
+                <scan-time>1059</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
             </link>
             <link>
-                <short-url>http://shop.ebay.com/i.html?_nkw=princes</short-url>
-                <url>http://shop.ebay.com/i.html?_nkw=princess+beatrice+wedding+hat</url>
-                <caption>princess beatrice wedding...</caption>
+                <short-url>http://shop.ebay.com/i.html?_nkw=lady+ga</short-url>
+                <url>http://shop.ebay.com/i.html?_nkw=lady+gaga+born+this+way</url>
+                <caption>lady gaga born this way</caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>85563</content-length>
-                <scan-time>273</scan-time>
-                <verified-thread>pool-1-thread-4</verified-thread>
+                <content-length>106366</content-length>
+                <scan-time>311</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
-                <short-url>http://shop.ebay.com/i.html?_nkw=princes</short-url>
-                <url>http://shop.ebay.com/i.html?_nkw=princess+beatrice</url>
-                <caption>princess beatrice</caption>
+                <short-url>http://shop.ebay.com/i.html?_nkw=bath+sa</short-url>
+                <url>http://shop.ebay.com/i.html?_nkw=bath+salts</url>
+                <caption>bath salts</caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>119210</content-length>
-                <scan-time>330</scan-time>
+                <content-length>105636</content-length>
+                <scan-time>247</scan-time>
                 <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
-                <short-url>http://shop.ebay.com/i.html?_nkw=royal+w</short-url>
-                <url>http://shop.ebay.com/i.html?_nkw=royal+wedding+hat</url>
-                <caption>royal wedding hat</caption>
+                <short-url>http://shop.ebay.com/i.html?_nkw=gold+gr</short-url>
+                <url>http://shop.ebay.com/i.html?_nkw=gold+grams</url>
+                <caption>gold grams</caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>119600</content-length>
-                <scan-time>329</scan-time>
-                <verified-thread>pool-1-thread-19</verified-thread>
+                <content-length>107358</content-length>
+                <scan-time>438</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
             </link>
             <link>
-                <short-url>http://shop.ebay.com/i.html?_nkw=oklahom</short-url>
-                <url>http://shop.ebay.com/i.html?_nkw=oklahoma+city+thunder</url>
-                <caption>oklahoma city thunder</caption>
+                <short-url>http://shop.ebay.com/i.html?_nkw=vancouv</short-url>
+                <url>http://shop.ebay.com/i.html?_nkw=vancouver+canucks+jersey</url>
+                <caption>vancouver canucks jersey</caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>108511</content-length>
-                <scan-time>261</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <content-length>105726</content-length>
+                <scan-time>254</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
-                <short-url>http://shop.ebay.com/i.html?_nkw=pirates</short-url>
-                <url>http://shop.ebay.com/i.html?_nkw=pirates+of+caribbean</url>
-                <caption>pirates of caribbean</caption>
+                <short-url>http://shop.ebay.com/i.html?_nkw=htc+fly</short-url>
+                <url>http://shop.ebay.com/i.html?_nkw=htc+flyer</url>
+                <caption>htc flyer</caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>146659</content-length>
-                <scan-time>613</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>105558</content-length>
+                <scan-time>316</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;l</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;lid=878013&amp;m=185030&amp;pg=5197&amp;aii=138838723458140749&amp;u=1H4sIAAAAAAAAAFP2zc9T8E2sVDAyVjA0sTIxtzI1UvANDlEwMjA05OXKzEyxNTS2sDC2MDcyNjG1MDQxMDex5OUCAMe2fOU3AAAA&amp;i=-9999&amp;g=1ed411191300a02652b7f567ffce4451&amp;uf=0</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;lid=878013&amp;m=185030&amp;pg=5197&amp;aii=164122587264889928&amp;u=1H4sIAAAAAAAAAFMOKU1V8E2sVDAyUTA0szI1tzIxUvANDlEwMjA05OXKzEyxNTQzMTQyMrUwNzIzsbCwtDSy4OUCALShSzU3AAAA&amp;i=-9999&amp;g=247149c41300a02652a457b4ffac0ed4&amp;uf=0</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=ISO-8859-1</content-type>
-                <content-length>261427</content-length>
-                <scan-time>323</scan-time>
-                <verified-thread>pool-1-thread-11</verified-thread>
+                <content-length>261425</content-length>
+                <scan-time>340</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;l</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;lid=873956&amp;m=182347&amp;pg=5197&amp;aii=138838719163173451&amp;u=1H4sIAAAAAAAAAFP2zc9T8E2sVDAyVjA0sTIxtzI1UvANDlEwMjA05OXKzEyxNTS2sDC2MDe0NDQzNjQ3NjEFigMAyp%2FH7DcAAAA%3D&amp;i=-9999&amp;g=1ed411191300a02652b7f567ffce4451&amp;uf=0</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;lid=873956&amp;m=182347&amp;pg=5197&amp;aii=164122582969922631&amp;u=1H4sIAAAAAAAAAFMOKU1V8E2sVDAyUTA0szI1tzIxUvANDlEwMjA05OXKzEyxNTQzMTQyMrUwsjSztDQyMjMGigMAn9KmSDcAAAA%3D&amp;i=-9999&amp;g=247149c41300a02652a457b4ffac0ed4&amp;uf=0</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=UTF-8</content-type>
                 <content-length>0</content-length>
-                <scan-time>404</scan-time>
-                <verified-thread>pool-1-thread-5</verified-thread>
+                <scan-time>250</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
             </link>
             <link>
                 <short-url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;l</short-url>
-                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;lid=857570&amp;m=181484&amp;pg=5197&amp;aii=138838719163173450&amp;u=1H4sIAAAAAAAAAFP2zc9T8E2sVDAyVjA0sTIxtzI1UvANDlEwMjA05OXKzEyxNTS2sDC2MDe0NDQzNjQ3NjE14OUCAP31Be03AAAA&amp;i=-9999&amp;g=1ed411191300a02652b7f567ffce4451&amp;uf=0</url>
+                <url>http://srx.main.ebayrtm.com/clk?RtmClk&amp;lid=857570&amp;m=181484&amp;pg=5197&amp;aii=164122582969922629&amp;u=1H4sIAAAAAAAAAFMOKU1V8E2sVDAyUTA0szI1tzIxUvANDlEwMjA05OXKzEyxNTQzMTQyMrUwsjSztDQyMjOy5OUCAELkCf43AAAA&amp;i=-9999&amp;g=247149c41300a02652a457b4ffac0ed4&amp;uf=0</url>
                 <caption></caption>
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html</content-type>
-                <content-length>140266</content-length>
-                <scan-time>161</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <content-length>139887</content-length>
+                <scan-time>93</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
             </link>
             <link>
                 <short-url>http://hub.shop.ebay.com/</short-url>
@@ -1919,9 +1919,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>127155</content-length>
-                <scan-time>236</scan-time>
-                <verified-thread>pool-1-thread-4</verified-thread>
+                <content-length>127139</content-length>
+                <scan-time>242</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/help/account/regis</short-url>
@@ -1931,9 +1931,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>46409</content-length>
-                <scan-time>64</scan-time>
-                <verified-thread>pool-1-thread-6</verified-thread>
+                <content-length>46408</content-length>
+                <scan-time>67</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/coverage/index.htm</short-url>
@@ -1944,8 +1944,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>23890</content-length>
-                <scan-time>70</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <scan-time>51</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/help/buy/basics.ht</short-url>
@@ -1955,9 +1955,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>33157</content-length>
-                <scan-time>53</scan-time>
-                <verified-thread>pool-1-thread-16</verified-thread>
+                <content-length>33156</content-length>
+                <scan-time>72</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
             </link>
             <link>
                 <short-url>http://giftcard.ebay.com/</short-url>
@@ -1968,8 +1968,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>38157</content-length>
-                <scan-time>76</scan-time>
-                <verified-thread>pool-1-thread-19</verified-thread>
+                <scan-time>64</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/sellerinformation/</short-url>
@@ -1980,8 +1980,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>41803</content-length>
-                <scan-time>80</scan-time>
-                <verified-thread>pool-1-thread-11</verified-thread>
+                <scan-time>68</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
                 <short-url>http://cgi5.ebay.com/ws/eBayISAPI.dll?Ea</short-url>
@@ -1991,9 +1991,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>18419</content-length>
-                <scan-time>130</scan-time>
-                <verified-thread>pool-1-thread-6</verified-thread>
+                <content-length>18424</content-length>
+                <scan-time>164</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/sellerinformation/</short-url>
@@ -2004,8 +2004,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>29369</content-length>
-                <scan-time>71</scan-time>
-                <verified-thread>pool-1-thread-16</verified-thread>
+                <scan-time>52</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/sellerinformation/</short-url>
@@ -2016,8 +2016,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>28440</content-length>
-                <scan-time>54</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <scan-time>64</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
                 <short-url>https://www.ebaypartnernetwork.com/files</short-url>
@@ -2028,7 +2028,7 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html</content-type>
                 <content-length>12216</content-length>
-                <scan-time>474</scan-time>
+                <scan-time>725</scan-time>
                 <verified-thread>pool-1-thread-19</verified-thread>
             </link>
             <link>
@@ -2039,9 +2039,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>20030</content-length>
-                <scan-time>511</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <content-length>19709</content-length>
+                <scan-time>196</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebayinc.com/who</short-url>
@@ -2052,8 +2052,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>38391</content-length>
-                <scan-time>201</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <scan-time>219</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebayinc.com/news</short-url>
@@ -2063,9 +2063,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>22120</content-length>
-                <scan-time>457</scan-time>
-                <verified-thread>pool-1-thread-11</verified-thread>
+                <content-length>22265</content-length>
+                <scan-time>558</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
             </link>
             <link>
                 <short-url>http://www2.ebay.com/aw/marketing.shtml</short-url>
@@ -2076,7 +2076,7 @@
                 <http-response>HTTP/1.1 502 Bad Gateway</http-response>
                 <content-type>text/html; charset=utf-8</content-type>
                 <content-length>1201</content-length>
-                <scan-time>1057</scan-time>
+                <scan-time>1255</scan-time>
                 <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
@@ -2088,8 +2088,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=utf-8</content-type>
                 <content-length>0</content-length>
-                <scan-time>647</scan-time>
-                <verified-thread>pool-1-thread-6</verified-thread>
+                <scan-time>1108</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebaycareers.com/</short-url>
@@ -2100,8 +2100,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html</content-type>
                 <content-length>175</content-length>
-                <scan-time>181</scan-time>
-                <verified-thread>pool-1-thread-4</verified-thread>
+                <scan-time>722</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebayadvertising.com/en-us/</short-url>
@@ -2111,9 +2111,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=utf-8</content-type>
-                <content-length>12972</content-length>
-                <scan-time>70</scan-time>
-                <verified-thread>pool-1-thread-5</verified-thread>
+                <content-length>12974</content-length>
+                <scan-time>213</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebayinc.com/who</short-url>
@@ -2124,8 +2124,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>38391</content-length>
-                <scan-time>100</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
+                <scan-time>113</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebayclassifieds.com/</short-url>
@@ -2136,8 +2136,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>31496</content-length>
-                <scan-time>64</scan-time>
-                <verified-thread>pool-1-thread-5</verified-thread>
+                <scan-time>66</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
                 <short-url>http://www.shopping.com/</short-url>
@@ -2147,9 +2147,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>65476</content-length>
-                <scan-time>198</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>65547</content-length>
+                <scan-time>161</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
                 <short-url>http://www.half.ebay.com/</short-url>
@@ -2159,9 +2159,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>67012</content-length>
-                <scan-time>184</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <content-length>67881</content-length>
+                <scan-time>370</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
                 <short-url>https://www.paypal.com/ebay</short-url>
@@ -2172,8 +2172,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=UTF-8</content-type>
                 <content-length>0</content-length>
-                <scan-time>1119</scan-time>
-                <verified-thread>pool-1-thread-5</verified-thread>
+                <scan-time>969</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebayinc.com/who</short-url>
@@ -2184,8 +2184,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>38391</content-length>
-                <scan-time>101</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
+                <scan-time>321</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/buy/tools.html</short-url>
@@ -2196,8 +2196,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>25275</content-length>
-                <scan-time>66</scan-time>
-                <verified-thread>pool-1-thread-4</verified-thread>
+                <scan-time>268</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
                 <short-url>http://developer.ebay.com/</short-url>
@@ -2207,9 +2207,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=utf-8</content-type>
-                <content-length>34207</content-length>
-                <scan-time>4858</scan-time>
-                <verified-thread>pool-1-thread-4</verified-thread>
+                <content-length>33527</content-length>
+                <scan-time>557</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/mobile/</short-url>
@@ -2220,8 +2220,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=UTF-8</content-type>
                 <content-length>0</content-length>
-                <scan-time>286</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
+                <scan-time>726</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
             </link>
             <link>
                 <short-url>http://contact.ebay.com/ws/eBayISAPI.dll</short-url>
@@ -2232,8 +2232,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>19137</content-length>
-                <scan-time>86</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <scan-time>150</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com</short-url>
@@ -2243,9 +2243,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>72006</content-length>
-                <scan-time>863</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <content-length>72089</content-length>
+                <scan-time>459</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebayinc.com</short-url>
@@ -2255,9 +2255,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>20030</content-length>
-                <scan-time>271</scan-time>
-                <verified-thread>pool-1-thread-19</verified-thread>
+                <content-length>19709</content-length>
+                <scan-time>95</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/securitycenter/ind</short-url>
@@ -2268,8 +2268,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>32423</content-length>
-                <scan-time>50</scan-time>
-                <verified-thread>pool-1-thread-11</verified-thread>
+                <scan-time>67</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/buy/tools.html</short-url>
@@ -2281,7 +2281,7 @@
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>25275</content-length>
                 <scan-time>66</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <verified-thread>pool-1-thread-10</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/help/policies/over</short-url>
@@ -2291,9 +2291,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>40274</content-length>
-                <scan-time>50</scan-time>
-                <verified-thread>pool-1-thread-15</verified-thread>
+                <content-length>40273</content-length>
+                <scan-time>52</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
             </link>
             <link>
                 <short-url>http://stores.ebay.com/</short-url>
@@ -2303,9 +2303,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>36346</content-length>
-                <scan-time>193</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <content-length>36928</content-length>
+                <scan-time>421</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/sitemap.html</short-url>
@@ -2317,7 +2317,7 @@
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>43554</content-length>
                 <scan-time>51</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <verified-thread>pool-1-thread-11</verified-thread>
             </link>
             <link>
                 <short-url>http://viv.ebay.com/ws/eBayISAPI.dll?Eba</short-url>
@@ -2327,9 +2327,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>40777</content-length>
-                <scan-time>393</scan-time>
-                <verified-thread>pool-1-thread-11</verified-thread>
+                <content-length>40780</content-length>
+                <scan-time>415</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
             </link>
             <link>
                 <short-url>http://qu.ebay.com/survey?srvName=global</short-url>
@@ -2339,9 +2339,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html</content-type>
-                <content-length>271057</content-length>
-                <scan-time>61</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>271061</content-length>
+                <scan-time>164</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/help/policies/user</short-url>
@@ -2351,9 +2351,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>59583</content-length>
-                <scan-time>67</scan-time>
-                <verified-thread>pool-1-thread-15</verified-thread>
+                <content-length>59582</content-length>
+                <scan-time>51</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/help/policies/priv</short-url>
@@ -2363,9 +2363,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>77627</content-length>
-                <scan-time>52</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <content-length>77626</content-length>
+                <scan-time>69</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
             </link>
             <link>
                 <short-url>http://www.mercadolibre.com.ar/</short-url>
@@ -2375,9 +2375,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>75942</content-length>
-                <scan-time>1246</scan-time>
-                <verified-thread>pool-1-thread-1</verified-thread>
+                <content-length>77485</content-length>
+                <scan-time>255</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.at/</short-url>
@@ -2387,9 +2387,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>43711</content-length>
-                <scan-time>171</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>43723</content-length>
+                <scan-time>251</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com.au/</short-url>
@@ -2399,9 +2399,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.0 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>47124</content-length>
-                <scan-time>156</scan-time>
-                <verified-thread>pool-1-thread-17</verified-thread>
+                <content-length>47127</content-length>
+                <scan-time>117</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.be/</short-url>
@@ -2412,8 +2412,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>22245</content-length>
-                <scan-time>583</scan-time>
-                <verified-thread>pool-1-thread-15</verified-thread>
+                <scan-time>446</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
             </link>
             <link>
                 <short-url>http://www.mercadolivre.com.br/</short-url>
@@ -2423,9 +2423,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>75424</content-length>
-                <scan-time>247</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <content-length>75203</content-length>
+                <scan-time>161</scan-time>
+                <verified-thread>pool-1-thread-8</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.ca/</short-url>
@@ -2435,9 +2435,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>77329</content-length>
-                <scan-time>289</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
+                <content-length>45522</content-length>
+                <scan-time>253</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com.cn/</short-url>
@@ -2446,10 +2446,10 @@
                 <status>Good</status>
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
-                <content-type>text/html; charset=UTF-8</content-type>
-                <content-length>209362</content-length>
-                <scan-time>1295</scan-time>
-                <verified-thread>pool-1-thread-20</verified-thread>
+                <content-type>text/html</content-type>
+                <content-length>209404</content-length>
+                <scan-time>769</scan-time>
+                <verified-thread>pool-1-thread-4</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.cz/</short-url>
@@ -2459,9 +2459,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=utf-8</content-type>
-                <content-length>34239</content-length>
-                <scan-time>176</scan-time>
-                <verified-thread>pool-1-thread-6</verified-thread>
+                <content-length>34227</content-length>
+                <scan-time>53</scan-time>
+                <verified-thread>pool-1-thread-8</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.dk/</short-url>
@@ -2471,9 +2471,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=utf-8</content-type>
-                <content-length>33733</content-length>
-                <scan-time>4790</scan-time>
-                <verified-thread>pool-1-thread-19</verified-thread>
+                <content-length>33687</content-length>
+                <scan-time>26</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.fi/</short-url>
@@ -2483,9 +2483,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=utf-8</content-type>
-                <content-length>33827</content-length>
-                <scan-time>512</scan-time>
-                <verified-thread>pool-1-thread-17</verified-thread>
+                <content-length>33845</content-length>
+                <scan-time>66</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.de/</short-url>
@@ -2495,9 +2495,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>56692</content-length>
-                <scan-time>234</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <content-length>52258</content-length>
+                <scan-time>258</scan-time>
+                <verified-thread>pool-1-thread-2</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.gr/</short-url>
@@ -2507,9 +2507,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=utf-8</content-type>
-                <content-length>38247</content-length>
-                <scan-time>228</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <content-length>38216</content-length>
+                <scan-time>23</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.fr/</short-url>
@@ -2519,9 +2519,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>100377</content-length>
-                <scan-time>88</scan-time>
-                <verified-thread>pool-1-thread-6</verified-thread>
+                <content-length>96476</content-length>
+                <scan-time>101</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.hu/</short-url>
@@ -2531,9 +2531,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=utf-8</content-type>
-                <content-length>34086</content-length>
-                <scan-time>3718</scan-time>
-                <verified-thread>pool-1-thread-11</verified-thread>
+                <content-length>34049</content-length>
+                <scan-time>64</scan-time>
+                <verified-thread>pool-1-thread-8</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com.hk/</short-url>
@@ -2543,9 +2543,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>67332</content-length>
-                <scan-time>445</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
+                <content-length>66686</content-length>
+                <scan-time>203</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.ie/</short-url>
@@ -2555,9 +2555,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>41043</content-length>
-                <scan-time>110</scan-time>
-                <verified-thread>pool-1-thread-6</verified-thread>
+                <content-length>40892</content-length>
+                <scan-time>170</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.in/</short-url>
@@ -2567,9 +2567,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.0 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>43533</content-length>
-                <scan-time>207</scan-time>
-                <verified-thread>pool-1-thread-3</verified-thread>
+                <content-length>43508</content-length>
+                <scan-time>232</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.it/</short-url>
@@ -2580,8 +2580,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=ISO-8859-1</content-type>
                 <content-length>0</content-length>
-                <scan-time>938</scan-time>
-                <verified-thread>pool-1-thread-14</verified-thread>
+                <scan-time>949</scan-time>
+                <verified-thread>pool-1-thread-19</verified-thread>
             </link>
             <link>
                 <short-url>http://www.auction.co.kr/default.html</short-url>
@@ -2591,9 +2591,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html</content-type>
-                <content-length>271397</content-length>
-                <scan-time>392</scan-time>
-                <verified-thread>pool-1-thread-16</verified-thread>
+                <content-length>271524</content-length>
+                <scan-time>446</scan-time>
+                <verified-thread>pool-1-thread-14</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com.my/</short-url>
@@ -2603,9 +2603,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>46333</content-length>
-                <scan-time>247</scan-time>
-                <verified-thread>pool-1-thread-6</verified-thread>
+                <content-length>46140</content-length>
+                <scan-time>161</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
                 <short-url>http://www.mercadolibre.com.mx/</short-url>
@@ -2615,9 +2615,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>69816</content-length>
-                <scan-time>155</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <content-length>70753</content-length>
+                <scan-time>158</scan-time>
+                <verified-thread>pool-1-thread-8</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.nl/</short-url>
@@ -2627,9 +2627,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>42870</content-length>
-                <scan-time>194</scan-time>
-                <verified-thread>pool-1-thread-15</verified-thread>
+                <content-length>42731</content-length>
+                <scan-time>199</scan-time>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url>http://pages.ebay.com/nz/</short-url>
@@ -2640,8 +2640,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
                 <content-length>47247</content-length>
-                <scan-time>51</scan-time>
-                <verified-thread>pool-1-thread-3</verified-thread>
+                <scan-time>71</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.no/</short-url>
@@ -2651,9 +2651,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=utf-8</content-type>
-                <content-length>33174</content-length>
-                <scan-time>64</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <content-length>33172</content-length>
+                <scan-time>24</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.ph/</short-url>
@@ -2663,9 +2663,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>47619</content-length>
-                <scan-time>242</scan-time>
-                <verified-thread>pool-1-thread-10</verified-thread>
+                <content-length>47660</content-length>
+                <scan-time>378</scan-time>
+                <verified-thread>pool-1-thread-17</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.pl/</short-url>
@@ -2675,9 +2675,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>39614</content-length>
-                <scan-time>236</scan-time>
-                <verified-thread>pool-1-thread-7</verified-thread>
+                <content-length>39611</content-length>
+                <scan-time>243</scan-time>
+                <verified-thread>pool-1-thread-10</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.pt/</short-url>
@@ -2687,9 +2687,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=utf-8</content-type>
-                <content-length>33729</content-length>
-                <scan-time>3352</scan-time>
-                <verified-thread>pool-1-thread-3</verified-thread>
+                <content-length>33699</content-length>
+                <scan-time>52</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.ru/</short-url>
@@ -2699,9 +2699,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>71899</content-length>
-                <scan-time>210</scan-time>
-                <verified-thread>pool-1-thread-17</verified-thread>
+                <content-length>71893</content-length>
+                <scan-time>130</scan-time>
+                <verified-thread>pool-1-thread-18</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.com.sg/</short-url>
@@ -2711,9 +2711,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>48782</content-length>
-                <scan-time>166</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <content-length>48943</content-length>
+                <scan-time>178</scan-time>
+                <verified-thread>pool-1-thread-11</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.es/</short-url>
@@ -2724,8 +2724,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=ISO-8859-1</content-type>
                 <content-length>0</content-length>
-                <scan-time>560</scan-time>
-                <verified-thread>pool-1-thread-5</verified-thread>
+                <scan-time>1061</scan-time>
+                <verified-thread>pool-1-thread-6</verified-thread>
             </link>
             <link>
                 <short-url>http://www.tradera.com/</short-url>
@@ -2735,9 +2735,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=utf-8</content-type>
-                <content-length>34195</content-length>
-                <scan-time>655</scan-time>
-                <verified-thread>pool-1-thread-6</verified-thread>
+                <content-length>33992</content-length>
+                <scan-time>399</scan-time>
+                <verified-thread>pool-1-thread-2</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.ch/</short-url>
@@ -2747,9 +2747,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>47932</content-length>
-                <scan-time>198</scan-time>
-                <verified-thread>pool-1-thread-13</verified-thread>
+                <content-length>48140</content-length>
+                <scan-time>164</scan-time>
+                <verified-thread>pool-1-thread-3</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ruten.com.tw/</short-url>
@@ -2760,8 +2760,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=big5</content-type>
                 <content-length>0</content-length>
-                <scan-time>982</scan-time>
-                <verified-thread>pool-1-thread-15</verified-thread>
+                <scan-time>1802</scan-time>
+                <verified-thread>pool-1-thread-12</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.co.th</short-url>
@@ -2771,9 +2771,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=utf-8</content-type>
-                <content-length>146417</content-length>
-                <scan-time>2439</scan-time>
-                <verified-thread>pool-1-thread-16</verified-thread>
+                <content-length>147007</content-length>
+                <scan-time>1681</scan-time>
+                <verified-thread>pool-1-thread-8</verified-thread>
             </link>
             <link>
                 <short-url>http://www.gittigidiyor.com/</short-url>
@@ -2784,8 +2784,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html; charset=ISO-8859-9</content-type>
                 <content-length>0</content-length>
-                <scan-time>1276</scan-time>
-                <verified-thread>pool-1-thread-9</verified-thread>
+                <scan-time>1309</scan-time>
+                <verified-thread>pool-1-thread-16</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.co.uk/</short-url>
@@ -2795,9 +2795,9 @@
                 <verified>Yes</verified>
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html;charset=UTF-8</content-type>
-                <content-length>53403</content-length>
-                <scan-time>322</scan-time>
-                <verified-thread>pool-1-thread-12</verified-thread>
+                <content-length>51260</content-length>
+                <scan-time>242</scan-time>
+                <verified-thread>pool-1-thread-9</verified-thread>
             </link>
             <link>
                 <short-url>http://www.ebay.vn/</short-url>
@@ -2808,8 +2808,8 @@
                 <http-response>HTTP/1.1 200 OK</http-response>
                 <content-type>text/html</content-type>
                 <content-length>0</content-length>
-                <scan-time>1710</scan-time>
-                <verified-thread>pool-1-thread-17</verified-thread>
+                <scan-time>1203</scan-time>
+                <verified-thread>pool-1-thread-1</verified-thread>
             </link>
             <link>
                 <short-url></short-url>
@@ -2821,7 +2821,7 @@
                 <content-type></content-type>
                 <content-length></content-length>
                 <scan-time>0</scan-time>
-                <verified-thread>pool-1-thread-7</verified-thread>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url></short-url>
@@ -2833,7 +2833,7 @@
                 <content-type></content-type>
                 <content-length></content-length>
                 <scan-time>0</scan-time>
-                <verified-thread>pool-1-thread-7</verified-thread>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
             <link>
                 <short-url></short-url>
@@ -2845,116 +2845,116 @@
                 <content-type></content-type>
                 <content-length></content-length>
                 <scan-time>0</scan-time>
-                <verified-thread>pool-1-thread-7</verified-thread>
+                <verified-thread>pool-1-thread-5</verified-thread>
             </link>
         </links>
         <summary>
             <root-url>http://ebay.com</root-url>
             <health>97.8903</health>
-            <scan-time>25189</scan-time>
+            <scan-time>22614</scan-time>
             <thread-count>20</thread-count>
         </summary>
         <thread-pool>
             <threads>
                 <thread>
                     <name>pool-1-thread-10</name>
-                    <job-count>17</job-count>
-                    <job-share>89.47369</job-share>
+                    <job-count>13</job-count>
+                    <job-share>72.22222</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-20</name>
-                    <job-count>15</job-count>
-                    <job-share>78.94737</job-share>
+                    <job-count>9</job-count>
+                    <job-share>50.0</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-9</name>
                     <job-count>4</job-count>
-                    <job-share>21.052631</job-share>
+                    <job-share>22.222223</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-19</name>
-                    <job-count>12</job-count>
-                    <job-share>63.15789</job-share>
+                    <job-count>13</job-count>
+                    <job-share>72.22222</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-8</name>
-                    <job-count>3</job-count>
-                    <job-share>15.789473</job-share>
+                    <job-count>8</job-count>
+                    <job-share>44.444447</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-18</name>
-                    <job-count>9</job-count>
-                    <job-share>47.368423</job-share>
+                    <job-count>15</job-count>
+                    <job-share>83.33333</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-7</name>
-                    <job-count>13</job-count>
-                    <job-share>68.42105</job-share>
+                    <job-count>9</job-count>
+                    <job-share>50.0</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-17</name>
-                    <job-count>11</job-count>
-                    <job-share>57.894737</job-share>
+                    <job-count>14</job-count>
+                    <job-share>77.77778</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-6</name>
-                    <job-count>12</job-count>
-                    <job-share>63.15789</job-share>
+                    <job-count>15</job-count>
+                    <job-share>83.33333</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-16</name>
-                    <job-count>14</job-count>
-                    <job-share>73.68421</job-share>
+                    <job-count>16</job-count>
+                    <job-share>88.88889</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-5</name>
-                    <job-count>14</job-count>
-                    <job-share>73.68421</job-share>
+                    <job-count>18</job-count>
+                    <job-share>100.0</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-15</name>
-                    <job-count>12</job-count>
-                    <job-share>63.15789</job-share>
+                    <job-count>9</job-count>
+                    <job-share>50.0</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-4</name>
-                    <job-count>12</job-count>
-                    <job-share>63.15789</job-share>
+                    <job-count>14</job-count>
+                    <job-share>77.77778</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-14</name>
-                    <job-count>19</job-count>
-                    <job-share>100.0</job-share>
+                    <job-count>11</job-count>
+                    <job-share>61.11111</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-3</name>
-                    <job-count>9</job-count>
-                    <job-share>47.368423</job-share>
+                    <job-count>13</job-count>
+                    <job-share>72.22222</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-2</name>
-                    <job-count>3</job-count>
-                    <job-share>15.789473</job-share>
+                    <job-count>5</job-count>
+                    <job-share>27.777779</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-13</name>
-                    <job-count>15</job-count>
-                    <job-share>78.94737</job-share>
+                    <job-count>7</job-count>
+                    <job-share>38.88889</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-12</name>
-                    <job-count>19</job-count>
-                    <job-share>100.0</job-share>
+                    <job-count>15</job-count>
+                    <job-share>83.33333</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-1</name>
-                    <job-count>11</job-count>
-                    <job-share>57.894737</job-share>
+                    <job-count>15</job-count>
+                    <job-share>83.33333</job-share>
                 </thread>
                 <thread>
                     <name>pool-1-thread-11</name>
-                    <job-count>13</job-count>
-                    <job-share>68.42105</job-share>
+                    <job-count>14</job-count>
+                    <job-share>77.77778</job-share>
                 </thread>
             </threads>
         </thread-pool>

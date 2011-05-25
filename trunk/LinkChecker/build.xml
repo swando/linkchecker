@@ -72,7 +72,6 @@
       <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/jce.jar"/>
       <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/jconsole.jar"/>
       <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/jsse.jar"/>
-      <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/laf.jar"/>
       <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/management-agent.jar"/>
       <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/ui.jar"/>
       <include name="../../../../../Frameworks/JavaVM.framework/Versions/1.6/Home/lib/ext/apple_provider.jar"/>
@@ -110,37 +109,49 @@
   
   <path id="linkchecker.module.production.classpath">
     <path refid="${module.jdk.classpath.linkchecker}"/>
+    <pathelement location="${basedir}/lib/xercesImpl.jar"/>
+    <pathelement location="${basedir}/lib/xml-apis.jar"/>
     <pathelement location="${basedir}/lib/log4j-1.2.16.jar"/>
     <pathelement location="${basedir}/lib/jsoup-1.5.2.jar"/>
     <pathelement location="${basedir}/lib/httpclient-4.1.1.jar"/>
     <pathelement location="${basedir}/lib/httpcore-4.1.jar"/>
+    <pathelement location="${basedir}/lib/jline-1.0.jar"/>
   </path>
   
   <path id="linkchecker.runtime.production.module.classpath">
     <pathelement location="${linkchecker.output.dir}"/>
+    <pathelement location="${basedir}/lib/xercesImpl.jar"/>
+    <pathelement location="${basedir}/lib/xml-apis.jar"/>
     <pathelement location="${basedir}/lib/log4j-1.2.16.jar"/>
     <pathelement location="${basedir}/lib/jsoup-1.5.2.jar"/>
     <pathelement location="${basedir}/lib/httpclient-4.1.1.jar"/>
     <pathelement location="${basedir}/lib/httpcore-4.1.jar"/>
+    <pathelement location="${basedir}/lib/jline-1.0.jar"/>
     <pathelement location="${basedir}/lib/commons-logging-1.1.1.jar"/>
   </path>
   
   <path id="linkchecker.module.classpath">
     <path refid="${module.jdk.classpath.linkchecker}"/>
     <pathelement location="${linkchecker.output.dir}"/>
+    <pathelement location="${basedir}/lib/xercesImpl.jar"/>
+    <pathelement location="${basedir}/lib/xml-apis.jar"/>
     <pathelement location="${basedir}/lib/log4j-1.2.16.jar"/>
     <pathelement location="${basedir}/lib/jsoup-1.5.2.jar"/>
     <pathelement location="${basedir}/lib/httpclient-4.1.1.jar"/>
     <pathelement location="${basedir}/lib/httpcore-4.1.jar"/>
+    <pathelement location="${basedir}/lib/jline-1.0.jar"/>
   </path>
   
   <path id="linkchecker.runtime.module.classpath">
     <pathelement location="${linkchecker.testoutput.dir}"/>
     <pathelement location="${linkchecker.output.dir}"/>
+    <pathelement location="${basedir}/lib/xercesImpl.jar"/>
+    <pathelement location="${basedir}/lib/xml-apis.jar"/>
     <pathelement location="${basedir}/lib/log4j-1.2.16.jar"/>
     <pathelement location="${basedir}/lib/jsoup-1.5.2.jar"/>
     <pathelement location="${basedir}/lib/httpclient-4.1.1.jar"/>
     <pathelement location="${basedir}/lib/httpcore-4.1.jar"/>
+    <pathelement location="${basedir}/lib/jline-1.0.jar"/>
     <pathelement location="${basedir}/lib/commons-logging-1.1.1.jar"/>
   </path>
   
