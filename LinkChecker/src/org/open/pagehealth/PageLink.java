@@ -2,10 +2,14 @@ package org.open.pagehealth;
 
 import org.apache.http.Header;
 import org.apache.http.HttpHeaders;
+import org.apache.http.HttpHost;
 import org.apache.http.HttpResponse;
 import org.apache.http.StatusLine;
 import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpHead;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.conn.params.ConnRoutePNames;
 import org.apache.http.conn.scheme.Scheme;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.params.BasicHttpParams;
@@ -34,10 +38,16 @@ public class PageLink {
     private long _contentLength = -1;
     private long   _scanTime;
     private Thread _thread;
+    private String _type;
 
-    public PageLink(final String link, final String caption) {
+    public PageLink(final String link, final String caption, final String type) {
         _link = link;
         _caption = caption;
+        _type = type;
+    }
+
+    public String getType() {
+        return _type;
     }
 
     public String getURL() {
@@ -99,8 +109,15 @@ public class PageLink {
 
         final HttpResponse response;
         try {
-            final HttpHead method = new HttpHead(_link);
-            method.addHeader("User-Agent", "Mozilla");
+            HttpUriRequest method;
+            if (LinkChecker.HEAD_REQUEST) {
+                // shallow check via HTTP HEAD request
+                method = new HttpHead(_link);
+            } else {
+                // deep check by downloading complete page
+                method = new HttpGet(_link);
+            }
+            method.addHeader(HttpHeaders.USER_AGENT, LinkChecker.USER_AGENT_STRING);
             final HttpClient client = getHttpClient();
             final long startTime = System.currentTimeMillis();
             response = client.execute(method);
@@ -123,8 +140,7 @@ public class PageLink {
                 setGood(line.toString(), contentType, contentLengh);
             }
         } catch (Exception exp) {
-
-            String msg = "Link failed: " + _caption + " via " + _link + ", Exception" + exp;
+            String msg = "Link failed: " + _caption + " via " + _link + ", Exception: " + exp;
             if (exp.getCause() != null) {
                 msg = msg + ", Cause: " + exp.getCause().getMessage();
             }
@@ -149,7 +165,8 @@ public class PageLink {
         if (_link.trim().length() < 1) {
             return "";
         }
-        return _link.length() > 40 ? _link.substring(0, 40) : _link;
+        return _link.length() > LinkChecker.RESULT_COL_WIDTH ?
+                _link.substring(0, LinkChecker.RESULT_COL_WIDTH) + "..." : _link;
 
     }
 
@@ -174,33 +191,7 @@ public class PageLink {
             final javax.net.ssl.SSLContext sc = javax.net.ssl.SSLContext.getInstance("SSL");
             sc.init(null, trustAllCerts, null);
             final org.apache.http.conn.ssl.SSLSocketFactory sf = new org.apache.http.conn.ssl.SSLSocketFactory(sc,
-                                                                                                               org
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                                       .apache.http.conn.ssl.SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
+                    org.apache.http.conn.ssl.SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
 
             //create scheme for apache HttpClient
             SCHEME = new Scheme("https", 443, sf);
@@ -242,9 +233,17 @@ public class PageLink {
         }
         final HttpParams params = new BasicHttpParams();
         params.setParameter(CoreConnectionPNames.CONNECTION_TIMEOUT, LinkChecker.CONNECTION_TIMEOUT);
+        if (LinkChecker.PROXY != null) {
+            HttpHost proxyHost = new HttpHost(LinkChecker.PROXY.substring(0, LinkChecker.PROXY.indexOf(':')),
+                                              Integer.parseInt(
+                                                      LinkChecker.PROXY.substring(LinkChecker.PROXY.indexOf(':') + 1)));
+            params.setParameter(ConnRoutePNames.DEFAULT_PROXY, proxyHost);
+        }
+
         //HttpClientParams.setRedirecting(params, false);
         final DefaultHttpClient client = new DefaultHttpClient(params);
         client.getConnectionManager().getSchemeRegistry().register(SCHEME);
+
         return client;
     }
     // Just add these two functions in your program
