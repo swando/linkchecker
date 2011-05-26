@@ -62,6 +62,7 @@ public class LinkChecker {
     private long     _scanTime, _startTime;
 
     public static Properties loadProperties() {
+        //System.setProperty("log4j.debug", "true");
         Properties props = null;
         File propsFile = new File(PROPS_FILE);
         try {
@@ -72,6 +73,7 @@ public class LinkChecker {
             props = new Properties();
             props.load(new FileInputStream(PROPS_FILE));
             System.out.println("Props File loaded. " + propsFile.getAbsolutePath());
+            System.setProperty("log4j.configuration", "file://" + propsFile.getAbsolutePath());
         } catch (Exception exp) {
             exp.printStackTrace();
         }
@@ -269,6 +271,28 @@ public class LinkChecker {
     public void printResult(final ArrayList<PageLink> pageLinks) {
         try {
             final FileOutputStream fos = new FileOutputStream(REPORT_FILE);
+            /*
+
+            DOMImplementationRegistry registry = DOMImplementationRegistry.newInstance();
+
+            DOMImplementationLS domImplementationLS = (DOMImplementationLS)registry.getDOMImplementation("LS");
+            ///
+
+            LSSerializer lsSerializer = domImplementationLS.createLSSerializer();
+
+             DOMConfiguration domConfiguration = lsSerializer.getDomConfig();
+          if (domConfiguration.canSetParameter("format-pretty-print", Boolean.TRUE)) {
+             lsSerializer.getDomConfig().setParameter("format-pretty-print", Boolean.TRUE);
+             LSOutput lsOutput = domImplementationLS.createLSOutput();
+             lsOutput.setEncoding("UTF-8");
+             StringWriter stringWriter = new StringWriter();
+             lsOutput.setCharacterStream(stringWriter);
+             lsSerializer.write(document, lsOutput);
+          }
+
+            String str = writer.writeToString(document);
+            */
+
             // XERCES 1 or 2 additionnal classes.
             final OutputFormat of = new OutputFormat("XML", "ISO-8859-1", true);
             of.setIndent(1);
