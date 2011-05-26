@@ -1,0 +1,55 @@
+INFO main org.open.pagehealth.LinkChecker - Scanning root page: http://mtv.com
+INFO main org.open.pagehealth.LinkChecker - Links: 622
+INFO main org.open.pagehealth.LinkChecker - media: 203
+INFO main org.open.pagehealth.LinkChecker - imports: 3
+INFO main org.open.pagehealth.LinkChecker - ignoring mailto link: <a href="mailto:dailyfresh@mtv.com">here.</a>
+INFO main org.open.pagehealth.LinkChecker - Root page scan took 1197 ms
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [0/10] Active: 0, Completed: 0, Task: 0, isShutdown: false, isTerminated: false
+INFO main org.open.pagehealth.LinkChecker - Going to sleep until all tasks are complete
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 56, Task: 827, isShutdown: false, isTerminated: false
+INFO pool-1-thread-6 org.apache.http.impl.client.DefaultHttpClient - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+INFO pool-1-thread-6 org.apache.http.impl.client.DefaultHttpClient - Retrying request
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 132, Task: 827, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 177, Task: 827, isShutdown: false, isTerminated: false
+INFO pool-1-thread-4 org.apache.http.impl.client.DefaultHttpClient - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+INFO pool-1-thread-4 org.apache.http.impl.client.DefaultHttpClient - Retrying request
+INFO pool-1-thread-1 org.apache.http.impl.client.DefaultHttpClient - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+INFO pool-1-thread-1 org.apache.http.impl.client.DefaultHttpClient - Retrying request
+INFO pool-1-thread-6 org.apache.http.impl.client.DefaultHttpClient - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+INFO pool-1-thread-6 org.apache.http.impl.client.DefaultHttpClient - Retrying request
+INFO pool-1-thread-8 org.apache.http.impl.client.DefaultHttpClient - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+INFO pool-1-thread-8 org.apache.http.impl.client.DefaultHttpClient - Retrying request
+INFO pool-1-thread-7 org.apache.http.impl.client.DefaultHttpClient - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+INFO pool-1-thread-7 org.apache.http.impl.client.DefaultHttpClient - Retrying request
+INFO pool-1-thread-10 org.apache.http.impl.client.DefaultHttpClient - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+INFO pool-1-thread-10 org.apache.http.impl.client.DefaultHttpClient - Retrying request
+INFO pool-1-thread-8 org.apache.http.impl.client.DefaultHttpClient - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+INFO pool-1-thread-8 org.apache.http.impl.client.DefaultHttpClient - Retrying request
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 257, Task: 827, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 303, Task: 827, isShutdown: false, isTerminated: false
+WARN pool-1-thread-9 org.apache.http.client.protocol.ResponseProcessCookies - Cookie rejected: "[version: 0][name: JSESSIONID][value: 24A9228E1D2289F627AFAFDAE8ADC7F6][domain: www.rhapsody.com][path: /rotw][expiry: null]". Illegal path attribute "/rotw". Path of origin: "/freetrial/mtvn/60d"
+WARN pool-1-thread-10 org.apache.http.client.protocol.ResponseProcessCookies - Cookie rejected: "[version: 0][name: JSESSIONID][value: 23D32C703931CC13B28CA5A1A9E5E0D2][domain: www.rhapsody.com][path: /rotw][expiry: null]". Illegal path attribute "/rotw". Path of origin: "/freetrial/mtvn/60d"
+WARN pool-1-thread-2 org.apache.http.client.protocol.ResponseProcessCookies - Cookie rejected: "[version: 0][name: JSESSIONID][value: 2B887185F042EE5368EA5BB4F3C97452][domain: www.rhapsody.com][path: /rotw][expiry: null]". Illegal path attribute "/rotw". Path of origin: "/freetrial/mtvn/60d"
+WARN pool-1-thread-6 org.apache.http.client.protocol.ResponseProcessCookies - Cookie rejected: "[version: 0][name: JSESSIONID][value: CED333606C0681BFC5DD6B9846FCD2C1][domain: www.rhapsody.com][path: /rotw][expiry: null]". Illegal path attribute "/rotw". Path of origin: "/freetrial/mtvn/60d"
+WARN pool-1-thread-8 org.apache.http.client.protocol.ResponseProcessCookies - Cookie rejected: "[version: 0][name: JSESSIONID][value: 83A4904652F01632A1BB1B5FCC610965][domain: www.rhapsody.com][path: /rotw][expiry: null]". Illegal path attribute "/rotw". Path of origin: "/freetrial/mtvn/60d"
+WARN pool-1-thread-7 org.apache.http.client.protocol.ResponseProcessCookies - Cookie rejected: "[version: 0][name: JSESSIONID][value: 5443371468784121555536967A44FEF8][domain: www.rhapsody.com][path: /rotw][expiry: null]". Illegal path attribute "/rotw". Path of origin: "/freetrial/mtvn/60d"
+WARN pool-1-thread-1 org.apache.http.client.protocol.ResponseProcessCookies - Cookie rejected: "[version: 0][name: JSESSIONID][value: 5B1313A1E3F285D3E00DC0B98CD99D76][domain: www.rhapsody.com][path: /rotw][expiry: null]". Illegal path attribute "/rotw". Path of origin: "/freetrial/mtvn/60d"
+WARN pool-1-thread-5 org.apache.http.client.protocol.ResponseProcessCookies - Cookie rejected: "[version: 0][name: JSESSIONID][value: 7292D31E84F02B660376AB56D8D2E681][domain: www.rhapsody.com][path: /rotw][expiry: null]". Illegal path attribute "/rotw". Path of origin: "/freetrial/mtvn/60d"
+WARN pool-1-thread-4 org.apache.http.client.protocol.ResponseProcessCookies - Cookie rejected: "[version: 0][name: JSESSIONID][value: 5785AF97B27137DFA30066E78470C09A][domain: www.rhapsody.com][path: /rotw][expiry: null]". Illegal path attribute "/rotw". Path of origin: "/freetrial/mtvn/60d"
+WARN pool-1-thread-3 org.apache.http.client.protocol.ResponseProcessCookies - Cookie rejected: "[version: 0][name: JSESSIONID][value: A319D4DE152265B19CB71807AAF1D164][domain: www.rhapsody.com][path: /rotw][expiry: null]". Illegal path attribute "/rotw". Path of origin: "/freetrial/mtvn/60d"
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 384, Task: 827, isShutdown: false, isTerminated: false
+INFO pool-1-thread-1 org.apache.http.impl.client.DefaultHttpClient - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+INFO pool-1-thread-1 org.apache.http.impl.client.DefaultHttpClient - Retrying request
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 483, Task: 827, isShutdown: false, isTerminated: false
+INFO pool-1-thread-9 org.apache.http.impl.client.DefaultHttpClient - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+INFO pool-1-thread-9 org.apache.http.impl.client.DefaultHttpClient - Retrying request
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 593, Task: 827, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 698, Task: 827, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 769, Task: 827, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 785, Task: 827, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 0, Completed: 827, Task: 827, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - Task queue is empty. Lets shutdown.
+INFO main org.open.pagehealth.LinkChecker - Getting ready to shutdown
+INFO main org.open.pagehealth.LinkChecker - Stopped the pool: true
+INFO main org.open.pagehealth.LinkChecker - Total time 37221 ms
+INFO main org.open.pagehealth.LinkChecker - Generated report file at: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.xml

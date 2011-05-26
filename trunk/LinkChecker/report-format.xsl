@@ -38,17 +38,24 @@
                             <xsl:attribute name="href">
                                 <xsl:value-of select="result/page/summary/root-url"/>
                             </xsl:attribute>
+                            <xsl:attribute name="target">_blank</xsl:attribute>
                             <xsl:value-of select="result/page/summary/root-url"/>
                         </a>
                     </li>
                     <li>Page Health:
                         <xsl:value-of select="format-number(result/page/summary/health, '##.#')"/> %
                     </li>
-                    <li>Scan Duration:
-                        <xsl:value-of select="format-number(result/page/summary/scan-time, '#,###')"/> ms
+                    <li>Page Link Count:
+                        <xsl:value-of select="result/page/summary/link-count"/>
                     </li>
                     <li>Total Threads:
                         <xsl:value-of select="result/page/summary/thread-count"/>
+                    </li>
+                    <li>Scan Duration:
+                        <xsl:value-of select="format-number(result/page/summary/scan-time, '#,###')"/> ms
+                    </li>
+                    <li>Start Time:
+                        <xsl:value-of select="result/page/summary/start-time"/>
                     </li>
                 </ul>
                 <div align="right">
@@ -91,6 +98,7 @@
                     <tr bgcolor="#9acd32">
                         <th>Link</th>
                         <th>Caption</th>
+                        <th>Type</th>
                         <th>Status</th>
                         <th>Verified</th>
                         <th>HTTP Response</th>
@@ -112,11 +120,15 @@
                                     <xsl:attribute name="href">
                                         <xsl:value-of select="url"/>
                                     </xsl:attribute>
+                                    <xsl:attribute name="target">_blank</xsl:attribute>
                                     <xsl:value-of select="short-url"/>
                                 </a>
                             </td>
                             <td>
                                 <xsl:value-of select="caption"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="type"/>
                             </td>
                             <td>
                                 <xsl:value-of select="status"/>
