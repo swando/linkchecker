@@ -4,7 +4,7 @@
   * Project Website: http://code.google.com/p/linkchecker/
   * Source Code: http://code.google.com/p/linkchecker/source/checkout
   * Download: http://code.google.com/p/linkchecker/downloads/list
-  * Sample Report: http://code.google.com/p/linkchecker/source/browse/trunk/LinkChecker/sample-report.html
+  * Sample Report: http://linkchecker.googlecode.com/files/sample-report.html
 ************************************************************************************************************************
 =Description=
 ************************************************************************************************************************
