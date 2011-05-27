@@ -22,15 +22,13 @@ public class TasksMonitorThread implements Runnable {
         try {
             do {
                 LOG.info(String.format(
-                        "[monitor] [%d/%d] Active: %d, Completed: %d, Task: %d, isShutdown: %s, isTerminated: %s",
-                        this.executor.getPoolSize(), this.executor.getCorePoolSize(), this.executor.getActiveCount(),
-                        this.executor.getCompletedTaskCount(), this.executor.getTaskCount(),
-                        this.executor.isShutdown(),
-                        this.executor.isTerminated()));
+                        "[monitor] ActiveThreads: %d, TotalThreads: %d, CompletedTasks: %d, TotalTasks: %d",
+                        this.executor.getActiveCount(), this.executor.getCorePoolSize(),
+                        this.executor.getCompletedTaskCount(), this.executor.getTaskCount()));
 
                 if (this.executor.getTaskCount() > 0 && this.executor.getActiveCount() == 0 &&
                         this.executor.getTaskCount() == this.executor.getCompletedTaskCount()) {
-                    LOG.info("Task queue is empty. Lets shutdown.");
+                    LOG.debug("Task queue is empty. Lets shutdown.");
                     synchronized (_callBack) {
                         _callBack.notify();
                     }

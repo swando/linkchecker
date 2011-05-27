@@ -53,3 +53,711 @@ INFO main org.open.pagehealth.LinkChecker - Getting ready to shutdown
 INFO main org.open.pagehealth.LinkChecker - Stopped the pool: true
 INFO main org.open.pagehealth.LinkChecker - Total time 37221 ms
 INFO main org.open.pagehealth.LinkChecker - Generated report file at: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.xml
+INFO main org.open.pagehealth.LinkChecker - Scanning root page: http://amazon.com
+INFO main org.open.pagehealth.LinkChecker - Links: 190
+INFO main org.open.pagehealth.LinkChecker - media: 25
+INFO main org.open.pagehealth.LinkChecker - imports: 9
+INFO main org.open.pagehealth.LinkChecker - Root page scan took 1070 ms
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [0/10] Active: 0, Completed: 0, Task: 0, isShutdown: false, isTerminated: false
+INFO main org.open.pagehealth.LinkChecker - Going to sleep until all tasks are complete
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 25, Task: 224, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 68, Task: 224, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 115, Task: 224, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 143, Task: 224, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 1, Completed: 223, Task: 224, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [1/10] Active: 0, Completed: 224, Task: 224, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - Task queue is empty. Lets shutdown.
+INFO main org.open.pagehealth.LinkChecker - Getting ready to shutdown
+INFO main org.open.pagehealth.LinkChecker - Stopped the pool: true
+INFO main org.open.pagehealth.LinkChecker - Total time 19088 ms
+INFO main org.open.pagehealth.LinkChecker - Generated report file at: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.xml
+INFO main org.open.pagehealth.LinkChecker - Scanning root page: http://amazon.com
+INFO main org.open.pagehealth.LinkChecker - Links: 192
+INFO main org.open.pagehealth.LinkChecker - media: 27
+INFO main org.open.pagehealth.LinkChecker - imports: 9
+INFO main org.open.pagehealth.LinkChecker - Root page scan took 1038 ms
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [0/10] Active: 0, Completed: 0, Task: 0, isShutdown: false, isTerminated: false
+INFO main org.open.pagehealth.LinkChecker - Going to sleep until all tasks are complete
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 23, Task: 228, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 70, Task: 228, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 111, Task: 228, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 143, Task: 228, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 10, Completed: 213, Task: 228, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 1, Completed: 227, Task: 228, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [1/10] Active: 0, Completed: 228, Task: 228, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - Task queue is empty. Lets shutdown.
+INFO main org.open.pagehealth.LinkChecker - Getting ready to shutdown
+INFO main org.open.pagehealth.LinkChecker - Stopped the pool: true
+INFO main org.open.pagehealth.LinkChecker - Total time 22114 ms
+INFO main org.open.pagehealth.LinkChecker - Generated report file at: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.xml
+INFO main org.open.pagehealth.LinkChecker - Scanning root page: http://apple.com
+INFO main org.open.pagehealth.LinkChecker - Links: 29
+INFO main org.open.pagehealth.LinkChecker - media: 19
+INFO main org.open.pagehealth.LinkChecker - imports: 7
+INFO main org.open.pagehealth.LinkChecker - Root page scan took 297 ms
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [0/10] Active: 0, Completed: 0, Task: 0, isShutdown: false, isTerminated: false
+INFO main org.open.pagehealth.LinkChecker - Going to sleep until all tasks are complete
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 0, Completed: 55, Task: 55, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - Task queue is empty. Lets shutdown.
+INFO main org.open.pagehealth.LinkChecker - Getting ready to shutdown
+INFO main org.open.pagehealth.LinkChecker - Stopped the pool: true
+INFO main org.open.pagehealth.LinkChecker - Total time 3317 ms
+INFO main org.open.pagehealth.LinkChecker - Generated report file at: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.xml
+INFO main org.open.pagehealth.LinkChecker - Scanning root page: http://apple.com
+INFO main org.open.pagehealth.LinkChecker - Links: 29
+INFO main org.open.pagehealth.LinkChecker - media: 19
+INFO main org.open.pagehealth.LinkChecker - imports: 7
+INFO main org.open.pagehealth.LinkChecker - Root page scan took 315 ms
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [0/10] Active: 0, Completed: 0, Task: 0, isShutdown: false, isTerminated: false
+INFO main org.open.pagehealth.LinkChecker - Going to sleep until all tasks are complete
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 0, Completed: 55, Task: 55, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - Task queue is empty. Lets shutdown.
+INFO main org.open.pagehealth.LinkChecker - Getting ready to shutdown
+INFO main org.open.pagehealth.LinkChecker - Stopped the pool: true
+INFO main org.open.pagehealth.LinkChecker - Total time 3327 ms
+INFO main org.open.pagehealth.LinkChecker - Generated report file at: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.xml
+INFO main org.open.pagehealth.LinkChecker - Scanning root page: http://apple.com
+INFO main org.open.pagehealth.LinkChecker - Links: 29
+INFO main org.open.pagehealth.LinkChecker - media: 19
+INFO main org.open.pagehealth.LinkChecker - imports: 7
+INFO main org.open.pagehealth.LinkChecker - Root page scan took 307 ms
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [0/10] Active: 0, Completed: 0, Task: 0, isShutdown: false, isTerminated: false
+INFO main org.open.pagehealth.LinkChecker - Going to sleep until all tasks are complete
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 0, Completed: 55, Task: 55, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - Task queue is empty. Lets shutdown.
+INFO main org.open.pagehealth.LinkChecker - Getting ready to shutdown
+INFO main org.open.pagehealth.LinkChecker - Stopped the pool: true
+INFO main org.open.pagehealth.LinkChecker - Total time 3317 ms
+INFO main org.open.pagehealth.LinkChecker - Generated report file at: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.xml
+INFO main org.open.pagehealth.LinkChecker - Scanning root page: http://apple.com
+INFO main org.open.pagehealth.LinkChecker - Links: 29
+INFO main org.open.pagehealth.LinkChecker - media: 19
+INFO main org.open.pagehealth.LinkChecker - imports: 7
+INFO main org.open.pagehealth.LinkChecker - Root page scan took 125 ms
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [0/10] Active: 0, Completed: 0, Task: 1, isShutdown: false, isTerminated: false
+INFO main org.open.pagehealth.LinkChecker - Going to sleep until all tasks are complete
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 0, Completed: 55, Task: 55, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - Task queue is empty. Lets shutdown.
+INFO main org.open.pagehealth.LinkChecker - Getting ready to shutdown
+INFO main org.open.pagehealth.LinkChecker - Stopped the pool: true
+INFO main org.open.pagehealth.LinkChecker - Total time 3137 ms
+INFO main org.open.pagehealth.LinkChecker - Generated report file at: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.html
+INFO main org.open.pagehealth.LinkChecker - Scanning root page: http://apple.com
+INFO main org.open.pagehealth.LinkChecker - Links: 29
+INFO main org.open.pagehealth.LinkChecker - media: 19
+INFO main org.open.pagehealth.LinkChecker - imports: 7
+INFO main org.open.pagehealth.LinkChecker - Scanning root page: http://apple.com
+INFO main org.open.pagehealth.LinkChecker - Links: 29
+INFO main org.open.pagehealth.LinkChecker - media: 19
+INFO main org.open.pagehealth.LinkChecker - imports: 7
+INFO main org.open.pagehealth.LinkChecker - Root page scan took 276 ms
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [0/10] Active: 0, Completed: 0, Task: 0, isShutdown: false, isTerminated: false
+INFO main org.open.pagehealth.LinkChecker - Going to sleep until all tasks are complete
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 0, Completed: 55, Task: 55, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - Task queue is empty. Lets shutdown.
+INFO main org.open.pagehealth.LinkChecker - Getting ready to shutdown
+INFO main org.open.pagehealth.LinkChecker - Stopped the pool: true
+INFO main org.open.pagehealth.LinkChecker - Total time 3288 ms
+INFO main org.open.pagehealth.LinkChecker - Generated report file at: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.html
+INFO main org.open.pagehealth.LinkChecker - Scanning root page: http://apple.com
+INFO main org.open.pagehealth.LinkChecker - Links: 29
+INFO main org.open.pagehealth.LinkChecker - media: 19
+INFO main org.open.pagehealth.LinkChecker - imports: 7
+INFO main org.open.pagehealth.LinkChecker - Scanning root page: http://apple.com
+INFO main org.open.pagehealth.LinkChecker - Links: 29
+INFO main org.open.pagehealth.LinkChecker - media: 19
+INFO main org.open.pagehealth.LinkChecker - imports: 7
+INFO main org.open.pagehealth.LinkChecker - Root page scan took 293 ms
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [0/10] Active: 0, Completed: 0, Task: 0, isShutdown: false, isTerminated: false
+INFO main org.open.pagehealth.LinkChecker - Going to sleep until all tasks are complete
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] [10/10] Active: 0, Completed: 55, Task: 55, isShutdown: false, isTerminated: false
+INFO TasksMonitorThread org.open.pagehealth.TasksMonitorThread - Task queue is empty. Lets shutdown.
+INFO main org.open.pagehealth.LinkChecker - Getting ready to shutdown
+INFO main org.open.pagehealth.LinkChecker - Stopped the pool: true
+INFO main org.open.pagehealth.LinkChecker - Total time 3303 ms
+INFO main org.open.pagehealth.LinkChecker - Generated report file at: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.html
+INFO main org.open.pagehealth.LinkChecker - Scanning root page: http://apple.com
+INFO main org.open.pagehealth.LinkChecker - Links: 29
+INFO main org.open.pagehealth.LinkChecker - media: 19
+INFO main org.open.pagehealth.LinkChecker - imports: 7
+INFO [main] (LinkChecker.java:185) main org.open.pagehealth.LinkChecker - Scanning page: http://infosys.com
+INFO [main] (LinkChecker.java:191) main org.open.pagehealth.LinkChecker - Page contains: Links: 75, Media: 23, Imports: 7
+INFO [main] (LinkChecker.java:247) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+ERROR [pool-1-thread-9] (PageLink.java:147) pool-1-thread-9 org.open.pagehealth.PageLink - Link failed: Czech Republic via http://www.infosys.com/contact/Pages/country.aspx?source=home&country=Czech Republic, Exception: java.lang.IllegalArgumentException, Cause: Illegal character in query at index 75: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=Czech Republic
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at org.open.pagehealth.PageLink.checkLink(PageLink.java:118)
+	at org.open.pagehealth.ClickThread.run(ClickThread.java:22)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 75: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=Czech Republic
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 6 more
+ERROR [pool-1-thread-5] (PageLink.java:147) pool-1-thread-5 org.open.pagehealth.PageLink - Link failed: Kingdom of Saudi Arabia via http://www.infosys.com/contact/Pages/country.aspx?source=home&country=Kingdom of Saudi Arabia, Exception: java.lang.IllegalArgumentException, Cause: Illegal character in query at index 77: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=Kingdom of Saudi Arabia
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at org.open.pagehealth.PageLink.checkLink(PageLink.java:118)
+	at org.open.pagehealth.ClickThread.run(ClickThread.java:22)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 77: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=Kingdom of Saudi Arabia
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 6 more
+ERROR [pool-1-thread-9] (PageLink.java:147) pool-1-thread-9 org.open.pagehealth.PageLink - Link failed: The Netherlands via http://www.infosys.com/contact/Pages/country.aspx?source=home&country=The Netherlands, Exception: java.lang.IllegalArgumentException, Cause: Illegal character in query at index 73: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=The Netherlands
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at org.open.pagehealth.PageLink.checkLink(PageLink.java:118)
+	at org.open.pagehealth.ClickThread.run(ClickThread.java:22)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 73: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=The Netherlands
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 6 more
+ERROR [pool-1-thread-9] (PageLink.java:147) pool-1-thread-9 org.open.pagehealth.PageLink - Link failed: United Arab Emirates via http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United Arab Emirates, Exception: java.lang.IllegalArgumentException, Cause: Illegal character in query at index 76: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United Arab Emirates
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at org.open.pagehealth.PageLink.checkLink(PageLink.java:118)
+	at org.open.pagehealth.ClickThread.run(ClickThread.java:22)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 76: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United Arab Emirates
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 6 more
+ERROR [pool-1-thread-9] (PageLink.java:147) pool-1-thread-9 org.open.pagehealth.PageLink - Link failed: United States via http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United States, Exception: java.lang.IllegalArgumentException, Cause: Illegal character in query at index 76: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United States
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at org.open.pagehealth.PageLink.checkLink(PageLink.java:118)
+	at org.open.pagehealth.ClickThread.run(ClickThread.java:22)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 76: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United States
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 6 more
+ERROR [pool-1-thread-6] (PageLink.java:147) pool-1-thread-6 org.open.pagehealth.PageLink - Link failed: United Kingdom (UK) via http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United Kingdom (UK), Exception: java.lang.IllegalArgumentException, Cause: Illegal character in query at index 76: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United Kingdom (UK)
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at org.open.pagehealth.PageLink.checkLink(PageLink.java:118)
+	at org.open.pagehealth.ClickThread.run(ClickThread.java:22)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 76: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United Kingdom (UK)
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 6 more
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 105, TotalTasks: 105
+INFO [main] (LinkChecker.java:273) main org.open.pagehealth.LinkChecker - Pool shutdown.
+INFO [main] (LinkChecker.java:134) main org.open.pagehealth.LinkChecker - Scan duration:  3203 ms with 10 threads.
+INFO [main] (LinkChecker.java:464) main org.open.pagehealth.LinkChecker - Attempting to open the report file: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.html
+INFO [main] (LinkChecker.java:185) main org.open.pagehealth.LinkChecker - Scanning page: http://infosys.com
+INFO [main] (LinkChecker.java:191) main org.open.pagehealth.LinkChecker - Page contains: Links: 75, Media: 23, Imports: 7
+INFO [main] (LinkChecker.java:247) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 19, TotalTasks: 105
+ERROR [pool-1-thread-2] (PageLink.java:147) pool-1-thread-2 org.open.pagehealth.PageLink - Link failed: Kingdom of Saudi Arabia via http://www.infosys.com/contact/Pages/country.aspx?source=home&country=Kingdom of Saudi Arabia, Exception: java.lang.IllegalArgumentException, Cause: Illegal character in query at index 77: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=Kingdom of Saudi Arabia
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at org.open.pagehealth.PageLink.checkLink(PageLink.java:118)
+	at org.open.pagehealth.ClickThread.run(ClickThread.java:22)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 77: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=Kingdom of Saudi Arabia
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 6 more
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 25, TotalTasks: 105
+ERROR [pool-1-thread-10] (PageLink.java:147) pool-1-thread-10 org.open.pagehealth.PageLink - Link failed: The Netherlands via http://www.infosys.com/contact/Pages/country.aspx?source=home&country=The Netherlands, Exception: java.lang.IllegalArgumentException, Cause: Illegal character in query at index 73: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=The Netherlands
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at org.open.pagehealth.PageLink.checkLink(PageLink.java:118)
+	at org.open.pagehealth.ClickThread.run(ClickThread.java:22)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 73: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=The Netherlands
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 6 more
+ERROR [pool-1-thread-10] (PageLink.java:147) pool-1-thread-10 org.open.pagehealth.PageLink - Link failed: United Arab Emirates via http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United Arab Emirates, Exception: java.lang.IllegalArgumentException, Cause: Illegal character in query at index 76: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United Arab Emirates
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at org.open.pagehealth.PageLink.checkLink(PageLink.java:118)
+	at org.open.pagehealth.ClickThread.run(ClickThread.java:22)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 76: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United Arab Emirates
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 6 more
+ERROR [pool-1-thread-10] (PageLink.java:147) pool-1-thread-10 org.open.pagehealth.PageLink - Link failed: United Kingdom (UK) via http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United Kingdom (UK), Exception: java.lang.IllegalArgumentException, Cause: Illegal character in query at index 76: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United Kingdom (UK)
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at org.open.pagehealth.PageLink.checkLink(PageLink.java:118)
+	at org.open.pagehealth.ClickThread.run(ClickThread.java:22)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 76: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United Kingdom (UK)
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 6 more
+ERROR [pool-1-thread-10] (PageLink.java:147) pool-1-thread-10 org.open.pagehealth.PageLink - Link failed: United States via http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United States, Exception: java.lang.IllegalArgumentException, Cause: Illegal character in query at index 76: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United States
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at org.open.pagehealth.PageLink.checkLink(PageLink.java:118)
+	at org.open.pagehealth.ClickThread.run(ClickThread.java:22)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 76: http://www.infosys.com/contact/Pages/country.aspx?source=home&country=United States
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 6 more
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 39, TotalTasks: 105
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 41, TotalTasks: 105
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 46, TotalTasks: 105
+INFO [main] (LinkChecker.java:185) main org.open.pagehealth.LinkChecker - Scanning page: http://infosys.com
+INFO [main] (LinkChecker.java:191) main org.open.pagehealth.LinkChecker - Page contains: Links: 75, Media: 23, Imports: 7
+INFO [main] (LinkChecker.java:247) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 1
+INFO [main] (LinkChecker.java:185) main org.open.pagehealth.LinkChecker - Scanning page: http://infosys.com
+INFO [main] (LinkChecker.java:191) main org.open.pagehealth.LinkChecker - Page contains: Links: 75, Media: 23, Imports: 7
+INFO [main] (LinkChecker.java:247) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 1
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 11, TotalTasks: 105
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 13, TotalTasks: 105
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 14, TotalTasks: 105
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 18, TotalTasks: 105
+INFO [main] (LinkChecker.java:185) main org.open.pagehealth.LinkChecker - Scanning page: http://infosys.com
+INFO [main] (LinkChecker.java:191) main org.open.pagehealth.LinkChecker - Page contains: Links: 75, Media: 23, Imports: 7
+INFO [main] (LinkChecker.java:247) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [main] (LinkChecker.java:185) main org.open.pagehealth.LinkChecker - Scanning page: http://infosys.com
+INFO [main] (LinkChecker.java:191) main org.open.pagehealth.LinkChecker - Page contains: Links: 75, Media: 23, Imports: 7
+INFO [main] (LinkChecker.java:247) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 12, TotalTasks: 105
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 13, TotalTasks: 105
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 15, TotalTasks: 105
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 24, TotalTasks: 105
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 26, TotalTasks: 105
+INFO [main] (LinkChecker.java:185) main org.open.pagehealth.LinkChecker - Scanning page: http://infosys.com
+INFO [main] (LinkChecker.java:191) main org.open.pagehealth.LinkChecker - Page contains: Links: 75, Media: 23, Imports: 7
+INFO [main] (LinkChecker.java:247) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 105, TotalTasks: 105
+INFO [main] (LinkChecker.java:273) main org.open.pagehealth.LinkChecker - Pool shutdown.
+INFO [main] (LinkChecker.java:134) main org.open.pagehealth.LinkChecker - Scan duration:  3194 ms with 10 threads.
+INFO [main] (LinkChecker.java:464) main org.open.pagehealth.LinkChecker - Attempting to open the report file: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.html
+INFO [main] (LinkChecker.java:186) main org.open.pagehealth.LinkChecker - Scanning page: http://infosys.com
+INFO [main] (LinkChecker.java:192) main org.open.pagehealth.LinkChecker - Page contains: Links: 75, Media: 23, Imports: 7
+INFO [main] (LinkChecker.java:248) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [main] (LinkChecker.java:186) main org.open.pagehealth.LinkChecker - Scanning page: http://infosys.com
+INFO [main] (LinkChecker.java:192) main org.open.pagehealth.LinkChecker - Page contains: Links: 75, Media: 23, Imports: 7
+INFO [main] (LinkChecker.java:248) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [main] (LinkChecker.java:186) main org.open.pagehealth.LinkChecker - Scanning page: http://infosys.com
+INFO [main] (LinkChecker.java:192) main org.open.pagehealth.LinkChecker - Page contains: Links: 75, Media: 23, Imports: 7
+INFO [main] (LinkChecker.java:248) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [main] (LinkChecker.java:186) main org.open.pagehealth.LinkChecker - Scanning page: http://infosys.com
+INFO [main] (LinkChecker.java:192) main org.open.pagehealth.LinkChecker - Page contains: Links: 75, Media: 23, Imports: 7
+INFO [main] (LinkChecker.java:248) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [main] (LinkChecker.java:188) main org.open.pagehealth.LinkChecker - Scanning page: http://infosys.com
+INFO [main] (LinkChecker.java:194) main org.open.pagehealth.LinkChecker - Page contains: Links: 75, Media: 23, Imports: 7
+INFO [main] (LinkChecker.java:250) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 96, TotalTasks: 96
+INFO [main] (LinkChecker.java:283) main org.open.pagehealth.LinkChecker - Pool shutdown.
+INFO [main] (LinkChecker.java:137) main org.open.pagehealth.LinkChecker - Scan duration:  3201 ms with 10 threads.
+INFO [main] (LinkChecker.java:474) main org.open.pagehealth.LinkChecker - Attempting to open the report file: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.html
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [main] (LinkChecker.java:188) main org.open.pagehealth.LinkChecker - Scanning page: http://infosys.com
+INFO [main] (LinkChecker.java:194) main org.open.pagehealth.LinkChecker - Page contains: Links: 75, Media: 23, Imports: 7
+INFO [main] (LinkChecker.java:251) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 96, TotalTasks: 96
+INFO [main] (LinkChecker.java:280) main org.open.pagehealth.LinkChecker - Pool shutdown.
+INFO [main] (LinkChecker.java:137) main org.open.pagehealth.LinkChecker - Scan duration:  3184 ms with 10 threads.
+INFO [main] (LinkChecker.java:467) main org.open.pagehealth.LinkChecker - Attempting to open the report file: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.html
+INFO [main] (LinkChecker.java:185) main org.open.pagehealth.LinkChecker - Scanning page: https://www.bankofamerica.com
+INFO [main] (LinkChecker.java:191) main org.open.pagehealth.LinkChecker - Page contains: Links: 81, Media: 18, Imports: 2
+WARN [main] (LinkChecker.java:215) main org.open.pagehealth.LinkChecker - Skipping over javascript link<a class="other-services" href="javascript:void(0);" title="" name="signin_link_services">Sign in to other services</a>
+WARN [main] (LinkChecker.java:215) main org.open.pagehealth.LinkChecker - Skipping over javascript link<a class="sign-in-help" href="javascript:void(0);" title="" name="signin_link_help">Sign-in help/options</a>
+WARN [main] (LinkChecker.java:215) main org.open.pagehealth.LinkChecker - Skipping over javascript link<a href="javascript:void(0);" title="" name="signin_link_close">close<span class="ada-hidden">Sign in to other services close link</span></a>
+WARN [main] (LinkChecker.java:215) main org.open.pagehealth.LinkChecker - Skipping over javascript link<a href="javascript:void(0);" title="" name="signin_link_close2">close<span class="ada-hidden">Need sign in help close link</span></a>
+WARN [main] (LinkChecker.java:215) main org.open.pagehealth.LinkChecker - Skipping over javascript link<a name="Bank" href="javascript:void(0);" title="">Bank <span class="ada-hidden">menu. Press Enter to access submenu. To move through items press up or down arrow.</span></a>
+WARN [main] (LinkChecker.java:215) main org.open.pagehealth.LinkChecker - Skipping over javascript link<a name="Borrow" href="javascript:void(0);" title="">Borrow <span class="ada-hidden">menu. Press Enter to access submenu. To move through items press up or down arrow.</span></a>
+WARN [main] (LinkChecker.java:215) main org.open.pagehealth.LinkChecker - Skipping over javascript link<a name="Invest" class="investbull" href="javascript:void(0);" title=""><span class="invest">Invest </span><span class="ada-hidden">menu. Press Enter to access submenu. To move through items press up or down arrow.</span></a>
+WARN [main] (LinkChecker.java:215) main org.open.pagehealth.LinkChecker - Skipping over javascript link<a name="Protect" href="javascript:void(0);" title="">Protect <span class="ada-hidden">menu. Press Enter to access submenu. To move through items press up or down arrow.</span></a>
+WARN [main] (LinkChecker.java:215) main org.open.pagehealth.LinkChecker - Skipping over javascript link<a name="Plan" href="javascript:void(0);" class="last-tab" title="">Plan <span class="ada-hidden">menu. Press Enter to access submenu. To move through items press up or down arrow.</span></a>
+WARN [main] (LinkChecker.java:215) main org.open.pagehealth.LinkChecker - Skipping over javascript link<a name="state_selector_submit" class="blue-button" href="javascript:void(0);" title="Go to state information" onclick="javascript:stateSelectSubmit('Please enter the location where your account is held and try again. '); return false;"> <span>Go</span> </a>
+WARN [main] (LinkChecker.java:215) main org.open.pagehealth.LinkChecker - Skipping over javascript link<a class="blue-button" name="go_locations" href="javascript: doLocatorSearch();" title="Go to location results"><span>Go</span></a>
+WARN [main] (LinkChecker.java:215) main org.open.pagehealth.LinkChecker - Skipping over javascript link<a class="blue-button" name="go_other_services" href="javascript: otherServicesLink();" title="Go to other services"><span>Go</span></a>
+INFO [main] (LinkChecker.java:249) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 47, TotalTasks: 82
+WARN [pool-1-thread-3] (ResponseProcessCookies.java:127) pool-1-thread-3 org.apache.http.client.protocol.ResponseProcessCookies - Cookie rejected: "[version: 0][name: TM_PUID][value: 8dbe5343-8298-48f4-b5aa-e2b47944fa9c][domain: .totalmerrill.com][path: /][expiry: Wed May 26 16:34:40 PDT 2021]". Illegal domain attribute "totalmerrill.com". Domain of origin: "www.ustrust.com"
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 4, TotalThreads: 10, CompletedTasks: 78, TotalTasks: 82
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 1, TotalThreads: 10, CompletedTasks: 81, TotalTasks: 82
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 82, TotalTasks: 82
+INFO [main] (LinkChecker.java:278) main org.open.pagehealth.LinkChecker - Pool shutdown.
+INFO [main] (LinkChecker.java:134) main org.open.pagehealth.LinkChecker - Scan duration: 12914 ms with 10 threads.
+INFO [main] (LinkChecker.java:465) main org.open.pagehealth.LinkChecker - Attempting to open the report file: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.html
+INFO [main] (LinkChecker.java:185) main org.open.pagehealth.LinkChecker - Scanning page: http://amazon.com
+INFO [main] (LinkChecker.java:191) main org.open.pagehealth.LinkChecker - Page contains: Links: 191, Media: 25, Imports: 9
+INFO [main] (LinkChecker.java:249) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 39, TotalTasks: 198
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 80, TotalTasks: 198
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 132, TotalTasks: 198
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 182, TotalTasks: 198
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 198, TotalTasks: 198
+INFO [main] (LinkChecker.java:278) main org.open.pagehealth.LinkChecker - Pool shutdown.
+INFO [main] (LinkChecker.java:134) main org.open.pagehealth.LinkChecker - Scan duration: 16007 ms with 10 threads.
+INFO [main] (LinkChecker.java:465) main org.open.pagehealth.LinkChecker - Attempting to open the report file: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.html
+INFO [main] (LinkChecker.java:185) main org.open.pagehealth.LinkChecker - Scanning page: http://amazon.com
+INFO [main] (LinkChecker.java:191) main org.open.pagehealth.LinkChecker - Page contains: Links: 192, Media: 26, Imports: 9
+INFO [main] (LinkChecker.java:249) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 0
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 39, TotalTasks: 199
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 79, TotalTasks: 199
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 128, TotalTasks: 199
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 178, TotalTasks: 199
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 199, TotalTasks: 199
+INFO [main] (LinkChecker.java:278) main org.open.pagehealth.LinkChecker - Pool shutdown.
+INFO [main] (LinkChecker.java:134) main org.open.pagehealth.LinkChecker - Scan duration: 16064 ms with 10 threads.
+INFO [main] (LinkChecker.java:465) main org.open.pagehealth.LinkChecker - Attempting to open the report file: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.html
+INFO [main] (LinkChecker.java:185) main org.open.pagehealth.LinkChecker - Scanning page: http://amazon.com
+INFO [main] (LinkChecker.java:191) main org.open.pagehealth.LinkChecker - Page contains: Links: 190, Media: 24, Imports: 9
+INFO [main] (LinkChecker.java:249) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 1
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 32, TotalTasks: 196
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 76, TotalTasks: 196
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 124, TotalTasks: 196
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 175, TotalTasks: 196
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 196, TotalTasks: 196
+INFO [main] (LinkChecker.java:278) main org.open.pagehealth.LinkChecker - Pool shutdown.
+INFO [main] (LinkChecker.java:134) main org.open.pagehealth.LinkChecker - Scan duration: 16160 ms with 10 threads.
+INFO [main] (LinkChecker.java:465) main org.open.pagehealth.LinkChecker - Attempting to open the report file: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.html
+INFO [main] (LinkChecker.java:185) main org.open.pagehealth.LinkChecker - Scanning page: http://amazon.com
+INFO [main] (LinkChecker.java:191) main org.open.pagehealth.LinkChecker - Page contains: Links: 190, Media: 24, Imports: 9
+INFO [main] (LinkChecker.java:249) main org.open.pagehealth.LinkChecker - Starting Pool: Threads: 10
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 0, TotalTasks: 1
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 33, TotalTasks: 197
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 70, TotalTasks: 197
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 120, TotalTasks: 197
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 10, TotalThreads: 10, CompletedTasks: 167, TotalTasks: 197
+INFO [TasksMonitorThread] (TasksMonitorThread.java:24) TasksMonitorThread org.open.pagehealth.TasksMonitorThread - [monitor] ActiveThreads: 0, TotalThreads: 10, CompletedTasks: 197, TotalTasks: 197
+INFO [main] (LinkChecker.java:278) main org.open.pagehealth.LinkChecker - Pool shutdown.
+INFO [main] (LinkChecker.java:134) main org.open.pagehealth.LinkChecker - Scan duration: 16105 ms with 10 threads.
+INFO [main] (LinkChecker.java:465) main org.open.pagehealth.LinkChecker - Attempting to open the report file: /Users/swapnilsapar/myprojects/linkchecker/gcode/trunk/LinkChecker/report.html

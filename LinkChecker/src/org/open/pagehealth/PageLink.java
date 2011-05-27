@@ -20,6 +20,8 @@ import org.apache.log4j.Logger;
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLSession;
+import java.net.URI;
+import java.net.URISyntaxException;
 
 /**
  * User: swapnilsapar
@@ -109,7 +111,8 @@ public class PageLink {
 
         final HttpResponse response;
         try {
-            HttpUriRequest method;
+            _link = encodeQuery(_link);
+            final HttpUriRequest method;
             if (LinkChecker.HEAD_REQUEST) {
                 // shallow check via HTTP HEAD request
                 method = new HttpHead(_link);
@@ -191,7 +194,7 @@ public class PageLink {
             final javax.net.ssl.SSLContext sc = javax.net.ssl.SSLContext.getInstance("SSL");
             sc.init(null, trustAllCerts, null);
             final org.apache.http.conn.ssl.SSLSocketFactory sf = new org.apache.http.conn.ssl.SSLSocketFactory(sc,
-                    org.apache.http.conn.ssl.SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
+                org.apache.http.conn.ssl.SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
 
             //create scheme for apache HttpClient
             SCHEME = new Scheme("https", 443, sf);
@@ -234,9 +237,9 @@ public class PageLink {
         final HttpParams params = new BasicHttpParams();
         params.setParameter(CoreConnectionPNames.CONNECTION_TIMEOUT, LinkChecker.CONNECTION_TIMEOUT);
         if (LinkChecker.PROXY != null) {
-            HttpHost proxyHost = new HttpHost(LinkChecker.PROXY.substring(0, LinkChecker.PROXY.indexOf(':')),
-                                              Integer.parseInt(
-                                                      LinkChecker.PROXY.substring(LinkChecker.PROXY.indexOf(':') + 1)));
+            final HttpHost proxyHost = new HttpHost(LinkChecker.PROXY.substring(0, LinkChecker.PROXY.indexOf(':')),
+                                                    Integer.parseInt(LinkChecker.PROXY.substring(
+                                                            LinkChecker.PROXY.indexOf(':') + 1)));
             params.setParameter(ConnRoutePNames.DEFAULT_PROXY, proxyHost);
         }
 
@@ -270,5 +273,14 @@ public class PageLink {
                 throws java.security.cert.CertificateException {
             return;
         }
+    }
+
+    public static String encodeQuery(final String unEscaped) throws URISyntaxException {
+        final int mark = unEscaped.indexOf('?');
+        if (mark == -1) {
+            return unEscaped;
+        }
+        final String[] parts = unEscaped.split(":");
+        return new URI(parts[0], parts[1], null).toString();
     }
 }
