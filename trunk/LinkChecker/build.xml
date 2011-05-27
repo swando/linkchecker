@@ -3,13 +3,11 @@
 
 
     <property file="build.properties"/>
+
     <!-- Uncomment the following property if no tests compilation is needed -->
-    <!--
-   <property name="skip.tests" value="true"/>
-    -->
+    <property name="skip.tests" value="true"/>
 
     <!-- Compiler options -->
-
     <property name="compiler.debug" value="on"/>
     <property name="compiler.generate.no.warnings" value="off"/>
     <property name="compiler.args" value=""/>
@@ -208,7 +206,8 @@
     </target>
 
     <target name="build" depends="compile.module.linkchecker" description="build module LinkChecker">
-        <delete dir="${linkchecker.stage.dir}"/>
+        <delete file="${linkchecker.dist.dir}/LinkChecker.tar"/>
+        <delete file="${linkchecker.dist.dir}/LinkChecker.tar.gz"/>
         <mkdir dir="${linkchecker.stage.dir}"/>
         <manifestclasspath property="jar.classpath" jarfile="${linkchecker.stage.dir}/linkchecker.jar">
             <classpath refid="linkchecker.dist.module.classpath"/>
@@ -246,7 +245,6 @@
     <target name="clean.module.linkchecker" description="cleanup module">
         <delete dir="${linkchecker.output.dir}"/>
         <delete dir="${linkchecker.testoutput.dir}"/>
-        <delete dir="${linkchecker.dist.dir}"/>
     </target>
 
     <target name="init" description="Build initialization">

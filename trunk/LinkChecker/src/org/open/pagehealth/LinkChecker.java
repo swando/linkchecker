@@ -212,7 +212,7 @@ public class LinkChecker {
             if (linkTarget == null || linkTarget.trim().length() < 1) {
                 final String href = pageElement.attr("href");
                 if (null != href && href.startsWith("javascript:")) {
-                    LOG.warn("Skipping javascript link: " + pageElement);
+                    LOG.debug("Skipping javascript link: " + pageElement);
                     continue;
                 }
                 LOG.error("Empty link found" + pageElement);
