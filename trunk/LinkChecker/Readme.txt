@@ -14,7 +14,8 @@ LinkChecker application accepts a website page URL as input. This page is then s
 to other urls, images, files etc. A collection of all Links are then scanned further and classified into 'good' and
 'broken' links. Serial scanning 100s of such URLs may take time and hence a thread pool is introduced to run the scan
 in parallel.
-A nice HTML report is generated and launched at the end with all the details of all the URLs and other stats.
+A nice HTML report ([http://linkchecker.googlecode.com/files/sample-report.html sample]) is generated and launched at
+the end with all the details of all the URLs and other stats.
 
   * Using Java Version 1.6.0_24 for development and testing.
   * Application is tested on MAC and PC.
@@ -24,17 +25,18 @@ A nice HTML report is generated and launched at the end with all the details of 
   * JLine is used for interacting on console.
   * JSoup is used for scanning the root website for retrieving all elements (links, images and other assets)
   * HttpClient is used for checking the URLs via GET/HEAD requests
-  * XML and XSLT is used for presentation layer (report.html)
+  * XML and XSLT is used for presentation layer ([http://linkchecker.googlecode.com/files/sample-report.html sample])
 
 =Future features may include=
-  * Full website scan and health report
+  * Full website scan and health report ([http://linkchecker.googlecode.com/files/sample-report.html sample])
+  * Support for cookies to deliver browser experience
   * Further deep classification based on URLs
   * Support for Flash
   * Interactive command line to change the application behaviour
   * Convert this standalone application to a web service and execute it on server (very tempting for me).
   * Extend the support for validating javascript links.
-  * A enhanced GUI to report the status while the scanning is in progress. Currently we see the progress
-  pending/total only on the command line.
+  * A enhanced GUI to report the status while the scanning is in progress. Currently we see the progress 
+  p ending/total only on the command line.
 
 ************************************************************************************************************************
 =How to run=
@@ -46,7 +48,7 @@ A nice HTML report is generated and launched at the end with all the details of 
   # Launch the LinkChecker application using following command
     java -jar linkchecker.jar
   # Enter the website URL when prompted and hit Return
-  # Wait for the application to scan all the links and look for the report file: report.html
+  # Wait for the application to scan all the links and look for the report file: report.html ([http://linkchecker.googlecode.com/files/sample-report.html sample])
  Application makes an attempt to launch this report file at the end of each scan.
  Click on the column names in the tables to sort.
 
@@ -60,7 +62,7 @@ Some of the important properties are as follows...
 ==Deep scan Vs Quick Scan==
 By default all the URLs are scanned using HTTP GET which is somewhat expensive operation since it downloads the whole
 page (HTTP response payload entity). The validity of the URL can even be checked via HTTP HEAD request. This is
-similar to HTTP GET but does not download the webpage(asset). The switch to this efficient mode,
+similar to HTTP GET but does not download the webpage (asset). The switch to this efficient mode,
 just add following property to linkchecker.properties file.
  org.open.pagehealth.quick-check-head=true
 
