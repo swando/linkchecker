@@ -104,8 +104,8 @@
 
     <property name="linkchecker.output.dir" value="${module.linkchecker.basedir}/out/production/LinkChecker"/>
     <property name="linkchecker.testoutput.dir" value="${module.linkchecker.basedir}/out/test/LinkChecker"/>
-
     <property name="linkchecker.dist.dir" value="${module.linkchecker.basedir}/dist"/>
+    <property name="linkchecker.stage.dir" value="${linkchecker.dist.dir}/stage"/>
     <path id="linkchecker.module.bootclasspath">
         <!-- Paths to be included in compilation bootclasspath -->
     </path>
@@ -134,14 +134,14 @@
     </path>
 
     <path id="linkchecker.dist.module.classpath">
-        <pathelement location="${linkchecker.dist.dir}/lib/xercesImpl.jar"/>
-        <pathelement location="${linkchecker.dist.dir}/lib/xml-apis.jar"/>
-        <pathelement location="${linkchecker.dist.dir}/lib/log4j-1.2.16.jar"/>
-        <pathelement location="${linkchecker.dist.dir}/lib/jsoup-1.5.2.jar"/>
-        <pathelement location="${linkchecker.dist.dir}/lib/httpclient-4.1.1.jar"/>
-        <pathelement location="${linkchecker.dist.dir}/lib/httpcore-4.1.jar"/>
-        <pathelement location="${linkchecker.dist.dir}/lib/jline-1.0.jar"/>
-        <pathelement location="${linkchecker.dist.dir}/lib/commons-logging-1.1.1.jar"/>
+        <pathelement location="${linkchecker.stage.dir}/lib/xercesImpl.jar"/>
+        <pathelement location="${linkchecker.stage.dir}/lib/xml-apis.jar"/>
+        <pathelement location="${linkchecker.stage.dir}/lib/log4j-1.2.16.jar"/>
+        <pathelement location="${linkchecker.stage.dir}/lib/jsoup-1.5.2.jar"/>
+        <pathelement location="${linkchecker.stage.dir}/lib/httpclient-4.1.1.jar"/>
+        <pathelement location="${linkchecker.stage.dir}/lib/httpcore-4.1.jar"/>
+        <pathelement location="${linkchecker.stage.dir}/lib/jline-1.0.jar"/>
+        <pathelement location="${linkchecker.stage.dir}/lib/commons-logging-1.1.1.jar"/>
     </path>
 
     <path id="linkchecker.module.classpath">
@@ -191,9 +191,7 @@
     <target name="compile.module.linkchecker.production" description="Compile module LinkChecker; production
     classes">
         <mkdir dir="${linkchecker.output.dir}"/>
-        <javac destdir="${linkchecker.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no
-        .warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin
-        .linkchecker}/javac">
+        <javac destdir="${linkchecker.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.linkchecker}/javac">
             <compilerarg line="${compiler.args.linkchecker}"/>
             <bootclasspath refid="linkchecker.module.bootclasspath"/>
             <classpath refid="linkchecker.module.production.classpath"/>
@@ -210,12 +208,12 @@
     </target>
 
     <target name="build" depends="compile.module.linkchecker" description="build module LinkChecker">
-        <delete dir="${linkchecker.dist.dir}"/>
-        <mkdir dir="${linkchecker.dist.dir}"/>
-        <manifestclasspath property="jar.classpath" jarfile="${linkchecker.dist.dir}/linkchecker.jar">
+        <delete dir="${linkchecker.stage.dir}"/>
+        <mkdir dir="${linkchecker.stage.dir}"/>
+        <manifestclasspath property="jar.classpath" jarfile="${linkchecker.stage.dir}/linkchecker.jar">
             <classpath refid="linkchecker.dist.module.classpath"/>
         </manifestclasspath>
-        <jar destfile="${linkchecker.dist.dir}/linkchecker.jar" basedir="${linkchecker.output.dir}">
+        <jar destfile="${linkchecker.stage.dir}/linkchecker.jar" basedir="${linkchecker.output.dir}">
             <manifest>
                 <attribute name="Main-Class" value="org.open.pagehealth.LinkChecker"/>
                 <attribute name="Class-Path" value=".:${jar.classpath}"/>
@@ -223,17 +221,24 @@
         </jar>
 
 
-        <copy todir="${linkchecker.dist.dir}/lib">
+        <copy todir="${linkchecker.stage.dir}/lib">
             <fileset dir="${module.linkchecker.basedir}/lib"/>
         </copy>
 
-        <copy todir="${linkchecker.dist.dir}">
+        <copy todir="${linkchecker.stage.dir}">
             <fileset file="${module.linkchecker.basedir}/linkchecker.properties"/>
+            <fileset file="${module.linkchecker.basedir}/report-format.xsl"/>
+            <fileset file="${module.linkchecker.basedir}/sorttable.js"/>
+            <fileset file="${module.linkchecker.basedir}/sample-report.html"/>
         </copy>
+
+        <tar destfile="${linkchecker.dist.dir}/LinkChecker.tar" basedir="${linkchecker.stage.dir}"/>
+        <gzip destfile="${linkchecker.dist.dir}/LinkChecker.tar.gz" src="${linkchecker.dist.dir}/LinkChecker.tar"/>
+        <delete file="${linkchecker.dist.dir}/LinkChecker.tar"/>
     </target>
 
     <target name="run">
-        <java jar="${linkchecker.dist.dir}/linkchecker.jar" fork="true"/>
+        <java jar="${linkchecker.stage.dir}/linkchecker.jar" fork="true"/>
     </target>
 
     <target name="compile.module.linkchecker.tests" depends="compile.module.linkchecker.production" description="compile module LinkChecker; test classes" unless="skip.tests"/>
@@ -252,5 +257,5 @@
 
     <target name="build.modules" depends="init, clean, compile.module.linkchecker" description="build all modules"/>
 
-    <target name="all" depends="build.modules" description="build all"/>
+    <target name="all" depends="clean, build.modules, build" description="build all"/>
 </project>

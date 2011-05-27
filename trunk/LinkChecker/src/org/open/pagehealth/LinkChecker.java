@@ -6,26 +6,32 @@ package org.open.pagehealth; /**
 
 import jline.ConsoleReader;
 import org.apache.log4j.Logger;
-import org.apache.xml.serialize.OutputFormat;
-import org.apache.xml.serialize.XMLSerializer;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import org.xml.sax.ContentHandler;
-import org.xml.sax.helpers.AttributesImpl;
+import org.w3c.dom.Comment;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import javax.xml.transform.stream.StreamSource;
+import java.awt.*;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.Enumeration;
+import java.util.HashMap;
 import java.util.Hashtable;
+import java.util.Iterator;
 import java.util.Properties;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
@@ -49,7 +55,7 @@ public class LinkChecker {
     public static final  int    CONNECTION_TIMEOUT = getIntProperty("org.open.pagehealth.timeout", 10000);
     public static final  int    RESULT_COL_WIDTH   = getIntProperty("org.open.pagehealth.result.width", 35);
     private static final String REPORT_FILE        =
-            PROPERTIES.getProperty("org.open.pagehealth.reportfile", "report.xml");
+            PROPERTIES.getProperty("org.open.pagehealth.reportfile", "report.html");
 
     public static final String PROXY = PROPERTIES.getProperty("org.open.pagehealth.proxy", null);
 
@@ -64,7 +70,7 @@ public class LinkChecker {
     public static Properties loadProperties() {
         //System.setProperty("log4j.debug", "true");
         Properties props = null;
-        File propsFile = new File(PROPS_FILE);
+        final File propsFile = new File(PROPS_FILE);
         try {
             if (!propsFile.exists()) {
                 propsFile.createNewFile();
@@ -72,7 +78,7 @@ public class LinkChecker {
             }
             props = new Properties();
             props.load(new FileInputStream(PROPS_FILE));
-            System.out.println("Props File loaded. " + propsFile.getAbsolutePath());
+            System.out.println("Using properties file: " + propsFile.getAbsolutePath());
             System.setProperty("log4j.configuration", "file://" + propsFile.getAbsolutePath());
         } catch (Exception exp) {
             exp.printStackTrace();
@@ -80,8 +86,8 @@ public class LinkChecker {
         return props;
     }
 
-    public static int getIntProperty(String key, int defaultValue) {
-        String strValue = PROPERTIES.getProperty(key, null);
+    public static int getIntProperty(final String key, final int defaultValue) {
+        final String strValue = PROPERTIES.getProperty(key, null);
         if (null == strValue) {
             return defaultValue;
         }
@@ -93,8 +99,8 @@ public class LinkChecker {
         }
     }
 
-    public static boolean getBooleanProperty(String key, boolean defaultValue) {
-        String strValue = PROPERTIES.getProperty(key, null);
+    public static boolean getBooleanProperty(final String key, final boolean defaultValue) {
+        final String strValue = PROPERTIES.getProperty(key, null);
         if (null == strValue) {
             return defaultValue;
         }
@@ -115,17 +121,17 @@ public class LinkChecker {
         new LinkChecker(validateURL(rootURL));
     }
 
-    public LinkChecker(String rootLink) {
+    public LinkChecker(final String rootLink) {
         init(rootLink);
     }
 
     public void init(final String rootLink) {
         _rootPage = new PageLink(rootLink, "Root", "Root");
         _startTime = System.currentTimeMillis();
-        final ArrayList<PageLink> pageLinks = getLinksNodes(_rootPage);
+        final HashMap<String, PageLink> pageLinks = getLinksNodes(_rootPage);
         checkLinks(pageLinks);
         _scanTime = (System.currentTimeMillis() - _startTime);
-        LOG.info("Total time " + _scanTime + " ms");
+        LOG.info("Scan duration: " + _scanTime + " ms with " + POOL_SIZE + " threads.");
         printResult(pageLinks);
     }
 
@@ -173,27 +179,24 @@ public class LinkChecker {
     }
 
 
-    public ArrayList<PageLink> getLinksNodes(final PageLink checkPage) {
+    public HashMap<String, PageLink> getLinksNodes(final PageLink checkPage) {
         final long startTime = System.currentTimeMillis();
         try {
-            LOG.info("Scanning root page: " + checkPage.getURL());
+            LOG.info("Scanning page: " + checkPage.getURL());
             final Connection conn = Jsoup.connect(checkPage.getURL());
             final Document doc = conn.get();
-            Elements links = doc.select("a[href]");
-            LOG.info("Links: " + links.size());
+            final Elements links = doc.select("a[href]");
+            final Elements media = doc.select("[src]");
+            final Elements imports = doc.select("link[href]");
+            LOG.info("Page contains: Links: " + links.size() + ", Media: " + media.size() + ", " + "Imports: " +
+                             imports.size());
+            HashMap<String, PageLink> pageLinks =
+                    new HashMap<String, PageLink>(links.size() + media.size() + imports.size());
+            pageLinks = appendElements(pageLinks, links, "abs:href");
+            pageLinks = appendElements(pageLinks, media, "abs:src");
+            pageLinks = appendElements(pageLinks, imports, "abs:href");
 
-            Elements media = doc.select("[src]");
-            LOG.info("media: " + media.size());
-
-            Elements imports = doc.select("link[href]");
-            LOG.info("imports: " + imports.size());
-
-            ArrayList<PageLink> pageLinks = new ArrayList<PageLink>(links.size() + media.size() + imports.size());
-            pageLinks = appendElements(pageLinks, links, "abs:href", "Link");
-            pageLinks = appendElements(pageLinks, media, "abs:src", "Media");
-            pageLinks = appendElements(pageLinks, imports, "abs:href", "Import");
-
-            LOG.info("Root page scan took " + (System.currentTimeMillis() - startTime) + " ms");
+            LOG.debug("Root page scan took " + (System.currentTimeMillis() - startTime) + " ms");
             return pageLinks;
         } catch (Exception exp) {
             exp.printStackTrace();
@@ -201,14 +204,15 @@ public class LinkChecker {
         return null;
     }
 
-    private ArrayList<PageLink> appendElements(ArrayList<PageLink> pageLinkList, Elements elem, String attrKey,
-                                               String type) {
+    private HashMap<String, PageLink> appendElements(final HashMap<String, PageLink> pageLinkList,
+                                                     final Elements elem,
+                                                     final String attrKey) {
         for (final Element pageElement : elem) {
             final String linkTarget = pageElement.attr(attrKey);
             if (linkTarget == null || linkTarget.trim().length() < 1) {
-                String href = pageElement.attr("href");
+                final String href = pageElement.attr("href");
                 if (null != href && href.startsWith("javascript:")) {
-                    LOG.warn("Skipping over javascript link" + pageElement);
+                    LOG.warn("Skipping javascript link: " + pageElement);
                     continue;
                 }
                 LOG.error("Empty link found" + pageElement);
@@ -217,13 +221,16 @@ public class LinkChecker {
                 LOG.info("ignoring mailto link: " + pageElement);
                 continue;
             }
-            pageLinkList.add(new PageLink(linkTarget, trim(pageElement.text(), RESULT_COL_WIDTH), type));
+            final String caption = pageElement.hasText() ? pageElement.text() : pageElement.attr("alt");
+            pageLinkList.put(linkTarget,
+                             new PageLink(linkTarget, trim(caption, RESULT_COL_WIDTH),
+                                          pageElement.tag().toString()));
             //print(" * a: <%s>  (%s)", li, trim(link.text(), 35));
         }
         return pageLinkList;
     }
 
-    public void checkLinks(final ArrayList<PageLink> pageLinks) {
+    public void checkLinks(final HashMap<String, PageLink> pageLinks) {
 
 
         if (null == pageLinks || pageLinks.size() < 1) {
@@ -239,7 +246,7 @@ public class LinkChecker {
 
         final BlockingQueue<Runnable> worksQueue = new ArrayBlockingQueue<Runnable>(pageLinks.size());
         final RejectedExecutionHandler executionHandler = new TaskOverflowHandler();
-
+        LOG.info("Starting Pool: Threads: " + POOL_SIZE);
         // Create the ThreadPoolExecutor
         final ThreadPoolExecutor executor =
                 new ThreadPoolExecutor(POOL_SIZE, POOL_SIZE, 3, TimeUnit.SECONDS, worksQueue, executionHandler);
@@ -251,168 +258,155 @@ public class LinkChecker {
         final Thread monitor = new Thread(new TasksMonitorThread(executor, callback), "TasksMonitorThread");
         monitor.setDaemon(true);
         monitor.start();
+        final Iterator<PageLink> pageLinkIterator = pageLinks.values().iterator();
+        int counter = 1;
         // Adding the tasks
-        for (int i = 0; i < pageLinks.size(); i++) {
-            executor.execute(new ClickThread("" + i, pageLinks.get(i)));
+        while (pageLinkIterator.hasNext()) {
+            final PageLink pLink = pageLinkIterator.next();
+            executor.execute(new ClickThread("" + counter++, pLink));
         }
         try {
             synchronized (callback) {
-                LOG.info("Going to sleep until all tasks are complete");
+                LOG.debug("Going to sleep until all tasks are complete");
                 callback.wait();
             }
         } catch (Exception exp) {
             LOG.error("Exception in wait", exp);
         }
-        LOG.info("Getting ready to shutdown");
         executor.shutdown();
-        LOG.info("Stopped the pool: " + executor.isShutdown());
+        LOG.debug("Is pool stopped: " + executor.isShutdown());
+        LOG.info("Pool shutdown.");
     }
 
-    public void printResult(final ArrayList<PageLink> pageLinks) {
+    public void printResult(final HashMap<String, PageLink> pageLinks) {
         try {
-            final FileOutputStream fos = new FileOutputStream(REPORT_FILE);
-            /*
+            /////////////////////////////
+            //Creating an empty XML Document
 
-            DOMImplementationRegistry registry = DOMImplementationRegistry.newInstance();
+            //We need a Document
+            final DocumentBuilderFactory dbfac = DocumentBuilderFactory.newInstance();
+            final DocumentBuilder docBuilder = dbfac.newDocumentBuilder();
+            final org.w3c.dom.Document doc = docBuilder.newDocument();
 
-            DOMImplementationLS domImplementationLS = (DOMImplementationLS)registry.getDOMImplementation("LS");
-            ///
+            ////////////////////////
+            //Creating the XML tree
 
-            LSSerializer lsSerializer = domImplementationLS.createLSSerializer();
+            //create the root element and add it to the document
+            final org.w3c.dom.Element rootResultElement = doc.createElement("result");
+            doc.appendChild(rootResultElement);
 
-             DOMConfiguration domConfiguration = lsSerializer.getDomConfig();
-          if (domConfiguration.canSetParameter("format-pretty-print", Boolean.TRUE)) {
-             lsSerializer.getDomConfig().setParameter("format-pretty-print", Boolean.TRUE);
-             LSOutput lsOutput = domImplementationLS.createLSOutput();
-             lsOutput.setEncoding("UTF-8");
-             StringWriter stringWriter = new StringWriter();
-             lsOutput.setCharacterStream(stringWriter);
-             lsSerializer.write(document, lsOutput);
-          }
+            //create a comment and put it in the root element
+            final Comment comment = doc.createComment("LinkChecker application report file");
+            rootResultElement.appendChild(comment);
 
-            String str = writer.writeToString(document);
-            */
-
-            // XERCES 1 or 2 additionnal classes.
-            final OutputFormat of = new OutputFormat("XML", "ISO-8859-1", true);
-            of.setIndent(1);
-            of.setIndenting(true);
-            //of.setDoctype(null, "report-format.dtd");
-            final XMLSerializer serializer = new XMLSerializer(fos, of);
-            // SAX2.0 ContentHandler.
-            final ContentHandler hd = serializer.asContentHandler();
-            hd.startDocument();
-            // Processing instruction sample.
-            hd.processingInstruction("xml-stylesheet", "type=\"text/xsl\" href=\"report-format.xsl\"");
-            // USER attributes.
-
-            // USERS tag.
-            hd.startElement("", "", "result", null);
-            final AttributesImpl pageAttributes = new AttributesImpl();
-            pageAttributes.addAttribute("", "", "url", "CDATA", _rootPage.getURL());
-            hd.startElement(null, null, "page", pageAttributes);
+            //create child element, add an attribute, and add to root
+            final org.w3c.dom.Element pageElement = doc.createElement("page");
+            pageElement.setAttribute("url", _rootPage.getURL());
+            rootResultElement.appendChild(pageElement);
 
             // links node
-            hd.startElement(null, null, "links", null);
+            final org.w3c.dom.Element linksElement = doc.createElement("links");
+
             int goodLinks = 0;
 
             final Hashtable<String, Integer> threadInfo = new Hashtable<String, Integer>();
 
-            for (final PageLink page : pageLinks) {
-                hd.startElement(null, null, "link", null);
-
-                hd.startElement(null, null, "short-url", null);
-                hd.characters(page.getShortURL().toCharArray(), 0, page.getShortURL().length());
-                hd.endElement("", "", "short-url");
-
-                hd.startElement(null, null, "url", null);
-                hd.characters(page.getURL().toCharArray(), 0, page.getURL().length());
-                hd.endElement("", "", "url");
-
-                hd.startElement(null, null, "type", null);
-                hd.characters(page.getType().toCharArray(), 0, page.getType().length());
-                hd.endElement("", "", "type");
-
-                hd.startElement(null, null, "caption", null);
-                hd.characters(page.getCaption().toCharArray(), 0, page.getCaption().length());
-                hd.endElement("", "", "caption");
-
+            for (final PageLink page : pageLinks.values()) {
 
                 if (page.isGood()) { goodLinks++; }
-                hd.startElement(null, null, "status", null);
-                hd.characters(page.getDisplayStatus().toCharArray(), 0, page.getDisplayStatus().length());
-                hd.endElement("", "", "status");
-
-                hd.startElement(null, null, "verified", null);
-                hd.characters(page.getDisplayVerifiedStatus().toCharArray(), 0,
-                              page.getDisplayVerifiedStatus().length());
-                hd.endElement("", "", "verified");
-
-                hd.startElement(null, null, "http-response", null);
-                hd.characters(page.getResponseStatus().toCharArray(), 0, page.getResponseStatus().length());
-                hd.endElement("", "", "http-response");
-
-                hd.startElement(null, null, "content-type", null);
-                hd.characters(page.getContentType().toCharArray(), 0, page.getContentType().length());
-                hd.endElement("", "", "content-type");
-
-                hd.startElement(null, null, "content-length", null);
-                hd.characters(page.getContentLength().toCharArray(), 0, page.getContentLength().length());
-                hd.endElement("", "", "content-length");
-
-                hd.startElement(null, null, "scan-time", null);
-                hd.characters(page.getScanTime().toCharArray(), 0, page.getScanTime().length());
-                hd.endElement("", "", "scan-time");
 
                 final String thName = page.getVerifiedThread();
                 if (threadInfo.containsKey(thName)) {
                     Integer jobCount = threadInfo.get(thName);
-                    jobCount = jobCount.intValue() + 1;
+                    jobCount = jobCount + 1;
                     threadInfo.put(thName, jobCount);
                 } else {
                     threadInfo.put(thName, 1);
                 }
 
-                hd.startElement(null, null, "verified-thread", null);
-                hd.characters(thName.toCharArray(), 0, thName.length());
-                hd.endElement("", "", "verified-thread");
+                final org.w3c.dom.Element linkElement = doc.createElement("link");
 
-                hd.endElement("", "", "link");
+
+                final org.w3c.dom.Element shortUrlElement2 = doc.createElement("short-url");
+                shortUrlElement2.appendChild(doc.createTextNode(page.getShortURL()));
+                linkElement.appendChild(shortUrlElement2);
+
+                final org.w3c.dom.Element urlElement = doc.createElement("url");
+                urlElement.appendChild(doc.createTextNode(page.getURL()));
+                linkElement.appendChild(urlElement);
+
+                final org.w3c.dom.Element typeElement = doc.createElement("type");
+                typeElement.appendChild(doc.createTextNode(page.getType()));
+                linkElement.appendChild(typeElement);
+
+                final org.w3c.dom.Element captionElement = doc.createElement("caption");
+                captionElement.appendChild(doc.createTextNode(page.getCaption()));
+                linkElement.appendChild(captionElement);
+
+                final org.w3c.dom.Element statusElement = doc.createElement("status");
+                statusElement.appendChild(doc.createTextNode(page.getDisplayStatus()));
+                linkElement.appendChild(statusElement);
+
+                final org.w3c.dom.Element verifiedElement = doc.createElement("verified");
+                verifiedElement.appendChild(doc.createTextNode(page.getDisplayVerifiedStatus()));
+                linkElement.appendChild(verifiedElement);
+
+                final org.w3c.dom.Element responseElement = doc.createElement("http-response");
+                responseElement.appendChild(doc.createTextNode(page.getResponseStatus()));
+                linkElement.appendChild(responseElement);
+
+                final org.w3c.dom.Element contentTypeElement = doc.createElement("content-type");
+                contentTypeElement.appendChild(doc.createTextNode(page.getContentType()));
+                linkElement.appendChild(contentTypeElement);
+
+                final org.w3c.dom.Element contentLengthElement = doc.createElement("content-length");
+                contentLengthElement.appendChild(doc.createTextNode(page.getContentLength()));
+                linkElement.appendChild(contentLengthElement);
+
+                final org.w3c.dom.Element scanTimeElement = doc.createElement("scan-time");
+                scanTimeElement.appendChild(doc.createTextNode(page.getScanTime()));
+                linkElement.appendChild(scanTimeElement);
+
+                final org.w3c.dom.Element threadElement = doc.createElement("verified-thread");
+                threadElement.appendChild(doc.createTextNode(page.getVerifiedThread()));
+                linkElement.appendChild(threadElement);
+                linksElement.appendChild(linkElement);
+
+
             }
-            hd.endElement("", "", "links");
+            pageElement.appendChild(linksElement);
 
-            // summary node
-            hd.startElement("", "", "summary", null);
 
-            hd.startElement(null, null, "root-url", null);
-            hd.characters(_rootPage.getURL().toCharArray(), 0, _rootPage.getURL().length());
-            hd.endElement("", "", "root-url");
+            final org.w3c.dom.Element summaryElement = doc.createElement("summary");
 
-            hd.startElement(null, null, "link-count", null);
-            String count = "" + pageLinks.size();
-            hd.characters(count.toCharArray(), 0, count.length());
-            hd.endElement("", "", "link-count");
 
-            hd.startElement(null, null, "health", null);
+            org.w3c.dom.Element child = doc.createElement("root-url");
+            child.appendChild(doc.createTextNode(_rootPage.getURL()));
+            summaryElement.appendChild(child);
+
+            child = doc.createElement("link-count");
+            child.appendChild(doc.createTextNode("" + pageLinks.size()));
+            summaryElement.appendChild(child);
+
+            child = doc.createElement("health");
             final String health = "" + ((float) goodLinks / pageLinks.size()) * 100;
-            hd.characters(health.toCharArray(), 0, health.length());
-            hd.endElement("", "", "health");
+            child.appendChild(doc.createTextNode(health));
+            summaryElement.appendChild(child);
 
-            hd.startElement(null, null, "scan-time", null);
-            String time = "" + _scanTime;
-            hd.characters(time.toCharArray(), 0, time.length());
-            hd.endElement("", "", "scan-time");
+            child = doc.createElement("scan-time");
+            child.appendChild(doc.createTextNode("" + _scanTime));
+            summaryElement.appendChild(child);
 
-            hd.startElement(null, null, "start-time", null);
-            time = new Date(_startTime).toString();
-            hd.characters(time.toCharArray(), 0, time.length());
-            hd.endElement("", "", "start-time");
+            child = doc.createElement("start-time");
+            child.appendChild(doc.createTextNode(new Date(_startTime).toString()));
+            summaryElement.appendChild(child);
 
+            child = doc.createElement("thread-count");
+            child.appendChild(doc.createTextNode("" + POOL_SIZE));
+            summaryElement.appendChild(child);
 
-            hd.startElement(null, null, "thread-count", null);
-            hd.characters(("" + POOL_SIZE).toCharArray(), 0, ("" + POOL_SIZE).length());
-            hd.endElement("", "", "thread-count");
-            hd.endElement("", "", "summary");
+            pageElement.appendChild(summaryElement);
+
 
             //thread-pool node
             int max_weight = 0;
@@ -426,43 +420,50 @@ public class LinkChecker {
                 }
             }
 
+            final org.w3c.dom.Element poolStatsElement = doc.createElement("thread-pool");
+            final org.w3c.dom.Element threadsElement = doc.createElement("threads");
 
-            hd.startElement("", "", "thread-pool", null);
-            hd.startElement(null, null, "threads", null);
+
             final Enumeration<String> threadNames = threadInfo.keys();
             while (threadNames.hasMoreElements()) {
-
-                hd.startElement(null, null, "thread", null);
-
                 final String threadName = threadNames.nextElement();
+                final org.w3c.dom.Element threadElement = doc.createElement("thread");
 
-                hd.startElement(null, null, "name", null);
-                hd.characters(threadName.toCharArray(), 0, threadName.length());
-                hd.endElement("", "", "name");
+                child = doc.createElement("name");
+                child.appendChild(doc.createTextNode(threadName));
+                threadElement.appendChild(child);
 
-                hd.startElement(null, null, "job-count", null);
+                child = doc.createElement("job-count");
                 final Integer jobCount = threadInfo.get(threadName);
-                final String jCount = "" + jobCount;
-                hd.characters(jCount.toCharArray(), 0, jCount.length());
-                hd.endElement("", "", "job-count");
+                child.appendChild(doc.createTextNode("" + jobCount));
+                threadElement.appendChild(child);
 
-                hd.startElement(null, null, "job-share", null);
+                child = doc.createElement("job-share");
                 final String share = "" + (float) jobCount / (max_weight) * 100;
-                hd.characters(share.toCharArray(), 0, share.length());
-                hd.endElement("", "", "job-share");
+                child.appendChild(doc.createTextNode("" + share));
+                threadElement.appendChild(child);
 
-                hd.endElement("", "", "thread");
+                threadsElement.appendChild(threadElement);
             }
-            System.out.println();
+            poolStatsElement.appendChild(threadsElement);
+            pageElement.appendChild(poolStatsElement);
 
-            hd.endElement("", "", "threads");
-            hd.endElement("", "", "thread-pool");
+            /////////////////
+            //Output the XML
 
-            hd.endElement("", "", "page");
-            hd.endElement("", "", "result");
-            hd.endDocument();
-            fos.close();
-            LOG.info("Generated report file at: " + new File(REPORT_FILE).getAbsolutePath());
+            //set up a transformer
+            final Transformer transformer =
+                    TransformerFactory.newInstance().newTransformer(new StreamSource("report-format" + ".xsl"));
+            transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
+            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+
+            //create string from xml tree
+            //StringWriter sw = new StringWriter();
+            final File sw = new File(REPORT_FILE);
+            final DOMSource source = new DOMSource(doc);
+            transformer.transform(source, new StreamResult(sw));
+            LOG.info("Attempting to open the report file: " + sw.getAbsolutePath());
+            Desktop.getDesktop().open(sw);
 
         } catch (Exception exp) {
             LOG.error("Error generating report", exp);
