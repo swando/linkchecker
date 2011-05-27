@@ -35,8 +35,7 @@ the end with all the details of all the URLs and other stats.
   * Interactive command line to change the application behaviour
   * Convert this standalone application to a web service and execute it on server (very tempting for me).
   * Extend the support for validating javascript links.
-  * A enhanced GUI to report the status while the scanning is in progress. Currently we see the progress 
-  p ending/total only on the command line.
+  * A enhanced GUI to report the status while the scanning is in progress. Currently we see the progress pending/total only on the command line.
 
 ************************************************************************************************************************
 =How to run=
@@ -48,9 +47,7 @@ the end with all the details of all the URLs and other stats.
   # Launch the LinkChecker application using following command
     java -jar linkchecker.jar
   # Enter the website URL when prompted and hit Return
-  # Wait for the application to scan all the links and look for the report file: report.html ([http://linkchecker.googlecode.com/files/sample-report.html sample])
- Application makes an attempt to launch this report file at the end of each scan.
- Click on the column names in the tables to sort.
+  # Wait for the application to scan all the links and look for the report file: report.html ([http://linkchecker.googlecode.com/files/sample-report.html sample]) Application makes an attempt to launch this report file at the end of each scan. Click on the column names in the tables to sort.
 
 ************************************************************************************************************************
 =Application Properties=
