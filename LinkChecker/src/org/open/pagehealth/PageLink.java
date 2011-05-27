@@ -110,6 +110,7 @@ public class PageLink {
         }
 
         final HttpResponse response;
+        long startTime = System.currentTimeMillis();
         try {
             _link = encodeQuery(_link);
             final HttpUriRequest method;
@@ -122,7 +123,7 @@ public class PageLink {
             }
             method.addHeader(HttpHeaders.USER_AGENT, LinkChecker.USER_AGENT_STRING);
             final HttpClient client = getHttpClient();
-            final long startTime = System.currentTimeMillis();
+            startTime = System.currentTimeMillis();
             response = client.execute(method);
             _scanTime = (System.currentTimeMillis() - startTime);
             final StatusLine line = response.getStatusLine();
@@ -143,6 +144,7 @@ public class PageLink {
                 setGood(line.toString(), contentType, contentLengh);
             }
         } catch (Exception exp) {
+            _scanTime = (System.currentTimeMillis() - startTime);
             String msg = "Link failed: " + _caption + " via " + _link + ", Exception: " + exp;
             if (exp.getCause() != null) {
                 msg = msg + ", Cause: " + exp.getCause().getMessage();

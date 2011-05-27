@@ -32,14 +32,15 @@ A nice HTML report is generated and launched at the end with all the details of 
   * Support for Flash
   * Interactive command line to change the application behaviour
   * Convert this standalone application to a web service and execute it on server (very tempting for me).
+  * Extend the support for validating javascript links.
   * A enhanced GUI to report the status while the scanning is in progress. Currently we see the progress
-pending/total only on the command line.
+  pending/total only on the command line.
 
 ************************************************************************************************************************
 =How to run=
 ************************************************************************************************************************
   # Download the latest application tar.qz file from http://code.google.com/p/linkchecker/downloads/list
-  # Extract the file using 'tar -xvf linkchecker.tar.gz'
+  # Extract the file using 'tar -xvf linkchecker.tar.gz' into folder 'linkchecker'
   # cd into extracted location using 'cd linkchecker'
   # Make sure machine is set with right java version and 'java' is in the path.
   # Launch the LinkChecker application using following command
