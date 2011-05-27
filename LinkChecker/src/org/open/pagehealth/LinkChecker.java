@@ -79,7 +79,7 @@ public class LinkChecker {
             props = new Properties();
             props.load(new FileInputStream(PROPS_FILE));
             System.out.println("Using properties file: " + propsFile.getAbsolutePath());
-            System.setProperty("log4j.configuration", "file://" + propsFile.getAbsolutePath());
+            System.setProperty("log4j.configuration", propsFile.toURI().toString());
         } catch (Exception exp) {
             exp.printStackTrace();
         }
